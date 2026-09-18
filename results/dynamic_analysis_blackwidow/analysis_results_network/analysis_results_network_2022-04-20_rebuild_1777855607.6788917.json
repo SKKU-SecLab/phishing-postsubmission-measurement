@@ -1,0 +1,517 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/",
+  "timestamp": "2026-05-04 09:46:47",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2022-04-20_rebuild",
+  "pages": [],
+  "forms": [],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/check.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/check.php",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/index.php",
+      "method": "get"
+    },
+    {
+      "step": 3,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/khan_anti.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/khan_anti.php",
+      "method": "get"
+    },
+    {
+      "step": 4,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/main.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/main.php",
+      "method": "get"
+    },
+    {
+      "step": 5,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/login/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/login/index.php",
+      "method": "get"
+    },
+    {
+      "step": 6,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/login/success.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/login/success.php",
+      "method": "get"
+    },
+    {
+      "step": 7,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/login/invalid/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/login/invalid/index.php",
+      "method": "get"
+    },
+    {
+      "step": 8,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/login/invalid/success_check.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-04-20_rebuild/login/invalid/success_check.php",
+      "method": "get"
+    }
+  ],
+  "cdp_network": [],
+  "cdp_monitoring": {
+    "enabled": true,
+    "degraded": false,
+    "note": "ok"
+  },
+  "static_analysis": {
+    "function_count": 5,
+    "php_file_count": 8,
+    "data_flow_count": 3,
+    "data_flows": [
+      {
+        "form_source": "main.php",
+        "form_method": "post",
+        "form_fields": [
+          "__EVENTTARGET",
+          "__EVENTARGUMENT",
+          "SideBySideToken",
+          "__VIEWSTATE",
+          "__VIEWSTATEGENERATOR",
+          "__VIEWSTATEENCRYPTED",
+          "__EVENTVALIDATION",
+          "id",
+          "form-submit enable-on-submit"
+        ],
+        "action_target": "khan_anti.php",
+        "server_file": "khan_anti.php",
+        "server_receives": [
+          "id"
+        ],
+        "server_actions": [
+          {
+            "type": "redirect",
+            "target": "check.php?sub=",
+            "line": 19
+          },
+          {
+            "type": "redirect",
+            "target": "https://en.wikipedia.org/wiki/HTTP_404",
+            "line": 26
+          },
+          {
+            "type": "redirect",
+            "target": "https://en.wikipedia.org/wiki/HTTP_404",
+            "line": 33
+          },
+          {
+            "type": "redirect",
+            "target": "",
+            "line": 39
+          },
+          {
+            "type": "redirect",
+            "target": "login/?login.srf&$rand3.$rand2=$rand1.$rand2&kamu=$data&$rand2=$rand1",
+            "line": 49
+          },
+          {
+            "type": "redirect",
+            "target": "error.php?$rand2.$rand1=$rand1&$rand3",
+            "line": 51
+          },
+          {
+            "type": "redirect",
+            "target": "https://$actual_link",
+            "line": 66
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 106
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 111
+          }
+        ],
+        "exfil": []
+      },
+      {
+        "form_source": "login/index.php",
+        "form_method": "post",
+        "form_fields": [
+          "kamu",
+          "loginfmt",
+          "rahasia1",
+          "KMSI"
+        ],
+        "action_target": "check_success.php",
+        "server_file": "login/check_success.php",
+        "server_receives": [
+          "kamu",
+          "rahasia1"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "$resultz",
+            "variable": "$resultz",
+            "line": 40
+          },
+          {
+            "type": "mail",
+            "target": "$resultz",
+            "variable": "$resultz",
+            "line": 51
+          },
+          {
+            "type": "redirect",
+            "target": "invalid/?post.srf&$rand3.$rand2=$rand1.$rand2&mang=$email&$rand2=$rand1",
+            "line": 41
+          },
+          {
+            "type": "redirect",
+            "target": "invalid/?post.srf&$rand3.$rand2=$rand1.$rand2&mang=$email&$rand2=$rand1",
+            "line": 52
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?post.srf&$rand3.$rand2=$rand1.$rand2&kamu=$email&$rand2=$rand1",
+            "line": 55
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?post.srf&$rand3.$rand2=$rand1.$rand2&kamu=$email&$rand2=$rand1",
+            "line": 58
+          },
+          {
+            "type": "curl",
+            "target": "weseeitall",
+            "line": 27
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 82
+          }
+        ],
+        "exfil": [
+          "curl:weseeitall",
+          "email:$resultz"
+        ]
+      },
+      {
+        "form_source": "login/invalid/index.php",
+        "form_method": "post",
+        "form_fields": [
+          "emang",
+          "loginfmt",
+          "rahasia2",
+          "KMSI"
+        ],
+        "action_target": "success_check.php",
+        "server_file": "login/invalid/success_check.php",
+        "server_receives": [
+          "emang",
+          "rahasia2"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "$resultz",
+            "variable": "$resultz",
+            "line": 43
+          },
+          {
+            "type": "mail",
+            "target": "$resultz",
+            "variable": "$resultz",
+            "line": 55
+          },
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot[REDACTED_TG_TOKEN_445440e7]/sendMessage?chat_id=-447547811&text=test",
+            "line": 44
+          },
+          {
+            "type": "redirect",
+            "target": "../success.php?$rand3.$rand2=$rand1.$rand2",
+            "line": 45
+          },
+          {
+            "type": "redirect",
+            "target": "../success.php?$rand3.$rand2=$rand1.$rand2",
+            "line": 56
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?post.srf&$rand3.$rand2=$rand1.$rand2&mang=$email&$rand2=$rand1",
+            "line": 59
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?post.srf&$rand3.$rand2=$rand1.$rand2&mang=$email&$rand2=$rand1",
+            "line": 62
+          },
+          {
+            "type": "curl",
+            "target": "weseeitall",
+            "line": 27
+          },
+          {
+            "type": "file_get_contents",
+            "target": "https://api.telegram.org/bot[REDACTED_TG_TOKEN_445440e7]/sendMessage?chat_id=-447547811&text=test",
+            "line": 44
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 86
+          }
+        ],
+        "exfil": [
+          "curl:weseeitall",
+          "email:$resultz",
+          "telegram:1480840392:AAHakvXPY"
+        ]
+      }
+    ],
+    "php_files": {
+      "index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "$secfile?secure&share=$url",
+            "line": 67
+          }
+        ],
+        "exfil": []
+      },
+      "check.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://www.google.com/",
+            "line": 19
+          },
+          {
+            "type": "redirect",
+            "target": "https://en.wikipedia.org/wiki/HTTP_404",
+            "line": 29
+          },
+          {
+            "type": "redirect",
+            "target": "https://en.wikipedia.org/wiki/HTTP_404",
+            "line": 36
+          },
+          {
+            "type": "redirect",
+            "target": "",
+            "line": 42
+          },
+          {
+            "type": "redirect",
+            "target": "login/?login.srf&$rand3.$rand2=$rand1.$rand2&kamu=$data&$rand2=$rand1",
+            "line": 52
+          }
+        ],
+        "exfil": []
+      },
+      "khan_anti.php": {
+        "receives_post": [
+          "id"
+        ],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "check.php?sub=",
+            "line": 19
+          },
+          {
+            "type": "redirect",
+            "target": "https://en.wikipedia.org/wiki/HTTP_404",
+            "line": 26
+          },
+          {
+            "type": "redirect",
+            "target": "https://en.wikipedia.org/wiki/HTTP_404",
+            "line": 33
+          },
+          {
+            "type": "redirect",
+            "target": "",
+            "line": 39
+          },
+          {
+            "type": "redirect",
+            "target": "login/?login.srf&$rand3.$rand2=$rand1.$rand2&kamu=$data&$rand2=$rand1",
+            "line": 49
+          },
+          {
+            "type": "redirect",
+            "target": "error.php?$rand2.$rand1=$rand1&$rand3",
+            "line": 51
+          },
+          {
+            "type": "redirect",
+            "target": "https://$actual_link",
+            "line": 66
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 106
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 111
+          }
+        ],
+        "exfil": []
+      },
+      "login/index.php": {
+        "receives_post": [],
+        "actions": [],
+        "exfil": []
+      },
+      "login/success.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://openknowledge.worldbank.org/bitstream/handle/10986/37017/9781464817267.pdf?sequence=2&isAllowed=y",
+            "line": 4
+          }
+        ],
+        "exfil": []
+      },
+      "login/check_success.php": {
+        "receives_post": [
+          "kamu",
+          "rahasia1"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$resultz",
+            "variable": "$resultz",
+            "line": 40
+          },
+          {
+            "type": "mail",
+            "target": "$resultz",
+            "variable": "$resultz",
+            "line": 51
+          },
+          {
+            "type": "redirect",
+            "target": "invalid/?post.srf&$rand3.$rand2=$rand1.$rand2&mang=$email&$rand2=$rand1",
+            "line": 41
+          },
+          {
+            "type": "redirect",
+            "target": "invalid/?post.srf&$rand3.$rand2=$rand1.$rand2&mang=$email&$rand2=$rand1",
+            "line": 52
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?post.srf&$rand3.$rand2=$rand1.$rand2&kamu=$email&$rand2=$rand1",
+            "line": 55
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?post.srf&$rand3.$rand2=$rand1.$rand2&kamu=$email&$rand2=$rand1",
+            "line": 58
+          },
+          {
+            "type": "curl",
+            "target": "weseeitall",
+            "line": 27
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 82
+          }
+        ],
+        "exfil": [
+          "curl:weseeitall",
+          "email:$resultz"
+        ]
+      },
+      "login/invalid/index.php": {
+        "receives_post": [],
+        "actions": [],
+        "exfil": []
+      },
+      "login/invalid/success_check.php": {
+        "receives_post": [
+          "emang",
+          "rahasia2"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$resultz",
+            "variable": "$resultz",
+            "line": 43
+          },
+          {
+            "type": "mail",
+            "target": "$resultz",
+            "variable": "$resultz",
+            "line": 55
+          },
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot[REDACTED_TG_TOKEN_445440e7]/sendMessage?chat_id=-447547811&text=test",
+            "line": 44
+          },
+          {
+            "type": "redirect",
+            "target": "../success.php?$rand3.$rand2=$rand1.$rand2",
+            "line": 45
+          },
+          {
+            "type": "redirect",
+            "target": "../success.php?$rand3.$rand2=$rand1.$rand2",
+            "line": 56
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?post.srf&$rand3.$rand2=$rand1.$rand2&mang=$email&$rand2=$rand1",
+            "line": 59
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?post.srf&$rand3.$rand2=$rand1.$rand2&mang=$email&$rand2=$rand1",
+            "line": 62
+          },
+          {
+            "type": "curl",
+            "target": "weseeitall",
+            "line": 27
+          },
+          {
+            "type": "file_get_contents",
+            "target": "https://api.telegram.org/bot[REDACTED_TG_TOKEN_445440e7]/sendMessage?chat_id=-447547811&text=test",
+            "line": 44
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 86
+          }
+        ],
+        "exfil": [
+          "curl:weseeitall",
+          "email:$resultz",
+          "telegram:1480840392:AAHakvXPY"
+        ]
+      }
+    }
+  },
+  "static_fallback": true,
+  "static_fallback_reason": "Dynamic crawl visited 8 page(s) but found 0 forms. Likely cause: server-side bot detection (AntiBOT/fsockopen) or flow-gated pages (missing required query params). Static analysis data flows are included as reference."
+}

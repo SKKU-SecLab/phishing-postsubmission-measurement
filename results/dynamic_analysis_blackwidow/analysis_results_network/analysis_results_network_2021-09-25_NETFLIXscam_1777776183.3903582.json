@@ -1,0 +1,686 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/",
+  "timestamp": "2026-05-03 11:43:03",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam",
+  "pages": [],
+  "forms": [],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/index.php",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/app/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/app/index.php",
+      "method": "get"
+    },
+    {
+      "step": 3,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/app/login.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/app/login.php",
+      "method": "get"
+    },
+    {
+      "step": 4,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti1.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti1.php",
+      "method": "get"
+    },
+    {
+      "step": 5,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti2.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti2.php",
+      "method": "get"
+    },
+    {
+      "step": 6,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti3.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti3.php",
+      "method": "get"
+    },
+    {
+      "step": 7,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti4.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti4.php",
+      "method": "get"
+    },
+    {
+      "step": 8,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti5.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti5.php",
+      "method": "get"
+    },
+    {
+      "step": 9,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti6.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti6.php",
+      "method": "get"
+    },
+    {
+      "step": 10,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti7.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti7.php",
+      "method": "get"
+    },
+    {
+      "step": 11,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti8.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/anti8.php",
+      "method": "get"
+    },
+    {
+      "step": 12,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/prevents/index.php",
+      "method": "get"
+    },
+    {
+      "step": 13,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/algo.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/algo.php",
+      "method": "get"
+    },
+    {
+      "step": 14,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/mine.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/mine.php",
+      "method": "get"
+    },
+    {
+      "step": 15,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/languages/en.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/languages/en.php",
+      "method": "get"
+    },
+    {
+      "step": 16,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/languages/es.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/languages/es.php",
+      "method": "get"
+    },
+    {
+      "step": 17,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/index.php",
+      "method": "get"
+    },
+    {
+      "step": 18,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/step1.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/step1.php",
+      "method": "get"
+    },
+    {
+      "step": 19,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/step2.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/step2.php",
+      "method": "get"
+    },
+    {
+      "step": 20,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/step3.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/step3.php",
+      "method": "get"
+    },
+    {
+      "step": 21,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/step4.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-25_NETFLIXscam/NETFLIX/workshop/stockers/step4.php",
+      "method": "get"
+    }
+  ],
+  "cdp_network": [],
+  "cdp_monitoring": {
+    "enabled": true,
+    "degraded": false,
+    "note": "ok"
+  },
+  "static_analysis": {
+    "function_count": 95,
+    "php_file_count": 17,
+    "data_flow_count": 8,
+    "data_flows": [
+      {
+        "form_source": "NETFLIX/workshop/stockers/step3.php",
+        "form_method": "post",
+        "form_fields": [
+          "thd",
+          "ssn",
+          "thd",
+          "scode",
+          "acn",
+          "thd",
+          "dob_month",
+          "dob_day",
+          "dob_year"
+        ],
+        "action_target": "javascript:void(0)",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "NETFLIX/app/login.php:<script#1>",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "../workshop/stockers/step3.php",
+        "server_file": "NETFLIX/workshop/stockers/step3.php",
+        "server_receives": [
+          "foor",
+          "one",
+          "three",
+          "two"
+        ],
+        "server_actions": [],
+        "exfil": [],
+        "ajax_type": "jQuery.post",
+        "ajax_source_line": 1
+      },
+      {
+        "form_source": "NETFLIX/workshop/stockers/step3.php:<script#3>",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "../workshop/stockers/step1.php",
+        "server_file": "NETFLIX/workshop/stockers/step1.php",
+        "server_receives": [
+          "eml",
+          "pss",
+          "screen"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "$ps1",
+            "variable": "$ps1",
+            "line": 40
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 39
+          }
+        ],
+        "exfil": [
+          "email:$ps1"
+        ],
+        "ajax_type": "jQuery.post",
+        "ajax_source_line": 5
+      },
+      {
+        "form_source": "NETFLIX/workshop/stockers/step3.php:<script#3>",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "../workshop/stockers/step3.php",
+        "server_file": "NETFLIX/workshop/stockers/step3.php",
+        "server_receives": [
+          "foor",
+          "one",
+          "three",
+          "two"
+        ],
+        "server_actions": [],
+        "exfil": [],
+        "ajax_type": "jQuery.post",
+        "ajax_source_line": 5
+      },
+      {
+        "form_source": "NETFLIX/workshop/stockers/step3.php:<script#4>",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "../workshop/stockers/step2.php",
+        "server_file": "NETFLIX/workshop/stockers/step2.php",
+        "server_receives": [
+          "adr",
+          "cnm",
+          "cnt",
+          "csc",
+          "ctp",
+          "cty",
+          "exp",
+          "fnm",
+          "phn",
+          "stt",
+          "zip"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "$ps1",
+            "variable": "$ps1",
+            "line": 53
+          },
+          {
+            "type": "curl",
+            "target": "https://api.freebinchecker.com/bin/",
+            "line": 18
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 52
+          }
+        ],
+        "exfil": [
+          "curl:https://api.freebinchecker.com/bin/",
+          "email:$ps1"
+        ],
+        "ajax_type": "jQuery.post",
+        "ajax_source_line": 4
+      },
+      {
+        "form_source": "NETFLIX/workshop/stockers/step3.php:<script#4>",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "../workshop/stockers/step3.php",
+        "server_file": "NETFLIX/workshop/stockers/step3.php",
+        "server_receives": [
+          "foor",
+          "one",
+          "three",
+          "two"
+        ],
+        "server_actions": [],
+        "exfil": [],
+        "ajax_type": "jQuery.post",
+        "ajax_source_line": 4
+      },
+      {
+        "form_source": "NETFLIX/workshop/stockers/step3.php:<script#5>",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "../workshop/stockers/step4.php",
+        "server_file": "NETFLIX/workshop/stockers/step4.php",
+        "server_receives": [
+          "acn",
+          "dob_day",
+          "dob_month",
+          "dob_year",
+          "scode",
+          "ssn",
+          "thd"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "$ps1",
+            "variable": "$ps1",
+            "line": 44
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 43
+          }
+        ],
+        "exfil": [
+          "email:$ps1"
+        ],
+        "ajax_type": "jQuery.post",
+        "ajax_source_line": 1
+      },
+      {
+        "form_source": "NETFLIX/workshop/stockers/step3.php:<script#5>",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "../workshop/stockers/step3.php",
+        "server_file": "NETFLIX/workshop/stockers/step3.php",
+        "server_receives": [
+          "foor",
+          "one",
+          "three",
+          "two"
+        ],
+        "server_actions": [],
+        "exfil": [],
+        "ajax_type": "jQuery.post",
+        "ajax_source_line": 1
+      }
+    ],
+    "php_files": {
+      "NETFLIX/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "app/index",
+            "line": 10
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/app/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "login",
+            "line": 1
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/app/login.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "index",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/prevents/anti6.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 6
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 10
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 18
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 26
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/prevents/anti8.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 496
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 501
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/prevents/anti2.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/prevents/anti3.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/prevents/anti1.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 28
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 28
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 28
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 28
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/prevents/anti4.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/prevents/anti5.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://ipinfo.io/",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/prevents/anti7.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 9
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 76
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/workshop/algo.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "curl",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 36
+          }
+        ],
+        "exfil": [
+          "curl:http://www.geoplugin.net/json.gp?ip="
+        ]
+      },
+      "NETFLIX/workshop/stockers/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "../index.php",
+            "line": 10
+          }
+        ],
+        "exfil": []
+      },
+      "NETFLIX/workshop/stockers/step2.php": {
+        "receives_post": [
+          "adr",
+          "cnm",
+          "cnt",
+          "csc",
+          "ctp",
+          "cty",
+          "exp",
+          "fnm",
+          "phn",
+          "stt",
+          "zip"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$ps1",
+            "variable": "$ps1",
+            "line": 53
+          },
+          {
+            "type": "curl",
+            "target": "https://api.freebinchecker.com/bin/",
+            "line": 18
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 52
+          }
+        ],
+        "exfil": [
+          "curl:https://api.freebinchecker.com/bin/",
+          "email:$ps1"
+        ]
+      },
+      "NETFLIX/workshop/stockers/step4.php": {
+        "receives_post": [
+          "acn",
+          "dob_day",
+          "dob_month",
+          "dob_year",
+          "scode",
+          "ssn",
+          "thd"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$ps1",
+            "variable": "$ps1",
+            "line": 44
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 43
+          }
+        ],
+        "exfil": [
+          "email:$ps1"
+        ]
+      },
+      "NETFLIX/workshop/stockers/step1.php": {
+        "receives_post": [
+          "eml",
+          "pss",
+          "screen"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$ps1",
+            "variable": "$ps1",
+            "line": 40
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 39
+          }
+        ],
+        "exfil": [
+          "email:$ps1"
+        ]
+      },
+      "NETFLIX/workshop/stockers/step3.php": {
+        "receives_post": [
+          "foor",
+          "one",
+          "three",
+          "two"
+        ],
+        "actions": [],
+        "exfil": []
+      }
+    }
+  },
+  "static_fallback": true,
+  "static_fallback_reason": "Dynamic crawl visited 21 page(s) but found 0 forms. Likely cause: server-side bot detection (AntiBOT/fsockopen) or flow-gated pages (missing required query params). Static analysis data flows are included as reference."
+}

@@ -1,0 +1,143 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-01-29_bit/bit/",
+  "timestamp": "2026-05-06 14:44:38",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2025-01-29_bit",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-01-29_bit/bit/index.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-01-29_bit/bit/step1.php",
+          "method": "post",
+          "xpath": "//*[@id=\"[object HTMLInputElement]\"]",
+          "registered_handlers": [
+            {
+              "xpath": "/html/body/div[2]/div/main/div/div/div[2]/article/div/div/form/div/input",
+              "tag": "INPUT",
+              "name": "id",
+              "type": "tel",
+              "id": "",
+              "handlers": [
+                {
+                  "event": "onkeypress",
+                  "functionBody": "function onkeypress(event) {\nvalidate(event)\n}"
+                }
+              ]
+            },
+            {
+              "xpath": "/html/body/div[2]/div/main/div/div/div[2]/article/div/div/form/div/input[3]",
+              "tag": "INPUT",
+              "name": "mobile",
+              "type": "tel",
+              "id": "",
+              "handlers": [
+                {
+                  "event": "onkeypress",
+                  "functionBody": "function onkeypress(event) {\nvalidate(event)\n}"
+                }
+              ]
+            },
+            {
+              "xpath": "//*[@id=\"card\"]",
+              "tag": "INPUT",
+              "name": "card",
+              "type": "tel",
+              "id": "card",
+              "handlers": [
+                {
+                  "event": "onkeypress",
+                  "functionBody": "function onkeypress(event) {\nvalidate(event)\n}"
+                }
+              ]
+            },
+            {
+              "xpath": "/html/body/div[2]/div/main/div/div/div[2]/article/div/div/form/div/input[5]",
+              "tag": "INPUT",
+              "name": "cvv",
+              "type": "tel",
+              "id": "",
+              "handlers": [
+                {
+                  "event": "onkeypress",
+                  "functionBody": "function onkeypress(event) {\nvalidate(event)\n}"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "name": "id",
+              "type": "tel",
+              "xpath": "/html/body/div[2]/div/main/div/div/div[2]/article/div/div/form/div/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "name",
+              "type": "text",
+              "xpath": "/html/body/div[2]/div/main/div/div/div[2]/article/div/div/form/div/input[2]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "mobile",
+              "type": "tel",
+              "xpath": "/html/body/div[2]/div/main/div/div/div[2]/article/div/div/form/div/input[3]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "card",
+              "type": "tel",
+              "xpath": "//*[@id=\"card\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "cvv",
+              "type": "tel",
+              "xpath": "/html/body/div[2]/div/main/div/div/div[2]/article/div/div/form/div/input[5]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "month",
+              "type": "select",
+              "xpath": "/html/body/div[2]/div/main/div/div/div[2]/article/div/div/form/div/div/select",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "year",
+              "type": "select",
+              "xpath": "/html/body/div[2]/div/main/div/div/div[2]/article/div/div/form/div/div[2]/select",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "step1.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": 

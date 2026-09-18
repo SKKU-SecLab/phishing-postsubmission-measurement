@@ -1,0 +1,45 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-17_newyah/newyah/",
+  "timestamp": "2026-05-03 10:10:26",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2021-09-17_newyah",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-17_newyah/newyah/home/index.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-17_newyah/newyah/home/index2.php",
+          "method": "post",
+          "xpath": "//*[@id=\"[object HTMLInputElement]\"]",
+          "registered_handlers": [],
+          "fields": [
+            {
+              "name": "formcheckbox1",
+              "type": "checkbox",
+              "xpath": "/html/body/form/div[2]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "id",
+              "type": "text",
+              "xpath": "/html/body/form/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "index2.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": 

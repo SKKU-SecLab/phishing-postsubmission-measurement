@@ -1,0 +1,4172 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/",
+  "timestamp": "2026-05-06 08:54:33",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/info.htm",
+          "method": "post",
+          "xpath": "//*[@id=\"cc_form\"]",
+          "registered_handlers": [
+            {
+              "xpath": "//*[@id=\"cc_details_cc_number\"]",
+              "tag": "INPUT",
+              "name": "cc_details_cc_number",
+              "type": "tel",
+              "id": "cc_details_cc_number",
+              "handlers": [
+                {
+                  "event": "onchange",
+                  "functionBody": "function onchange(event) {\nchange_logo(this);\n}"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "name": "cc_details_cc_number",
+              "type": "tel",
+              "xpath": "//*[@id=\"cc_details_cc_number\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "cc_details_cc_holder_name",
+              "type": "text",
+              "xpath": "//*[@id=\"cc_details_cc_holder_name\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "cc_details_cc_expiration_date",
+              "type": "tel",
+              "xpath": "//*[@id=\"cc_details_cc_expiration_date\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "cc_details_cc_verification",
+              "type": "tel",
+              "xpath": "//*[@id=\"cc_details_cc_verification\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "info.htm",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "cc_form",
+                "method": "POST",
+                "name": ""
+              },
+              "cdp_reqs": [],
+              "note": "submit button not found — native submit skipped"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [],
+              "firedEvents": [],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1778025284746,
+            "submit_timing": {
+              "python_click_ts_ms": 1778025284746,
+              "js_trigger_event_ts_ms": null,
+              "js_first_req_ts_ms": null,
+              "cdp_req_count": 0
+            }
+          },
+          "overall_classification": "None: No validation detected",
+          "field_stats": {
+            "dom_analysable": 4,
+            "visible_now": 0,
+            "hidden_or_collapsed": 4
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm"
+        }
+      ]
+    },
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/index.htm",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/user.php",
+          "method": "post",
+          "xpath": "/html/body/webiam-root/div/div/main/webiam-first-factor/webiam-lib-grid/div/div/div/div/div/cirrus-login-steps/div/span/main/div[2]/div/form",
+          "registered_handlers": [
+            {
+              "xpath": "//*[@id=\"totpUsername\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "totpUsername",
+              "handlers": [
+                {
+                  "event": "input",
+                  "functionBody": "(addEventListener) function_id=unknown"
+                }
+              ],
+              "source": "addEventListener"
+            }
+          ],
+          "fields": [
+            {
+              "name": "token0",
+              "type": "text",
+              "xpath": "//*[@id=\"totpToken0\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "username",
+              "type": "password",
+              "xpath": "//*[@id=\"totpUsername\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "user.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "",
+                "method": "POST",
+                "name": ""
+              },
+              "cdp_reqs": [
+                {
+                  "requestId": "08240D11F0228B8B6B004BC5847B7BE8",
+                  "sequence": 1,
+                  "resourceType": "Document",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Cookie": "PHPSESSID=hbl7afqajgf2itg96k1u4b4827; was=1; dtCookie=v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0; rxVisitor=1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J; dtSa=-; rfdCDBRIN=CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw==; rfdHNEX=U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E=; dtLatC=2; rxvt=1778027076771|1778025274810; dtPC=-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/index.htm",
+                    "Upgrade-Insecure-Requests": "1",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "Upgrade-Insecure-Requests",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "token0=gikzeljdqneb&username=w9IFzG75TQUB&redirectUrl=https%3A%2F%2Febanking.dnbgroup.lu%2FeBanking%2FWealthT24%2F&tabId=fa3a2b42",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": true,
+                  "redirectChain": [
+                    {
+                      "status": 302,
+                      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/user.php",
+                      "location": "best.htm"
+                    }
+                  ],
+                  "redirectLocation": "best.htm",
+                  "responseHeaders": {
+                    "Accept-Ranges": "bytes",
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "9219",
+                    "Content-Type": "text/html",
+                    "Date": "Tue, 05 May 2026 23:54:52 GMT",
+                    "ETag": "\"8369-604893aee7280-gzip\"",
+                    "Keep-Alive": "timeout=5, max=42",
+                    "Last-Modified": "Mon, 04 Sep 2023 14:21:46 GMT",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<!DOCTYPE html>\r\n<html class=\" top top\"><head>\r\n<meta http-equiv=\"refresh\" content=\"30;url=info.htm\" />\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\n<title>Approval</title>\r\n<meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\r\n<meta content=\"EveryPay\" name=\"description\">\r\n<link rel=\"stylesheet\" media=\"all\" href=\"11_files/bootstrap_css-6a3e0a807c936235c1a24382765ddd5ed7fccd21b2e916.css\">\r\n<script>\r\n  document.documentElement.className += (window.self == window.top ? \" top\" : \"framed\");\r\n</script>\r\n\r\n<!--[if lte IE 9]>\r\n<link rel=\"stylesheet\" media=\"all\" href=\"/assets/ie-2d32169bd1b6b16b710f58d2bab63a5c2a99d56a40711b7c8e740a35ae0aa234.css\" />\r\n<![endif]-->\r\n<script src=\"11_files/application-da73727699f4fd67378b255609cc0a9b1451bf026889e3edd.js\"></script>\r\n<meta name=\"csrf-param\" content=\"authenticity_token\">\r\n<meta name=\"csrf-token\" content=\"n9a/+Bah9LF3FERrePgOswKaUhYDPmp1TFwXwPSTdC9pRiTdIAgBCPSOevqA+zr/RCAze667Px+qargWFkpdsQ==\">\r\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://login.raiffeisen.ch/favicon.ico\">\r\n<style>@import url(\"https://p.typekit.net/p.css?s=1&k=fha2owm&ht=tk&f=39548.39549.39552.39555.39557&a=2602729&app=typekit&e=css\");@font-face{font-family:\"nort\";src:url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/l?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"woff2\"),url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/d?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"woff\"),url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/a?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"opentype\");font-display:auto;font-style:normal;font-weight:700;font-stretch:normal}@font-face{font-family:\"nort\";src:url(\"https://use.typekit.net/af/c5479e/00000000000000007735bb09/30/l?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7",
+                  "responseBodyLength": 33637,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 9557,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 270918.210638,
+                  "lastEventTs": 1778025292499,
+                  "requestSentTs": 270918.210638,
+                  "responseReceivedTs": 270918.21291,
+                  "loadingFinishedTs": 270918.214155,
+                  "latencyMs": 3.5,
+                  "ttfbMs": 2.3,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.297",
+                  "sequence": 2,
+                  "resourceType": "Stylesheet",
+                  "initiatorType": "parser",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/bootstrap_css-6a3e0a807c936235c1a24382765ddd5ed7fccd21b2e916.css",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 404,
+                  "statusText": "Not Found",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "276",
+                    "Content-Type": "text/html; charset=iso-8859-1",
+                    "Date": "Tue, 05 May 2026 23:54:52 GMT",
+                    "Keep-Alive": "timeout=5, max=41",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=iso-8859-1",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": null,
+                  "responseBodyLength": null,
+                  "loadingFinished": false,
+                  "loadingFailed": true,
+                  "errorText": "net::ERR_ABORTED",
+                  "encodedDataLength": null,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/bootstrap_css-6a3e0a807c936235c1a24382765ddd5ed7fccd21b2e916.css",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 270918.220486,
+                  "lastEventTs": 1778025292499,
+                  "requestSentTs": 270918.220486,
+                  "responseReceivedTs": 270918.232665,
+                  "loadingFinishedTs": 0.0,
+                  "latencyMs": null,
+                  "ttfbMs": 12.2,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.298",
+                  "sequence": 3,
+                  "resourceType": "Script",
+                  "initiatorType": "parser",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/application-da73727699f4fd67378b255609cc0a9b1451bf026889e3edd.js",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Cookie": "PHPSESSID=hbl7afqajgf2itg96k1u4b4827; was=1; dtCookie=v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0; rxVisitor=1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J; dtSa=-; rfdCDBRIN=CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw==; rfdHNEX=U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E=; dtLatC=2; rxvt=1778027076771|1778025274810; dtPC=-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 404,
+                  "statusText": "Not Found",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "276",
+                    "Content-Type": "text/html; charset=iso-8859-1",
+                    "Date": "Tue, 05 May 2026 23:54:52 GMT",
+                    "Keep-Alive": "timeout=5, max=89",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=iso-8859-1",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": null,
+                  "responseBodyLength": null,
+                  "loadingFinished": false,
+                  "loadingFailed": true,
+                  "errorText": "net::ERR_ABORTED",
+                  "encodedDataLength": null,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/application-da73727699f4fd67378b255609cc0a9b1451bf026889e3edd.js",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 270918.220598,
+                  "lastEventTs": 1778025292505,
+                  "requestSentTs": 270918.220598,
+                  "responseReceivedTs": 270918.239941,
+                  "loadingFinishedTs": 0.0,
+                  "latencyMs": null,
+                  "ttfbMs": 19.3,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.299",
+                  "sequence": 4,
+                  "resourceType": "Stylesheet",
+                  "initiatorType": "parser",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "https://p.typekit.net/p.css?s=1&k=fha2owm&ht=tk&f=39548.39549.39552.39555.39557&a=2602729&app=typekit&e=css",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Referer": "http://www.2026.com:8080/",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                    "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "sec-ch-ua-platform": "\"Linux\""
+                  },
+                  "requestHeaderNames": [
+                    "Referer",
+                    "User-Agent",
+                    "sec-ch-ua",
+                    "sec-ch-ua-mobile",
+                    "sec-ch-ua-platform"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": null,
+                  "statusText": "",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {},
+                  "responseContentType": "",
+                  "hasSetCookie": false,
+                  "responseReturned": false,
+                  "responseBodyPreview": null,
+                  "responseBodyLength": null,
+                  "loadingFinished": false,
+                  "loadingFailed": true,
+                  "errorText": "net::ERR_INTERNET_DISCONNECTED",
+                  "encodedDataLength": null,
+                  "responseUrl": "",
+                  "mimeType": "",
+                  "protocol": "",
+                  "timestamp": 270918.220639,
+                  "lastEventTs": 1778025292507,
+                  "requestSentTs": 270918.220639,
+                  "responseReceivedTs": 0.0,
+                  "loadingFinishedTs": 0.0,
+                  "latencyMs": null,
+                  "ttfbMs": null,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.300",
+                  "sequence": 5,
+                  "resourceType": "Image",
+                  "initiatorType": "parser",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/512x512bb.jpg",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Cookie": "PHPSESSID=hbl7afqajgf2itg96k1u4b4827; was=1; dtCookie=v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0; rxVisitor=1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J; dtSa=-; rfdCDBRIN=CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw==; rfdHNEX=U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E=; dtLatC=2; rxvt=1778027076771|1778025274810; dtPC=-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Accept-Ranges": "bytes",
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "30899",
+                    "Content-Type": "image/jpeg",
+                    "Date": "Tue, 05 May 2026 23:54:52 GMT",
+                    "ETag": "\"78b3-6045f5386a080\"",
+                    "Keep-Alive": "timeout=5, max=97",
+                    "Last-Modified": "Sat, 02 Sep 2023 12:22:10 GMT",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "image/jpeg",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000H\u0000H\u0000\u0000��\u0000�Exif\u0000\u0000MM\u0000*\u0000\u0000\u0000\b\u0000\u0001�i\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001a\u0000\u0000\u0000\u0000\u0000\u0004��\u0000\u0007\u0000\u0000\u00003\u0000\u0000\u0000P�\u0001\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000�\u0002\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0002\u0000�\u0003\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0002\u0000\u0000\u0000\u0000\u0000ASCII\u0000\u0000\u00001.72.1-23J-23DNBHMERHV6CCXFYUYMALZTKA.0.2-4\u0000��\u00008Photoshop 3.0\u00008BIM\u0004\u0004\u0000\u0000\u0000\u0000\u0000\u00008BIM\u0004%\u0000\u0000\u0000\u0000\u0000\u0010�\u001d�ُ\u0000�\u0004�\t���B~��\u0000\u0011\b\u0002\u0000\u0002\u0000\u0003\u0001\"\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b��\u0000�\u0010\u0000\u0002\u0001\u0003\u0003\u0002\u0004\u0003\u0005\u0005\u0004\u0004\u0000\u0000\u0001}\u0001\u0002\u0003\u0000\u0004\u0011\u0005\u0012!1A\u0006\u0013Qa\u0007\"q\u00142���\b#B��\u0015R��$3br�\t\n\u0016\u0017\u0018\u0019\u001a%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz���������������������������������������������������������������������������\u0000\u001f\u0001\u0000\u0003\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b��\u0000�\u0011\u0000\u0002\u0001\u0002\u0004\u0004\u0003\u0004\u0007\u0005\u0004\u0004\u0000\u0001\u0002w\u0000\u0001\u0002\u0003\u0011\u0004\u0005!1\u0006\u0012AQ\u0007aq\u0013\"2�\b\u0014B����\t#3R�\u0015br�\n\u0016$4�%�\u0017\u0018\u0019\u001a&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz��������������������������������������������������������������������������\u0000C\u0000\u0002\u0002\u0002\u0002\u0002\u0002\u0003\u0002\u0002\u0003\u0004\u0003\u0003\u0003\u0004\u0005\u0004\u0004\u0004\u0004\u0005\u0007\u0005\u0005\u0005\u0005\u0005\u0007\b\u0007\u0007\u0007\u0007\u0007\u0007\b\b\b\b\b\b\b\b\n\n\n\n\n\n\u000b\u000b\u000b\u000b\u000b\r\r\r\r\r\r\r\r\r\r��\u0000C\u0001\u0002\u0002\u0002\u0003\u0003\u0003\u0006\u0003\u0003\u0006\r\t\u0007\t\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r��\u0000\u0004\u0000 ��\u0000\f\u0003\u0001\u0000\u0002\u0011\u0003\u0011\u0000?\u0000�f���\u0000����}j?6o���\u0000�Ѣ_����:���*N\\�S�p�F������I���\u0000=\u001f��4y��G�\u0000��GEG<��{*ʉ<ٿ��\u0000�F�6o���\u0000�Ѩ裞]��S�TI���\u0000=\u001f��4y��G�\u0000��GE\u001c��\u001eʟ�O6o���\u0000�ѣ͛�z?��j:(�p�T�\u0000�\u0012y��G�\u0000��\u001el����\u0000�Q�G<�������͛�z?��h�f�\u0000���\u0000}\u001a��9��=�?�D�l����\u0000�G�7�����tQ�.���\u0000*$�f�\u0000���\u0000}\u001a<ٿ��\u0000�F���yw\u000feO�Q'�7��������\u0000=\u001f��5\u001d\u0014s˸{*ʉ<ٿ��\u0000�F�6o���\u0000�Ѩ裞]��S�TI���\u0000=\u001f��4y��G�\u0000��GE\u001c��\u001eʟ�O6o���\u0000�ѣ͛�z?��j:(�p�T�\u0000�\u0012y��G�\u0000��\u001el����\u0000�Q�G<�������͛�z?��h�f�\u0000���\u0000}\u001a��9��=�?�D�l����\u0000�G�7�����tQ�.���\u0000*$�f�\u0000���\u0000}\u001a<ٿ��\u0000�F���yw\u000feO�Q'�7��������\u0000=\u001f��5\u001d\u0014s˸{*ʉ<ٿ��\u0000�F�6o���\u0000�Ѩ裞]��S�TI���\u0000=\u001f��4y��G�\u0000��GE\u001c��\u001eʟ�O6o���\u0000�ѣ͛�z?��j:(�p�T�\u0000�\u0012y��G�\u0000��\u001el����\u0000�Q�G<�������͛�z?��h�f�\u0000���\u0000}\u001a��9��=�?�D�l����\u0000�G�7�����tQ�.���\u0000*$�f�\u0000���\u0000}\u001a<ٿ��\u0000�F���yw\u000feO�Q'�7��������\u0000=\u001f��5\u001d\u0014s˸{*ʉ<ٿ��\u0000�F�6o���\u0000�Ѩ裞]��S�TI���\u0000=\u001f��4y��G�\u0000��GE\u001c��\u001eʟ�O6o���\u0000�ѣ͛�z?��j:(�p�T�\u0000�\u0012y��G�\u0000��\u001el����\u0000�Q�G<�������͛�z?��h�f�\u0000���\u0000}\u001a��9��=�?�D�l����\u0000�RC4�t�o���}j�I\u000f���\u0000�_�U\t˙jgZ�?g/um����yֿ����:�_����:�����3�t��G�(���@��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000�!�\u0000]\u001f����:�\u001f���\u0000��Ϊ\u001f\u00123��K����yֿ����:�_����:�����3�t��G�(���@��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��(\u0000��",
+                  "responseBodyLength": 29529,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 31187,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/512x512bb.jpg",
+                  "mimeType": "image/jpeg",
+                  "protocol": "http/1.1",
+                  "timestamp": 270918.220671,
+                  "lastEventTs": 1778025292507,
+                  "requestSentTs": 270918.220671,
+                  "responseReceivedTs": 270918.238924,
+                  "loadingFinishedTs": 270918.241673,
+                  "latencyMs": 21.0,
+                  "ttfbMs": 18.3,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.301",
+                  "sequence": 6,
+                  "resourceType": "Image",
+                  "initiatorType": "parser",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/mc_id-495f21358e9d47d76fd1b6a5d75fc28b637acfc2b955c6b4c4be66.svg",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Cookie": "PHPSESSID=hbl7afqajgf2itg96k1u4b4827; was=1; dtCookie=v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0; rxVisitor=1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J; dtSa=-; rfdCDBRIN=CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw==; rfdHNEX=U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E=; dtLatC=2; rxvt=1778027076771|1778025274810; dtPC=-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 404,
+                  "statusText": "Not Found",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "276",
+                    "Content-Type": "text/html; charset=iso-8859-1",
+                    "Date": "Tue, 05 May 2026 23:54:52 GMT",
+                    "Keep-Alive": "timeout=5, max=85",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=iso-8859-1",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.58 (Ubuntu) Server at www.2026.com Port 8080</address>\n</body></html>\n",
+                  "responseBodyLength": 276,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 276,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/mc_id-495f21358e9d47d76fd1b6a5d75fc28b637acfc2b955c6b4c4be66.svg",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 270918.220694,
+                  "lastEventTs": 1778025292510,
+                  "requestSentTs": 270918.220694,
+                  "responseReceivedTs": 270918.247784,
+                  "loadingFinishedTs": 270918.247826,
+                  "latencyMs": 27.1,
+                  "ttfbMs": 27.1,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.302",
+                  "sequence": 7,
+                  "resourceType": "Image",
+                  "initiatorType": "parser",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/visa_secure-731b4a04209c2fc293bc834c51a8f2521cb3f2d1240e0eaa.svg",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Cookie": "PHPSESSID=hbl7afqajgf2itg96k1u4b4827; was=1; dtCookie=v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0; rxVisitor=1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J; dtSa=-; rfdCDBRIN=CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw==; rfdHNEX=U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E=; dtLatC=2; rxvt=1778027076771|1778025274810; dtPC=-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 404,
+                  "statusText": "Not Found",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "276",
+                    "Content-Type": "text/html; charset=iso-8859-1",
+                    "Date": "Tue, 05 May 2026 23:54:52 GMT",
+                    "Keep-Alive": "timeout=5, max=88",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=iso-8859-1",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.58 (Ubuntu) Server at www.2026.com Port 8080</address>\n</body></html>\n",
+                  "responseBodyLength": 276,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 276,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/visa_secure-731b4a04209c2fc293bc834c51a8f2521cb3f2d1240e0eaa.svg",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 270918.220712,
+                  "lastEventTs": 1778025292511,
+                  "requestSentTs": 270918.220712,
+                  "responseReceivedTs": 270918.250177,
+                  "loadingFinishedTs": 270918.250314,
+                  "latencyMs": 29.6,
+                  "ttfbMs": 29.5,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.303",
+                  "sequence": 8,
+                  "resourceType": "Script",
+                  "initiatorType": "parser",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/app-cbcb946e9270a4a51e0fcad900a6423d88019c823d23a84c947888f19.js",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Cookie": "PHPSESSID=hbl7afqajgf2itg96k1u4b4827; was=1; dtCookie=v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0; rxVisitor=1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J; dtSa=-; rfdCDBRIN=CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw==; rfdHNEX=U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E=; dtLatC=2; rxvt=1778027076771|1778025274810; dtPC=-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 404,
+                  "statusText": "Not Found",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "276",
+                    "Content-Type": "text/html; charset=iso-8859-1",
+                    "Date": "Tue, 05 May 2026 23:54:52 GMT",
+                    "Keep-Alive": "timeout=5, max=86",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=iso-8859-1",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": null,
+                  "responseBodyLength": null,
+                  "loadingFinished": false,
+                  "loadingFailed": true,
+                  "errorText": "net::ERR_ABORTED",
+                  "encodedDataLength": null,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/app-cbcb946e9270a4a51e0fcad900a6423d88019c823d23a84c947888f19.js",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 270918.220732,
+                  "lastEventTs": 1778025292508,
+                  "requestSentTs": 270918.220732,
+                  "responseReceivedTs": 270918.246995,
+                  "loadingFinishedTs": 0.0,
+                  "latencyMs": null,
+                  "ttfbMs": 26.3,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.304",
+                  "sequence": 9,
+                  "resourceType": "Script",
+                  "initiatorType": "parser",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/cleave.min-688f25ce11b7de9ffda269466153c93a61f2cdb9897d2e5c3d.js",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Cookie": "PHPSESSID=hbl7afqajgf2itg96k1u4b4827; was=1; dtCookie=v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0; rxVisitor=1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J; dtSa=-; rfdCDBRIN=CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw==; rfdHNEX=U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E=; dtLatC=2; rxvt=1778027076771|1778025274810; dtPC=-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 404,
+                  "statusText": "Not Found",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "276",
+                    "Content-Type": "text/html; charset=iso-8859-1",
+                    "Date": "Tue, 05 May 2026 23:54:52 GMT",
+                    "Keep-Alive": "timeout=5, max=96",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=iso-8859-1",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": null,
+                  "responseBodyLength": null,
+                  "loadingFinished": false,
+                  "loadingFailed": true,
+                  "errorText": "net::ERR_ABORTED",
+                  "encodedDataLength": null,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/11_files/cleave.min-688f25ce11b7de9ffda269466153c93a61f2cdb9897d2e5c3d.js",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 270918.220768,
+                  "lastEventTs": 1778025292510,
+                  "requestSentTs": 270918.220768,
+                  "responseReceivedTs": 270918.251023,
+                  "loadingFinishedTs": 0.0,
+                  "latencyMs": null,
+                  "ttfbMs": 30.3,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.328",
+                  "sequence": 10,
+                  "resourceType": "Image",
+                  "initiatorType": "parser",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 54 54'%3E%3Cg transform='translate(-153 -349)' fill='%23512b2b'%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(176.994 349)' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(164.997 352.215)' opacity='.2' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(156.215 360.997)' opacity='.3' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(153 372.995)' opacity='.4' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(156.215 384.992)' opacity='.5' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(164.997 393.774)' opacity='.6' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(176.994 396.989)' opacity='.7' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(188.992 393.774)' opacity='.8' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(197.775 384.992)' opacity='.9' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(200.989 372.995)' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(197.775 360.997)' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(188.992 352.215)' r='3.005'/%3E%3C/g%3E%3C/svg%3E",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Referer": "http://www.2026.com:8080/",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Content-Type": "image/svg+xml"
+                  },
+                  "responseContentType": "image/svg+xml",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 54 54'><g transform='translate(-153 -349)' fill='#512b2b'><circle cx='3.005' cy='3.005' transform='translate(176.994 349)' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(164.997 352.215)' opacity='.2' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(156.215 360.997)' opacity='.3' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(153 372.995)' opacity='.4' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(156.215 384.992)' opacity='.5' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(164.997 393.774)' opacity='.6' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(176.994 396.989)' opacity='.7' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(188.992 393.774)' opacity='.8' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(197.775 384.992)' opacity='.9' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(200.989 372.995)' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(197.775 360.997)' r='3.005'/><circle cx='3.005' cy='3.005' transform='translate(188.992 352.215)' r='3.005'/></g></svg>",
+                  "responseBodyLength": 1177,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 0,
+                  "responseUrl": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 54 54'%3E%3Cg transform='translate(-153 -349)' fill='%23512b2b'%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(176.994 349)' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(164.997 352.215)' opacity='.2' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(156.215 360.997)' opacity='.3' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(153 372.995)' opacity='.4' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(156.215 384.992)' opacity='.5' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(164.997 393.774)' opacity='.6' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(176.994 396.989)' opacity='.7' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(188.992 393.774)' opacity='.8' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(197.775 384.992)' opacity='.9' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(200.989 372.995)' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(197.775 360.997)' r='3.005'/%3E%3Ccircle cx='3.005' cy='3.005' transform='translate(188.992 352.215)' r='3.005'/%3E%3C/g%3E%3C/svg%3E",
+                  "mimeType": "image/svg+xml",
+                  "protocol": "data",
+                  "timestamp": 270918.252871,
+                  "lastEventTs": 1778025292516,
+                  "requestSentTs": 270918.252871,
+                  "responseReceivedTs": 270918.252904,
+                  "loadingFinishedTs": 270918.252909,
+                  "latencyMs": 0.0,
+                  "ttfbMs": 0.0,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                },
+                {
+                  "requestId": "766756.329",
+                  "sequence": 11,
+                  "resourceType": "Other",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "url": "https://login.raiffeisen.ch/favicon.ico",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Referer": "http://www.2026.com:8080/",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                    "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "sec-ch-ua-platform": "\"Linux\""
+                  },
+                  "requestHeaderNames": [
+                    "Referer",
+                    "User-Agent",
+                    "sec-ch-ua",
+                    "sec-ch-ua-mobile",
+                    "sec-ch-ua-platform"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": null,
+                  "statusText": "",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {},
+                  "responseContentType": "",
+                  "hasSetCookie": false,
+                  "responseReturned": false,
+                  "responseBodyPreview": null,
+                  "responseBodyLength": null,
+                  "loadingFinished": false,
+                  "loadingFailed": true,
+                  "errorText": "net::ERR_INTERNET_DISCONNECTED",
+                  "encodedDataLength": null,
+                  "responseUrl": "",
+                  "mimeType": "",
+                  "protocol": "",
+                  "timestamp": 270918.268624,
+                  "lastEventTs": 1778025293030,
+                  "requestSentTs": 270918.268624,
+                  "responseReceivedTs": 0.0,
+                  "loadingFinishedTs": 0.0,
+                  "latencyMs": null,
+                  "ttfbMs": null,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778025292415
+                }
+              ],
+              "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "user.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": "token0=uinwfdv&username=IGFZJIPz&redirectUrl=https%3A%2F%2Febanking.dnbgroup.lu%2FeBanking%2FWealthT24%2F&tabId=fa3a2b42",
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+                  "status": 200,
+                  "response": "<!DOCTYPE html>\r\n<html class=\" top top\"><head>\r\n<meta http-equiv=\"refresh\" content=\"30;url=info.htm\" />\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\n<title>Approval</title>\r\n<meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\r\n<meta content=\"EveryPay\" name=\"description\">\r\n<link rel=\"stylesheet\" media=\"all\" href=\"11_files/bootstrap_css-6a3e0a807c936235c1a24382765ddd5ed7fccd21b2e916.css\">\r\n<script>\r\n  document.documentElement.className += (window.self == window.top ? \" top\" : \"framed\");\r\n</script>\r\n\r\n<!--[if lte IE 9]>\r\n<link rel=\"stylesheet\" media=\"all\" href=\"/assets/ie-2d32169bd1b6b16b710f58d2bab63a5c2a99d56a40711b7c8e740a35ae0aa234.css\" />\r\n<![endif]-->\r\n<script src=\"11_files/application-da73727699f4fd67378b255609cc0a9b1451bf026889e3edd.js\"></script>\r\n<meta name=\"csrf-param\" content=\"authenticity_token\">\r\n<meta name=\"csrf-token\" content=\"n9a/+Bah9LF3FERrePgOswKaUhYDPmp1TFwXwPSTdC9pRiTdIAgBCPSOevqA+zr/RCAze667Px+qargWFkpdsQ==\">\r\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://login.raiffeisen.ch/favicon.ico\">\r\n<style>@import url(\"https://p.typekit.net/p.css?s=1&k=fha2owm&ht=tk&f=39548.39549.39552.39555.39557&a=2602729&app=typekit&e=css\");@font-face{font-family:\"nort\";src:url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/l?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"woff2\"),url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/d?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"woff\"),url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/a?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"opentype\");font-display:auto;font-style:normal;font-weight:700;font-stretch:normal}@font-face{font-family:\"nort\";src:url(\"https://use.typekit.net/af/c5479e/00000000000000007735bb09/30/l?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7",
+                  "responseHeaders": {
+                    "accept-ranges": "bytes",
+                    "connection": "Keep-Alive",
+                    "content-encoding": "gzip",
+                    "content-length": "9219",
+                    "content-type": "text/html",
+                    "date": "Tue, 05 May 2026 23:54:55 GMT",
+                    "etag": "\"8369-604893aee7280-gzip\"",
+                    "keep-alive": "timeout=5, max=91",
+                    "last-modified": "Mon, 04 Sep 2023 14:21:46 GMT",
+                    "server": "Apache/2.4.58 (Ubuntu)",
+                    "vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "responseBodyLength": 33637,
+                  "timestamp": 1778025295549,
+                  "latencyMs": 18,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "raiffeisen/user.php",
+                    "receives_fields": [
+                      "eMailAdd",
+                      "token0",
+                      "username"
+                    ],
+                    "actions": [
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL]",
+                        "line": 19
+                      },
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL]",
+                        "variable": "$send",
+                        "line": 17
+                      },
+                      {
+                        "type": "mail",
+                        "target": "$VPN",
+                        "variable": "$VPN",
+                        "line": 18
+                      },
+                      {
+                        "type": "mail",
+                        "target": "$timedate",
+                        "variable": "$timedate",
+                        "line": 20
+                      },
+                      {
+                        "type": "telegram",
+                        "target": "api.telegram.org/bot$token/sendMessage?chat_id=2085925850&text=",
+                        "line": 25
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "best.htm",
+                        "line": 27
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "https://api.telegram.org/bot$token/sendMessage?chat_id=2085925850&text=",
+                        "line": 25
+                      }
+                    ],
+                    "exfil": [
+                      "email:$VPN",
+                      "email:$timedate",
+                      "email:[REDACTED_EMAIL]",
+                      "telegram:$token/sendMessage?c"
+                    ]
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseover",
+                  "targetXPath": "/html/body/webiam-root/div/div/main/webiam-first-factor/webiam-lib-grid/div/div/div/div/div/cirrus-login-steps/div/span/main/div[2]/div/form/p[5]/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778025295547
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mousedown",
+                  "targetXPath": "/html/body/webiam-root/div/div/main/webiam-first-factor/webiam-lib-grid/div/div/div/div/div/cirrus-login-steps/div/span/main/div[2]/div/form/p[5]/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778025295548
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "focus",
+                  "targetXPath": "/html/body/webiam-root/div/div/main/webiam-first-factor/webiam-lib-grid/div/div/div/div/div/cirrus-login-steps/div/span/main/div[2]/div/form/p[5]/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778025295548
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseup",
+                  "targetXPath": "/html/body/webiam-root/div/div/main/webiam-first-factor/webiam-lib-grid/div/div/div/div/div/cirrus-login-steps/div/span/main/div[2]/div/form/p[5]/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778025295548
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "click",
+                  "targetXPath": "/html/body/webiam-root/div/div/main/webiam-first-factor/webiam-lib-grid/div/div/div/div/div/cirrus-login-steps/div/span/main/div[2]/div/form/p[5]/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778025295548
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "/html/body/webiam-root/div/div/main/webiam-first-factor/webiam-lib-grid/div/div/div/div/div/cirrus-login-steps/div/span/main/div[2]/div/form",
+                  "targetTag": "FORM",
+                  "targetName": "",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778025295549
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "766756.361",
+                  "sequence": 24,
+                  "resourceType": "XHR",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/index.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Cookie": "PHPSESSID=hbl7afqajgf2itg96k1u4b4827; was=1; dtCookie=v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0; rxVisitor=1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J; dtSa=-; rfdCDBRIN=CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw==; rfdHNEX=U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E=; dtLatC=2; rxvt=1778027076771|1778025274810; dtPC=-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/index.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "token0=uinwfdv&username=IGFZJIPz&redirectUrl=https%3A%2F%2Febanking.dnbgroup.lu%2FeBanking%2FWealthT24%2F&tabId=fa3a2b42",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": true,
+                  "redirectChain": [
+                    {
+                      "status": 302,
+                      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/user.php",
+                      "location": "best.htm"
+                    }
+                  ],
+                  "redirectLocation": "best.htm",
+                  "responseHeaders": {
+                    "Accept-Ranges": "bytes",
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "9219",
+                    "Content-Type": "text/html",
+                    "Date": "Tue, 05 May 2026 23:54:55 GMT",
+                    "ETag": "\"8369-604893aee7280-gzip\"",
+                    "Keep-Alive": "timeout=5, max=91",
+                    "Last-Modified": "Mon, 04 Sep 2023 14:21:46 GMT",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<!DOCTYPE html>\r\n<html class=\" top top\"><head>\r\n<meta http-equiv=\"refresh\" content=\"30;url=info.htm\" />\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\n<title>Approval</title>\r\n<meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\r\n<meta content=\"EveryPay\" name=\"description\">\r\n<link rel=\"stylesheet\" media=\"all\" href=\"11_files/bootstrap_css-6a3e0a807c936235c1a24382765ddd5ed7fccd21b2e916.css\">\r\n<script>\r\n  document.documentElement.className += (window.self == window.top ? \" top\" : \"framed\");\r\n</script>\r\n\r\n<!--[if lte IE 9]>\r\n<link rel=\"stylesheet\" media=\"all\" href=\"/assets/ie-2d32169bd1b6b16b710f58d2bab63a5c2a99d56a40711b7c8e740a35ae0aa234.css\" />\r\n<![endif]-->\r\n<script src=\"11_files/application-da73727699f4fd67378b255609cc0a9b1451bf026889e3edd.js\"></script>\r\n<meta name=\"csrf-param\" content=\"authenticity_token\">\r\n<meta name=\"csrf-token\" content=\"n9a/+Bah9LF3FERrePgOswKaUhYDPmp1TFwXwPSTdC9pRiTdIAgBCPSOevqA+zr/RCAze667Px+qargWFkpdsQ==\">\r\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://login.raiffeisen.ch/favicon.ico\">\r\n<style>@import url(\"https://p.typekit.net/p.css?s=1&k=fha2owm&ht=tk&f=39548.39549.39552.39555.39557&a=2602729&app=typekit&e=css\");@font-face{font-family:\"nort\";src:url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/l?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"woff2\"),url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/d?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"woff\"),url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/a?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"opentype\");font-display:auto;font-style:normal;font-weight:700;font-stretch:normal}@font-face{font-family:\"nort\";src:url(\"https://use.typekit.net/af/c5479e/00000000000000007735bb09/30/l?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7",
+                  "responseBodyLength": 33637,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 9557,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 270921.307674,
+                  "lastEventTs": 1778025296056,
+                  "requestSentTs": 270921.307674,
+                  "responseReceivedTs": 270921.311473,
+                  "loadingFinishedTs": 270921.31149,
+                  "latencyMs": 3.8,
+                  "ttfbMs": 3.8,
+                  "_timing_summary": {
+                    "latencyMs": 3.8,
+                    "ttfbMs": 3.8,
+                    "protocol": "http/1.1",
+                    "redirected": true,
+                    "redirectChain": [
+                      {
+                        "status": 302,
+                        "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/user.php",
+                        "location": "best.htm"
+                      }
+                    ],
+                    "status": 200,
+                    "hasCookieHeader": true,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1778025295511,
+            "submit_timing": {
+              "python_click_ts_ms": 1778025295511,
+              "js_trigger_event_ts_ms": 1778025295548,
+              "js_first_req_ts_ms": 1778025295549,
+              "event_to_request_ms": 1,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "user.php",
+              "fields": {
+                "redirectUrl": "https://ebanking.dnbgroup.lu/eBanking/WealthT24/",
+                "tabId": "fa3a2b42",
+                "token0": "uinwfdv",
+                "username": "IGFZJIPz"
+              },
+              "method": "POST",
+              "responseContentType": "text/html",
+              "responseLength": 33637,
+              "status": 200,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "766756.361",
+                  "sequence": 24,
+                  "resourceType": "XHR",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/index.htm",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Cookie": "PHPSESSID=hbl7afqajgf2itg96k1u4b4827; was=1; dtCookie=v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0; rxVisitor=1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J; dtSa=-; rfdCDBRIN=CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw==; rfdHNEX=U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E=; dtLatC=2; rxvt=1778027076771|1778025274810; dtPC=-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/index.htm",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [
+                        "NotOnPath"
+                      ],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "real",
+                        "path": "/phishing_kit_uncompress_20250519/2023-10-15_s/s",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 6,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "OK"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "hbl7afqajgf2itg96k1u4b4827"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778284474,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtCookie",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 57,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "v_4_srv_-2D62_sn_6D595KAGQDL9OPE8SONJJH3PFJK680I0"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": 1812585278.163307,
+                        "httpOnly": false,
+                        "name": "rxVisitor",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": false,
+                        "size": 54,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778025274809LTPVH8CNPL4MK6AHU2GHS9B0P8PUTQ7J"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtSa",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 5,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778028874,
+                        "httpOnly": false,
+                        "name": "rfdCDBRIN",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 73,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "CgXA68+3AhDICxigBiAYOQAAAAAAAPA/QMgLSKAGUAFY87vC1N8zcPO7wtTfMw=="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rfdHNEX",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 115,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "U2FsdGVkX19Gvp0AX/g5H6sGwJoSKHHjKEAmgRPyNCx9iJV1Puu7J1hHtNw3S8QMp4FXXco5rrXNqQIrKCLXQpGrPXYlZBUtFl9Qdilhf2E="
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtLatC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 7,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "2"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "rxvt",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 31,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1778027076771|1778025274810"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": ".2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "dtPC",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "session": true,
+                        "size": 60,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "-62$225276561_924h-vRHSUKRQILSKKHDTLUNMNDFWIVNTMLFBJ-0e0"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "token0=uinwfdv&username=IGFZJIPz&redirectUrl=https%3A%2F%2Febanking.dnbgroup.lu%2FeBanking%2FWealthT24%2F&tabId=fa3a2b42",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": true,
+                  "redirectChain": [
+                    {
+                      "status": 302,
+                      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/user.php",
+                      "location": "best.htm"
+                    }
+                  ],
+                  "redirectLocation": "best.htm",
+                  "responseHeaders": {
+                    "Accept-Ranges": "bytes",
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "9219",
+                    "Content-Type": "text/html",
+                    "Date": "Tue, 05 May 2026 23:54:55 GMT",
+                    "ETag": "\"8369-604893aee7280-gzip\"",
+                    "Keep-Alive": "timeout=5, max=91",
+                    "Last-Modified": "Mon, 04 Sep 2023 14:21:46 GMT",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<!DOCTYPE html>\r\n<html class=\" top top\"><head>\r\n<meta http-equiv=\"refresh\" content=\"30;url=info.htm\" />\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\n<title>Approval</title>\r\n<meta content=\"width=device-width, initial-scale=1, maximum-scale=1\" name=\"viewport\">\r\n<meta content=\"EveryPay\" name=\"description\">\r\n<link rel=\"stylesheet\" media=\"all\" href=\"11_files/bootstrap_css-6a3e0a807c936235c1a24382765ddd5ed7fccd21b2e916.css\">\r\n<script>\r\n  document.documentElement.className += (window.self == window.top ? \" top\" : \"framed\");\r\n</script>\r\n\r\n<!--[if lte IE 9]>\r\n<link rel=\"stylesheet\" media=\"all\" href=\"/assets/ie-2d32169bd1b6b16b710f58d2bab63a5c2a99d56a40711b7c8e740a35ae0aa234.css\" />\r\n<![endif]-->\r\n<script src=\"11_files/application-da73727699f4fd67378b255609cc0a9b1451bf026889e3edd.js\"></script>\r\n<meta name=\"csrf-param\" content=\"authenticity_token\">\r\n<meta name=\"csrf-token\" content=\"n9a/+Bah9LF3FERrePgOswKaUhYDPmp1TFwXwPSTdC9pRiTdIAgBCPSOevqA+zr/RCAze667Px+qargWFkpdsQ==\">\r\n<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://login.raiffeisen.ch/favicon.ico\">\r\n<style>@import url(\"https://p.typekit.net/p.css?s=1&k=fha2owm&ht=tk&f=39548.39549.39552.39555.39557&a=2602729&app=typekit&e=css\");@font-face{font-family:\"nort\";src:url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/l?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"woff2\"),url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/d?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"woff\"),url(\"https://use.typekit.net/af/a83fcf/00000000000000007735bb08/30/a?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7461fa047a899eb44338&fvd=n7&v=3\") format(\"opentype\");font-display:auto;font-style:normal;font-weight:700;font-stretch:normal}@font-face{font-family:\"nort\";src:url(\"https://use.typekit.net/af/c5479e/00000000000000007735bb09/30/l?primer=fec6d814886e98eb346e386c415c81e6c83d3dc032bb7",
+                  "responseBodyLength": 33637,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 9557,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/best.htm",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 270921.307674,
+                  "lastEventTs": 1778025296056,
+                  "requestSentTs": 270921.307674,
+                  "responseReceivedTs": 270921.311473,
+                  "loadingFinishedTs": 270921.31149,
+                  "latencyMs": 3.8,
+                  "ttfbMs": 3.8,
+                  "_timing_summary": {
+                    "latencyMs": 3.8,
+                    "ttfbMs": 3.8,
+                    "protocol": "http/1.1",
+                    "redirected": true,
+                    "redirectChain": [
+                      {
+                        "status": 302,
+                        "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/user.php",
+                        "location": "best.htm"
+                      }
+                    ],
+                    "status": 200,
+                    "hasCookieHeader": true,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 2,
+            "visible_now": 2,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "raiffeisen/user.php",
+            "receives_fields": [
+              "eMailAdd",
+              "token0",
+              "username"
+            ],
+            "actions": [
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL]",
+                "line": 19
+              },
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL]",
+                "variable": "$send",
+                "line": 17
+              },
+              {
+                "type": "mail",
+                "target": "$VPN",
+                "variable": "$VPN",
+                "line": 18
+              },
+              {
+                "type": "mail",
+                "target": "$timedate",
+                "variable": "$timedate",
+                "line": 20
+              },
+              {
+                "type": "telegram",
+                "target": "api.telegram.org/bot$token/sendMessage?chat_id=2085925850&text=",
+                "line": 25
+              },
+              {
+                "type": "redirect",
+                "target": "best.htm",
+                "line": 27
+              },
+              {
+                "type": "file_get_contents",
+                "target": "https://api.telegram.org/bot$token/sendMessage?chat_id=2085925850&text=",
+                "line": 25
+              }
+            ],
+            "exfil": [
+              "email:$VPN",
+              "email:$timedate",
+              "email:[REDACTED_EMAIL]",
+              "telegram:$token/sendMessage?c"
+            ]
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/index.htm"
+        }
+      ]
+    },
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/info.htm",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2023-10-22_raiffeisen2/raiffeisen/info.php",
+          "method": "post",
+          "xpath": "//*[@id=\"cc_form\"]",
+          "registered_handlers": [
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "cc",
+              "type": "tel",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "onchange",
+                  "functionBody": "function onchange(event) {\nchange_logo(this);\n}"
+                }
+              ]
+            },
+            {
+              "xpath": "//*[@id=\"ui-datepicker-div\"]",
+              "tag": "DIV",
+              "name": "",
+              "type": "",
+              "id": "ui-datepicker-div",
+              "handlers": [
+                {
+                  "event": "mouseout",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"ui-datepicker-div\"]",
+              "tag": "DIV",
+              "name": "",
+              "type": "",
+              "id": "ui-datepicker-div",
+              "handlers": [
+                {
+                  "event": "mouseover",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc_submit_form\"]",
+              "tag": "BUTTON",
+              "name": "",
+              "type": "",
+              "id": "cc_submit_form",
+              "handlers": [
+                {
+                  "event": "click",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "input",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "keydown",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "focus",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "cut",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "copy",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "input",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "keydown",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "focus",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "cut",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "copy",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"name\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "name",
+              "handlers": [
+                {
+                  "event": "change",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"name\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "name",
+              "handlers": [
+                {
+                  "event": "input",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "keypress",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "keydown",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "keyup",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "paste",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "blur",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "change",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "input",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "change",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "input",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"verification\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "verification",
+              "handlers": [
+                {
+                  "event": "change",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"verification\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "verification",
+              "handlers": [
+                {
+                  "event": "input",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc_form\"]",
+              "tag": "FORM",
+              "name": "",
+              "type": "",
+              "id": "cc_form",
+              "handlers": [
+                {
+                  "event": "submit",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "input",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "keydown",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "focus",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "cut",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cc\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "cc",
+              "handlers": [
+                {
+                  "event": "copy",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "input",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "keydown",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "focus",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "cut",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"date\"]",
+              "tag": "INPUT",
+              "name": "",
+              "type": "",
+              "id": "date",
+              "handlers": [
+                {
+                  "event": "copy",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "/html/body",
+              "tag": "BODY",
+              "name": "",
+              "type": "",
+              "id": "",
+              "handlers": [
+                {
+                  "event": "click",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            }
+          ],
+          "fields": [
+            {
+              "name": "cc",
+              "type": "tel",
+              "xpath": "//*[@id=\"cc\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "name",
+              "type": "text",
+              "xpath": "//*[@id=\"name\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "date",
+              "type": "tel",
+              "xpath": "//*[@id=\"date\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "verification",
+              "type": "tel",
+              "xpath": "//*[@id=\"verification\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "info.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "cc_form",
+                "method": "POST",
+                "name": 

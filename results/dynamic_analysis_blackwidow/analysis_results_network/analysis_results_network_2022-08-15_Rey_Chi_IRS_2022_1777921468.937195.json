@@ -1,0 +1,70 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-15_Rey_Chi%20IRS%202022/IRS%202022/",
+  "timestamp": "2026-05-05 04:04:28",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2022-08-15_Rey_Chi IRS 2022",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-15_Rey_Chi%20IRS%202022/IRS%202022/formpage.html",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-15_Rey_Chi%20IRS%202022/IRS%202022/formpage.html",
+          "method": "post",
+          "xpath": "//*[@id=\"reused_form\"]",
+          "registered_handlers": [
+            {
+              "xpath": "/html/body/div[3]/div/div/div/div/button",
+              "tag": "BUTTON",
+              "name": "",
+              "type": "submit",
+              "id": "",
+              "handlers": [
+                {
+                  "event": "onclick",
+                  "functionBody": "function onclick(event) {\nwindow.location.href='message.html'\n}"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "name": "name",
+              "type": "text",
+              "xpath": "//*[@id=\"name\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "xpath": "//*[@id=\"email\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "message",
+              "type": "textarea",
+              "xpath": "//*[@id=\"message\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-15_Rey_Chi%20IRS%202022/IRS%202022/formpage.html",
+                "enctype": "\"multipart/form-data\"",
+                "id": "reused_form",
+                "method": "POST",
+                "name": 

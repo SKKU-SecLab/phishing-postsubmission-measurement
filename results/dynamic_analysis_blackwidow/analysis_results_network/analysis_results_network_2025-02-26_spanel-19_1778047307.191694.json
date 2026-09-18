@@ -1,0 +1,722 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/",
+  "timestamp": "2026-05-06 15:01:47",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2025-02-26_spanel-19",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/login.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/admin_login_auth.php",
+          "method": "post",
+          "xpath": "/html/body/div[2]/div/div/form",
+          "registered_handlers": [
+            {
+              "xpath": "//*[@id=\"ui-datepicker-div\"]",
+              "tag": "DIV",
+              "name": "",
+              "type": "",
+              "id": "ui-datepicker-div",
+              "handlers": [
+                {
+                  "event": "mouseout",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"ui-datepicker-div\"]",
+              "tag": "DIV",
+              "name": "",
+              "type": "",
+              "id": "ui-datepicker-div",
+              "handlers": [
+                {
+                  "event": "mouseover",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            }
+          ],
+          "fields": [
+            {
+              "name": "admin_username",
+              "type": "text",
+              "xpath": "/html/body/div[2]/div/div/form/div[2]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "admin_password",
+              "type": "password",
+              "xpath": "/html/body/div[2]/div/div/form/div[3]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "admin_login_auth.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "",
+                "method": "POST",
+                "name": ""
+              },
+              "cdp_reqs": [
+                {
+                  "requestId": "B90F8C5D5B72BA8ECFF85DA04BEED407",
+                  "sequence": 1,
+                  "resourceType": "Document",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/admin_login_auth.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/admin_login_auth.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "66",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Cookie": "PHPSESSID=u29v8mb3s7mo1i38mhlv72c08n; was=1",
+                    "Host": "www.2026.com:8080",
+                    "Origin": "http://www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/login.php",
+                    "Upgrade-Insecure-Requests": "1",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Cookie",
+                    "Host",
+                    "Origin",
+                    "Pragma",
+                    "Referer",
+                    "Upgrade-Insecure-Requests",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778133707.949402,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "u29v8mb3s7mo1i38mhlv72c08n"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778306508,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "admin_username=jyrrmgsefmfm&admin_password=m7pYfi5myC&admin_login=",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Cache-Control": "no-store, no-cache, must-revalidate",
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "40",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 06:01:53 GMT",
+                    "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                    "Keep-Alive": "timeout=5, max=94",
+                    "Pragma": "no-cache",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "Connection failed: could not find driver",
+                  "responseBodyLength": 40,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 353,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/admin_login_auth.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 292938.813877,
+                  "lastEventTs": 1778047313095,
+                  "requestSentTs": 292938.813877,
+                  "responseReceivedTs": 292938.819778,
+                  "loadingFinishedTs": 292938.820791,
+                  "latencyMs": 6.9,
+                  "ttfbMs": 5.9,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778047313018
+                }
+              ],
+              "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "admin_login_auth.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": "admin_username=ovwmcwyqe&admin_password=MaLCatK2g",
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+                  "status": 200,
+                  "response": "Connection failed: could not find driver",
+                  "responseHeaders": {
+                    "cache-control": "no-store, no-cache, must-revalidate",
+                    "connection": "Keep-Alive",
+                    "content-length": "40",
+                    "content-type": "text/html; charset=UTF-8",
+                    "date": "Wed, 06 May 2026 06:01:56 GMT",
+                    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                    "keep-alive": "timeout=5, max=84",
+                    "pragma": "no-cache",
+                    "server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/admin_login_auth.php",
+                  "responseBodyLength": 40,
+                  "timestamp": 1778047316275,
+                  "latencyMs": 8,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "spanel-19/oyexa/admin_login_auth.php",
+                    "receives_fields": [
+                      "admin_login",
+                      "admin_password",
+                      "admin_username"
+                    ],
+                    "actions": [
+                      {
+                        "type": "redirect",
+                        "target": "index.php",
+                        "line": 16
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "login.php",
+                        "line": 19
+                      }
+                    ],
+                    "exfil": []
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseover",
+                  "targetXPath": "/html/body/div[2]/div/div/form/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "admin_login",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778047316273
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mousedown",
+                  "targetXPath": "/html/body/div[2]/div/div/form/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "admin_login",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778047316274
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "focus",
+                  "targetXPath": "/html/body/div[2]/div/div/form/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "admin_login",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778047316274
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseup",
+                  "targetXPath": "/html/body/div[2]/div/div/form/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "admin_login",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778047316274
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "click",
+                  "targetXPath": "/html/body/div[2]/div/div/form/button",
+                  "targetTag": "BUTTON",
+                  "targetName": "admin_login",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778047316274
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "/html/body/div[2]/div/div/form",
+                  "targetTag": "FORM",
+                  "targetName": "",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778047316275
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "840662.116",
+                  "sequence": 13,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/login.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/admin_login_auth.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "49",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Cookie": "PHPSESSID=u29v8mb3s7mo1i38mhlv72c08n; was=1",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/login.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778133707.949402,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "u29v8mb3s7mo1i38mhlv72c08n"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778306508,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "admin_username=ovwmcwyqe&admin_password=MaLCatK2g",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Cache-Control": "no-store, no-cache, must-revalidate",
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "40",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 06:01:56 GMT",
+                    "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                    "Keep-Alive": "timeout=5, max=84",
+                    "Pragma": "no-cache",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "Connection failed: could not find driver",
+                  "responseBodyLength": 40,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 353,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/admin_login_auth.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 292942.020306,
+                  "lastEventTs": 1778047316780,
+                  "requestSentTs": 292942.020306,
+                  "responseReceivedTs": 292942.026916,
+                  "loadingFinishedTs": 292942.024299,
+                  "latencyMs": 4.0,
+                  "ttfbMs": 6.6,
+                  "_timing_summary": {
+                    "latencyMs": 4.0,
+                    "ttfbMs": 6.6,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": true,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1778047316241,
+            "submit_timing": {
+              "python_click_ts_ms": 1778047316241,
+              "js_trigger_event_ts_ms": 1778047316274,
+              "js_first_req_ts_ms": 1778047316275,
+              "event_to_request_ms": 1,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "admin_login_auth.php",
+              "fields": {
+                "admin_password": "MaLCatK2g",
+                "admin_username": "ovwmcwyqe"
+              },
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 40,
+              "status": 200,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "840662.116",
+                  "sequence": 13,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/login.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/admin_login_auth.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "49",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Cookie": "PHPSESSID=u29v8mb3s7mo1i38mhlv72c08n; was=1",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/login.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778133707.949402,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "u29v8mb3s7mo1i38mhlv72c08n"
+                      },
+                      "exemptionReason": "None"
+                    },
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": 1778306508,
+                        "httpOnly": false,
+                        "name": "was",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": false,
+                        "size": 4,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "1"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "admin_username=ovwmcwyqe&admin_password=MaLCatK2g",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Cache-Control": "no-store, no-cache, must-revalidate",
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "40",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 06:01:56 GMT",
+                    "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+                    "Keep-Alive": "timeout=5, max=84",
+                    "Pragma": "no-cache",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "Connection failed: could not find driver",
+                  "responseBodyLength": 40,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 353,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/admin_login_auth.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 292942.020306,
+                  "lastEventTs": 1778047316780,
+                  "requestSentTs": 292942.020306,
+                  "responseReceivedTs": 292942.026916,
+                  "loadingFinishedTs": 292942.024299,
+                  "latencyMs": 4.0,
+                  "ttfbMs": 6.6,
+                  "_timing_summary": {
+                    "latencyMs": 4.0,
+                    "ttfbMs": 6.6,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": true,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 2,
+            "visible_now": 2,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "spanel-19/oyexa/admin_login_auth.php",
+            "receives_fields": [
+              "admin_login",
+              "admin_password",
+              "admin_username"
+            ],
+            "actions": [
+              {
+                "type": "redirect",
+                "target": "index.php",
+                "line": 16
+              },
+              {
+                "type": "redirect",
+                "target": "login.php",
+                "line": 19
+              }
+            ],
+            "exfil": []
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/oyexa/login.php"
+        }
+      ]
+    },
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/user/login/spk.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-26_spanel-19/spanel-19/user/login/user_login_auth.php",
+          "method": "post",
+          "xpath": "//*[@id=\"[object HTMLInputElement]\"]",
+          "registered_handlers": [
+            {
+              "xpath": "//*[@id=\"[object HTMLInputElement]\"]",
+              "tag": "FORM",
+              "name": "",
+              "type": "",
+              "id": {},
+              "handlers": [
+                {
+                  "event": "submit",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            }
+          ],
+          "fields": [
+            {
+              "name": "username",
+              "type": "number",
+              "xpath": "//*[@id=\"username\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "password",
+              "type": "text",
+              "xpath": "//*[@id=\"pass\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "user_login_auth.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": 

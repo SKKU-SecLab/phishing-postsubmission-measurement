@@ -1,0 +1,600 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/",
+  "timestamp": "2026-03-15 07:00:51",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/confir.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php",
+          "method": "post",
+          "xpath": "//*[@id=\"idchange\"]",
+          "registered_handlers": [],
+          "fields": [],
+          "submit_log": {
+            "enter_key_logs": {
+              "step": 1,
+              "phase": "submit_enter_test",
+              "domChanges": [],
+              "networkReqs": [],
+              "firedEvents": [],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "jqueryDispatchLogs": []
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "redirect1.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestBody": "xsrf_2QU-WnwyZOIsZ9Unh3ywmQ=n-v1O2l669pm86uYv__sNA&tid=e4d02e91-b0cf-48a6-ab46-14cef8528f4c&identitychanged=identitychanged",
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:184:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+                  "status": 200,
+                  "response": "ERROR! Please go back and try again.",
+                  "responseHeaders": "cache-control: no-store, no-cache, must-revalidate\r\nconnection: Keep-Alive\r\ncontent-length: 36\r\ncontent-type: text/html; charset=UTF-8\r\ndate: Sat, 14 Mar 2026 22:01:01 GMT\r\nexpires: Thu, 19 Nov 1981 08:52:00 GMT\r\nkeep-alive: timeout=5, max=39\r\npragma: no-cache\r\nserver: Apache/2.4.58 (Ubuntu)\r\n",
+                  "timestamp": 1773525661439,
+                  "resolved_server": {
+                    "server_file": "VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php",
+                    "receives_fields": [
+                      "eMailAdd",
+                      "email",
+                      "pw_pwd"
+                    ],
+                    "actions": [
+                      {
+                        "type": "mail",
+                        "target": "$to",
+                        "line": 19
+                      },
+                      {
+                        "type": "mail",
+                        "target": "\"$to\"",
+                        "line": 19
+                      },
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]",
+                        "variable": "$recipient",
+                        "line": 20
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "./loading.htm",
+                        "line": 22
+                      }
+                    ],
+                    "exfil": [
+                      "email:\"$to\"",
+                      "email:$to",
+                      "email:[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]"
+                    ]
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseover",
+                  "targetXPath": "//*[@id=\"id_change\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "changeIdentity",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+                  "timestamp": 1773525661437
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mousedown",
+                  "targetXPath": "//*[@id=\"id_change\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "changeIdentity",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+                  "timestamp": 1773525661438
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "focus",
+                  "targetXPath": "//*[@id=\"id_change\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "changeIdentity",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+                  "timestamp": 1773525661438
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseup",
+                  "targetXPath": "//*[@id=\"id_change\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "changeIdentity",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+                  "timestamp": 1773525661439
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "click",
+                  "targetXPath": "//*[@id=\"id_change\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "changeIdentity",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+                  "timestamp": 1773525661439
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "//*[@id=\"idchange\"]",
+                  "targetTag": "FORM",
+                  "targetName": "idchange",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+                  "timestamp": 1773525661439
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "jqueryDispatchLogs": []
+            },
+            "submit_detail": {
+              "action": "redirect1.php",
+              "fields": {
+                "identitychanged": "identitychanged",
+                "tid": "e4d02e91-b0cf-48a6-ab46-14cef8528f4c",
+                "xsrf_2QU-WnwyZOIsZ9Unh3ywmQ": "n-v1O2l669pm86uYv__sNA"
+              },
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 36,
+              "status": 200,
+              "submitted": true
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 0,
+            "visible_now": 0,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php",
+            "receives_fields": [
+              "eMailAdd",
+              "email",
+              "pw_pwd"
+            ],
+            "actions": [
+              {
+                "type": "mail",
+                "target": "$to",
+                "line": 19
+              },
+              {
+                "type": "mail",
+                "target": "\"$to\"",
+                "line": 19
+              },
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]",
+                "variable": "$recipient",
+                "line": 20
+              },
+              {
+                "type": "redirect",
+                "target": "./loading.htm",
+                "line": 22
+              }
+            ],
+            "exfil": [
+              "email:\"$to\"",
+              "email:$to",
+              "email:[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]"
+            ]
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/confir.php"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php",
+      "method": "post",
+      "xpath": "//*[@id=\"idchange\"]",
+      "registered_handlers": [],
+      "fields": [],
+      "submit_log": {
+        "enter_key_logs": {
+          "step": 1,
+          "phase": "submit_enter_test",
+          "domChanges": [],
+          "networkReqs": [],
+          "firedEvents": [],
+          "html5Validation": [],
+          "triggeredFunctions": [],
+          "jqueryDispatchLogs": []
+        },
+        "submit_click_logs": {
+          "step": 1,
+          "phase": "submit_click",
+          "domChanges": [],
+          "networkReqs": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "type": "xhr",
+              "method": "POST",
+              "url": "redirect1.php",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "requestBody": "xsrf_2QU-WnwyZOIsZ9Unh3ywmQ=n-v1O2l669pm86uYv__sNA&tid=e4d02e91-b0cf-48a6-ab46-14cef8528f4c&identitychanged=identitychanged",
+              "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:184:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+              "status": 200,
+              "response": "ERROR! Please go back and try again.",
+              "responseHeaders": "cache-control: no-store, no-cache, must-revalidate\r\nconnection: Keep-Alive\r\ncontent-length: 36\r\ncontent-type: text/html; charset=UTF-8\r\ndate: Sat, 14 Mar 2026 22:01:01 GMT\r\nexpires: Thu, 19 Nov 1981 08:52:00 GMT\r\nkeep-alive: timeout=5, max=39\r\npragma: no-cache\r\nserver: Apache/2.4.58 (Ubuntu)\r\n",
+              "timestamp": 1773525661439,
+              "resolved_server": {
+                "server_file": "VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php",
+                "receives_fields": [
+                  "eMailAdd",
+                  "email",
+                  "pw_pwd"
+                ],
+                "actions": [
+                  {
+                    "type": "mail",
+                    "target": "$to",
+                    "line": 19
+                  },
+                  {
+                    "type": "mail",
+                    "target": "\"$to\"",
+                    "line": 19
+                  },
+                  {
+                    "type": "mail",
+                    "target": "[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]",
+                    "variable": "$recipient",
+                    "line": 20
+                  },
+                  {
+                    "type": "redirect",
+                    "target": "./loading.htm",
+                    "line": 22
+                  }
+                ],
+                "exfil": [
+                  "email:\"$to\"",
+                  "email:$to",
+                  "email:[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]"
+                ]
+              }
+            }
+          ],
+          "firedEvents": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseover",
+              "targetXPath": "//*[@id=\"id_change\"]",
+              "targetTag": "BUTTON",
+              "targetName": "changeIdentity",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+              "timestamp": 1773525661437
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mousedown",
+              "targetXPath": "//*[@id=\"id_change\"]",
+              "targetTag": "BUTTON",
+              "targetName": "changeIdentity",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+              "timestamp": 1773525661438
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "focus",
+              "targetXPath": "//*[@id=\"id_change\"]",
+              "targetTag": "BUTTON",
+              "targetName": "changeIdentity",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+              "timestamp": 1773525661438
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseup",
+              "targetXPath": "//*[@id=\"id_change\"]",
+              "targetTag": "BUTTON",
+              "targetName": "changeIdentity",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+              "timestamp": 1773525661439
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "click",
+              "targetXPath": "//*[@id=\"id_change\"]",
+              "targetTag": "BUTTON",
+              "targetName": "changeIdentity",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+              "timestamp": 1773525661439
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "submit",
+              "targetXPath": "//*[@id=\"idchange\"]",
+              "targetTag": "FORM",
+              "targetName": "idchange",
+              "targetType": "",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:310:21)",
+              "timestamp": 1773525661439
+            }
+          ],
+          "html5Validation": [],
+          "triggeredFunctions": [],
+          "jqueryDispatchLogs": []
+        },
+        "submit_detail": {
+          "action": "redirect1.php",
+          "fields": {
+            "identitychanged": "identitychanged",
+            "tid": "e4d02e91-b0cf-48a6-ab46-14cef8528f4c",
+            "xsrf_2QU-WnwyZOIsZ9Unh3ywmQ": "n-v1O2l669pm86uYv__sNA"
+          },
+          "method": "POST",
+          "responseContentType": "text/html; charset=UTF-8",
+          "responseLength": 36,
+          "status": 200,
+          "submitted": true
+        }
+      },
+      "overall_classification": "Case B: Server Round-trip (AJAX)",
+      "field_stats": {
+        "dom_analysable": 0,
+        "visible_now": 0,
+        "hidden_or_collapsed": 0
+      },
+      "static_action_analysis": {
+        "server_file": "VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php",
+        "receives_fields": [
+          "eMailAdd",
+          "email",
+          "pw_pwd"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$to",
+            "line": 19
+          },
+          {
+            "type": "mail",
+            "target": "\"$to\"",
+            "line": 19
+          },
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 20
+          },
+          {
+            "type": "redirect",
+            "target": "./loading.htm",
+            "line": 22
+          }
+        ],
+        "exfil": [
+          "email:\"$to\"",
+          "email:$to",
+          "email:[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]"
+        ]
+      },
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/confir.php"
+    }
+  ],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/confir.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/confir.php",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/loading.htm",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/loading.htm",
+      "method": "get"
+    },
+    {
+      "step": 3,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php",
+      "method": "get"
+    },
+    {
+      "step": 4,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/serverbusy.html",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/serverbusy.html",
+      "method": "get"
+    },
+    {
+      "step": 5,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/confir.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-02-07_VerbeSern/VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/confir.php",
+      "method": "event"
+    }
+  ],
+  "static_analysis": {
+    "function_count": 0,
+    "php_file_count": 2,
+    "data_flow_count": 1,
+    "data_flows": [
+      {
+        "form_source": "VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/confir.php",
+        "form_method": "post",
+        "form_fields": [
+          "xsrf_2QU-WnwyZOIsZ9Unh3ywmQ",
+          "tid",
+          "email",
+          "pw_pwd",
+          "persist_session"
+        ],
+        "action_target": "redirect1.php",
+        "server_file": "VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php",
+        "server_receives": [
+          "eMailAdd",
+          "email",
+          "pw_pwd"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "$to",
+            "line": 19
+          },
+          {
+            "type": "mail",
+            "target": "\"$to\"",
+            "line": 19
+          },
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 20
+          },
+          {
+            "type": "redirect",
+            "target": "./loading.htm",
+            "line": 22
+          }
+        ],
+        "exfil": [
+          "email:\"$to\"",
+          "email:$to",
+          "email:[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]"
+        ]
+      }
+    ],
+    "php_files": {
+      "VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/confir.php": {
+        "receives_post": [],
+        "actions": [],
+        "exfil": []
+      },
+      "VerbeSern/Ihre/Yigen/RBung/Sieyn/Gewohn/redirect1.php": {
+        "receives_post": [
+          "eMailAdd",
+          "email",
+          "pw_pwd"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$to",
+            "line": 19
+          },
+          {
+            "type": "mail",
+            "target": "\"$to\"",
+            "line": 19
+          },
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 20
+          },
+          {
+            "type": "redirect",
+            "target": "./loading.htm",
+            "line": 22
+          }
+        ],
+        "exfil": [
+          "email:\"$to\"",
+          "email:$to",
+          "email:[REDACTED_EMAIL],[REDACTED_EMAIL],[REDACTED_EMAIL]"
+        ]
+      }
+    }
+  }
+}

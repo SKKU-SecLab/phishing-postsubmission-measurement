@@ -1,0 +1,921 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/",
+  "timestamp": "2026-05-05 04:38:14",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2022-08-22_M_T fixed logsrus",
+  "pages": [],
+  "forms": [],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/anti.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/anti.php",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/cmdzamp.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/cmdzamp.php",
+      "method": "get"
+    },
+    {
+      "step": 3,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/countrylock.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/countrylock.php",
+      "method": "get"
+    },
+    {
+      "step": 4,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/index.php",
+      "method": "get"
+    },
+    {
+      "step": 5,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/mr.m1nd.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/mr.m1nd.php",
+      "method": "get"
+    },
+    {
+      "step": 6,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/proxyblock.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/proxyblock.php",
+      "method": "get"
+    },
+    {
+      "step": 7,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/index.php",
+      "method": "get"
+    },
+    {
+      "step": 8,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/index.php",
+      "method": "get"
+    },
+    {
+      "step": 9,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/login.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/login.php",
+      "method": "get"
+    },
+    {
+      "step": 10,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/settings.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/settings.php",
+      "method": "get"
+    },
+    {
+      "step": 11,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/security/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/security/index.php",
+      "method": "get"
+    },
+    {
+      "step": 12,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/card.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/card.php",
+      "method": "get"
+    },
+    {
+      "step": 13,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/complete.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/complete.php",
+      "method": "get"
+    },
+    {
+      "step": 14,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/contact.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/contact.php",
+      "method": "get"
+    },
+    {
+      "step": 15,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/details.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/details.php",
+      "method": "get"
+    },
+    {
+      "step": 16,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/index.php",
+      "method": "get"
+    },
+    {
+      "step": 17,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/verify.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/verify.php",
+      "method": "get"
+    },
+    {
+      "step": 18,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Comp.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Comp.php",
+      "method": "get"
+    },
+    {
+      "step": 19,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/demonTest.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/demonTest.php",
+      "method": "get"
+    },
+    {
+      "step": 20,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/index.html",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/index.html",
+      "method": "get"
+    },
+    {
+      "step": 21,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/index.php",
+      "method": "get"
+    },
+    {
+      "step": 22,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/logout.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/logout.php",
+      "method": "get"
+    },
+    {
+      "step": 23,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/presh.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/presh.php",
+      "method": "get"
+    },
+    {
+      "step": 24,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/reset.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/reset.php",
+      "method": "get"
+    },
+    {
+      "step": 25,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/settings.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/admin/jobs/settings.php",
+      "method": "get"
+    },
+    {
+      "step": 26,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/AOL.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/AOL.php",
+      "method": "get"
+    },
+    {
+      "step": 27,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Att.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Att.php",
+      "method": "get"
+    },
+    {
+      "step": 28,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Comcast.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Comcast.php",
+      "method": "get"
+    },
+    {
+      "step": 29,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Gmail.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Gmail.php",
+      "method": "get"
+    },
+    {
+      "step": 30,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Microsoft.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Microsoft.php",
+      "method": "get"
+    },
+    {
+      "step": 31,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Verizon.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Verizon.php",
+      "method": "get"
+    },
+    {
+      "step": 32,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Yahoo.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Login/email/Yahoo.php",
+      "method": "get"
+    },
+    {
+      "step": 33,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/card.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/card.php",
+      "method": "get"
+    },
+    {
+      "step": 34,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/contact.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/contact.php",
+      "method": "get"
+    },
+    {
+      "step": 35,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/details.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/details.php",
+      "method": "get"
+    },
+    {
+      "step": 36,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/index.php",
+      "method": "get"
+    },
+    {
+      "step": 37,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/verify.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Benchmark/verify.php",
+      "method": "get"
+    },
+    {
+      "step": 38,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Python/autoload.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Python/autoload.php",
+      "method": "get"
+    },
+    {
+      "step": 39,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Python/composer/ClassLoader.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Python/composer/ClassLoader.php",
+      "method": "get"
+    },
+    {
+      "step": 40,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Python/composer/ClassLoader_static.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Python/composer/ClassLoader_static.php",
+      "method": "get"
+    },
+    {
+      "step": 41,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Python/composer/InstalledVersions.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-08-22_M_T%20fixed%20logsrus/M%26T/MegaBrunch/Meta/Python/composer/InstalledVersions.php",
+      "method": "get"
+    }
+  ],
+  "cdp_network": [],
+  "cdp_monitoring": {
+    "enabled": true,
+    "degraded": false,
+    "note": "ok"
+  },
+  "static_analysis": {
+    "function_count": 3104,
+    "php_file_count": 26,
+    "data_flow_count": 13,
+    "data_flows": [
+      {
+        "form_source": "M&T/admin/settings.php",
+        "form_method": "post",
+        "form_fields": [
+          "username",
+          "password",
+          "email",
+          "chatid",
+          "token",
+          "telegrams",
+          "doubleLogin",
+          "vpn",
+          "heuristicvpn",
+          "cfp",
+          "ip",
+          "country"
+        ],
+        "action_target": "./jobs/settings.php",
+        "server_file": "M&T/admin/settings.php",
+        "server_receives": [],
+        "server_actions": [
+          {
+            "type": "redirect",
+            "target": "./login.php",
+            "line": 19
+          }
+        ],
+        "exfil": []
+      },
+      {
+        "form_source": "M&T/admin/login.php",
+        "form_method": "post",
+        "form_fields": [
+          "username",
+          "password"
+        ],
+        "action_target": "./jobs/",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/index.php",
+        "form_method": "post",
+        "form_fields": [
+          "dp",
+          "pageId",
+          "txtSessionId",
+          "txtUserID",
+          "txtPasscode",
+          "remember-me"
+        ],
+        "action_target": "../Meta/Benchmark/index.php",
+        "server_file": "M&T/index.php",
+        "server_receives": [],
+        "server_actions": [
+          {
+            "type": "redirect",
+            "target": "MegaBrunch/",
+            "line": 31
+          }
+        ],
+        "exfil": []
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/index.php",
+        "form_method": "get",
+        "form_fields": [
+          "loginId",
+          "remember-id"
+        ],
+        "action_target": "#",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/card.php",
+        "form_method": "post",
+        "form_fields": [
+          "EnrolleeType",
+          "EnrollmentType",
+          "EnrolleeIdentifier",
+          "EnrolleeToken",
+          "IsMobilePlatfom",
+          "TagPageName",
+          "SetFieldsToProtected",
+          "ccnum",
+          "expdate",
+          "cvv",
+          "pin"
+        ],
+        "action_target": "../Meta/Benchmark/card.php",
+        "server_file": "M&T/MegaBrunch/Meta/Benchmark/card.php",
+        "server_receives": [
+          "ccnum",
+          "cvv",
+          "expdate",
+          "pin"
+        ],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/contact.php",
+        "form_method": "post",
+        "form_fields": [
+          "EnrolleeType",
+          "EnrollmentType",
+          "EnrolleeIdentifier",
+          "EnrolleeToken",
+          "IsMobilePlatfom",
+          "TagPageName",
+          "SetFieldsToProtected",
+          "email"
+        ],
+        "action_target": "../Meta/Benchmark/contact.php",
+        "server_file": "M&T/MegaBrunch/Meta/Benchmark/contact.php",
+        "server_receives": [
+          "email"
+        ],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/details.php",
+        "form_method": "post",
+        "form_fields": [
+          "EnrolleeType",
+          "FirstName",
+          "LastName",
+          "AccountNumber",
+          "SecurityPin",
+          "SSN",
+          "DateOfBirth",
+          "CompanyName",
+          "CompanyTaxId",
+          "fname",
+          "lname",
+          "address",
+          "ssn",
+          "dob"
+        ],
+        "action_target": "../Meta/Benchmark/details.php",
+        "server_file": "M&T/MegaBrunch/Meta/Benchmark/details.php",
+        "server_receives": [
+          "address",
+          "dob",
+          "fname",
+          "lname",
+          "ssn"
+        ],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/verify.php",
+        "form_method": "post",
+        "form_fields": [
+          "UnMaskedUserId",
+          "TagPageName",
+          "FailedSignOnCount",
+          "txtUserID",
+          "txtPasscode",
+          "RememberUserId"
+        ],
+        "action_target": "../Meta/Benchmark/verify.php",
+        "server_file": "M&T/MegaBrunch/Meta/Benchmark/verify.php",
+        "server_receives": [
+          "txtPasscode",
+          "txtUserID"
+        ],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/email/Verizon.php",
+        "form_method": "post",
+        "form_fields": [
+          "_csrf",
+          "realm",
+          "remainInOverlay",
+          "goto",
+          "gotoOnFail",
+          "incid",
+          "ccpaLogin",
+          "smAuthToken",
+          "IDToken1",
+          "emailPassword",
+          "userNameOnly"
+        ],
+        "action_target": "../../Meta/Benchmark/email.php",
+        "server_file": "M&T/MegaBrunch/Meta/Benchmark/email.php",
+        "server_receives": [
+          "emailPassword"
+        ],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/css/clientlib-base.js",
+        "form_method": "ajax",
+        "form_fields": [],
+        "action_target": "/bin/content-fragment?findOrphans=",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": [],
+        "ajax_type": "jQuery.ajax({})",
+        "ajax_source_line": 1186
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/css/clientlib-base.js",
+        "form_method": "ajax",
+        "form_fields": [],
+        "action_target": "/bin/content-fragment?fragmentID=",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": [],
+        "ajax_type": "jQuery.ajax({})",
+        "ajax_source_line": 1329
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/css/clientlib-base.js",
+        "form_method": "ajax",
+        "form_fields": [],
+        "action_target": "/bin/content-fragment",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": [],
+        "ajax_type": "jQuery.ajax({})",
+        "ajax_source_line": 1424
+      },
+      {
+        "form_source": "M&T/MegaBrunch/Login/css/clientlib-base.js",
+        "form_method": "ajax",
+        "form_fields": [],
+        "action_target": "/bin/",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": [],
+        "ajax_type": "jQuery.ajax({})",
+        "ajax_source_line": 1508
+      }
+    ],
+    "php_files": {
+      "M&T/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "MegaBrunch/",
+            "line": 31
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/proxyblock.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "curl",
+            "target": "$url);",
+            "line": 43
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 52
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 55
+          }
+        ],
+        "exfil": [
+          "curl:$url);"
+        ]
+      },
+      "M&T/anti.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "$link",
+            "line": 904
+          },
+          {
+            "type": "redirect",
+            "target": "$link",
+            "line": 959
+          },
+          {
+            "type": "redirect",
+            "target": "$link",
+            "line": 963
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/mr.m1nd.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://dynaw.dumb1.com",
+            "line": 34146
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/cmdzamp.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "curl",
+            "target": "$url);",
+            "line": 33
+          }
+        ],
+        "exfil": [
+          "curl:$url);"
+        ]
+      },
+      "M&T/admin/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "./login.php",
+            "line": 19
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/admin/settings.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "./login.php",
+            "line": 19
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/admin/antibot.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "./login.php",
+            "line": 19
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/admin/login.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "./",
+            "line": 19
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/admin/jobs/index.php": {
+        "receives_post": [
+          "password",
+          "username"
+        ],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "../",
+            "line": 21
+          },
+          {
+            "type": "redirect",
+            "target": "../",
+            "line": 33
+          },
+          {
+            "type": "redirect",
+            "target": "../",
+            "line": 35
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/admin/jobs/settings.php": {
+        "receives_post": [
+          "EmaildoubleLogin",
+          "cfp",
+          "chatid",
+          "country_name",
+          "doubleLogin",
+          "email",
+          "heuristicvpn",
+          "ip",
+          "password",
+          "telegrams",
+          "token",
+          "username",
+          "vpn"
+        ],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "../login.php",
+            "line": 19
+          },
+          {
+            "type": "redirect",
+            "target": "../settings.php",
+            "line": 132
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 58
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/admin/jobs/reset.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "../login.php",
+            "line": 19
+          },
+          {
+            "type": "redirect",
+            "target": "../",
+            "line": 25
+          },
+          {
+            "type": "redirect",
+            "target": "../",
+            "line": 32
+          },
+          {
+            "type": "redirect",
+            "target": "../antibot.php",
+            "line": 34
+          },
+          {
+            "type": "redirect",
+            "target": "../settings.php",
+            "line": 36
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/admin/jobs/logout.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "../",
+            "line": 16
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/MegaBrunch/Meta/Comp.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$this->settings(",
+            "variable": "$this->settings(",
+            "line": 16
+          },
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot{$utameta}",
+            "line": 15
+          },
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot{$this-",
+            "line": 15
+          },
+          {
+            "type": "redirect",
+            "target": "",
+            "line": 16
+          },
+          {
+            "type": "curl",
+            "target": "$url);curl_setopt($ch,",
+            "line": 15
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 16
+          }
+        ],
+        "exfil": [
+          "curl:$url);curl_setopt($ch,",
+          "email:$this->settings(",
+          "telegram:{$this-",
+          "telegram:{$utameta}"
+        ]
+      },
+      "M&T/MegaBrunch/Meta/Benchmark/index.php": {
+        "receives_post": [
+          "txtPasscode",
+          "txtUserID"
+        ],
+        "actions": [],
+        "exfil": []
+      },
+      "M&T/MegaBrunch/Meta/Benchmark/card.php": {
+        "receives_post": [
+          "ccnum",
+          "cvv",
+          "expdate",
+          "pin"
+        ],
+        "actions": [],
+        "exfil": []
+      },
+      "M&T/MegaBrunch/Meta/Benchmark/email.php": {
+        "receives_post": [
+          "emailPassword"
+        ],
+        "actions": [],
+        "exfil": []
+      },
+      "M&T/MegaBrunch/Meta/Benchmark/contact.php": {
+        "receives_post": [
+          "email"
+        ],
+        "actions": [],
+        "exfil": []
+      },
+      "M&T/MegaBrunch/Meta/Benchmark/details.php": {
+        "receives_post": [
+          "address",
+          "dob",
+          "fname",
+          "lname",
+          "ssn"
+        ],
+        "actions": [],
+        "exfil": []
+      },
+      "M&T/MegaBrunch/Meta/Benchmark/verify.php": {
+        "receives_post": [
+          "txtPasscode",
+          "txtUserID"
+        ],
+        "actions": [],
+        "exfil": []
+      },
+      "M&T/MegaBrunch/Meta/Python/composer/ClassLoader_static.php": {
+        "receives_post": [
+          "submit"
+        ],
+        "actions": [],
+        "exfil": []
+      },
+      "M&T/bots/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "../index.php",
+            "line": 30
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/bots/anti3.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 17
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 18
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/bots/anti1.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://m3.ma",
+            "line": 44
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/bots/anti.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "$link",
+            "line": 904
+          },
+          {
+            "type": "redirect",
+            "target": "$link",
+            "line": 959
+          },
+          {
+            "type": "redirect",
+            "target": "$link",
+            "line": 963
+          }
+        ],
+        "exfil": []
+      },
+      "M&T/bots/anti5.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 15
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://ipinfo.io/",
+            "line": 16
+          }
+        ],
+        "exfil": []
+      }
+    }
+  },
+  "static_fallback": true,
+  "static_fallback_reason": "Dynamic crawl visited 41 page(s) but found 0 forms. Likely cause: server-side bot detection (AntiBOT/fsockopen) or flow-gated pages (missing required query params). Static analysis data flows are included as reference."
+}

