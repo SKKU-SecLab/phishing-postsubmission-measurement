@@ -353,3 +353,11 @@ API keys are not stored in this repository.
 `code/clustering/03-cluster_sample.py` uses RAPIDS cuML/cuPy for GPU-accelerated HDBSCAN when available.
 
 If RAPIDS is unavailable, the script automatically falls back to the CPU hdbscan implementation.
+
+### License
+
+This project is licensed under the [GNU General Public License v3.0] ( `/docs/LICENSE`).
+
+This artifact builds upon Black Widow (https://github.com/SecuringWeb/BlackWidow) 
+by Eriksson et al., which includes components originally authored by 
+Constantin Tschuertz (Copyright © 2015).
