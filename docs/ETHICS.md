@@ -19,6 +19,13 @@ The complete data-collection methodology and collection period are described
 in `docs/PROVENANCE.md` and in the associated paper.
 
 
+## Research Oversight
+
+This study did not recruit or directly interact with human participants.
+The research analyzes artifacts collected from publicly exposed phishing
+infrastructure. No formal IRB exemption or approval is claimed in this artifact documentation.
+
+
 ## Sensitive Information
 
 During artifact preparation, we identified that some phishing kits and their
