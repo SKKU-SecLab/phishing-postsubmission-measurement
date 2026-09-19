@@ -55,6 +55,7 @@ Phishing detection has been extensively studied at the upstream stages of an att
 ├── docs
 │   ├── ETHICS.md
 │   ├── EVALUATION.md
+│   ├── LICENSE
 │   └── PROVENANCE.md
 │
 ├── results
