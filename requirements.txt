@@ -1,0 +1,11 @@
+selenium>=4.6
+beautifulsoup4
+tldextract
+numpy
+torch
+transformers
+accelerate
+tqdm
+scikit-learn
+hdbscan
+openai

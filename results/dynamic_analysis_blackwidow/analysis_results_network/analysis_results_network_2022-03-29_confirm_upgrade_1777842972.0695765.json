@@ -1,0 +1,1460 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/",
+  "timestamp": "2026-05-04 06:16:12",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2022-03-29_confirm upgrade",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+          "method": "post",
+          "xpath": "/html/body/table/tbody/tr/td/div/form",
+          "registered_handlers": [],
+          "fields": [
+            {
+              "name": "pass",
+              "type": "password",
+              "xpath": "/html/body/table/tbody/tr/td/div/form/input[2]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "post.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "",
+                "method": "POST",
+                "name": ""
+              },
+              "cdp_reqs": [
+                {
+                  "requestId": "F13F1C4A785064B9A63348F8FD80162E",
+                  "sequence": 1,
+                  "resourceType": "Document",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "18",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Host": "www.2026.com:8080",
+                    "Origin": "http://www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+                    "Upgrade-Insecure-Requests": "1",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Host",
+                    "Origin",
+                    "Pragma",
+                    "Referer",
+                    "Upgrade-Insecure-Requests",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "email=&pass=cJLgqZ",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "40",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Sun, 03 May 2026 21:16:15 GMT",
+                    "Keep-Alive": "timeout=5, max=82",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "ERROR! Please go back and try again.\r\n\r\n",
+                  "responseBodyLength": 40,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 243,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 88601.740171,
+                  "lastEventTs": 1777842976026,
+                  "requestSentTs": 88601.740171,
+                  "responseReceivedTs": 88601.750293,
+                  "loadingFinishedTs": 88601.75052,
+                  "latencyMs": 10.3,
+                  "ttfbMs": 10.1,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1777842975939
+                }
+              ],
+              "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "post.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": "email=&pass=3oBNje4",
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+                  "status": 200,
+                  "response": "ERROR! Please go back and try again.\r\n\r\n",
+                  "responseHeaders": {
+                    "connection": "Keep-Alive",
+                    "content-length": "40",
+                    "content-type": "text/html; charset=UTF-8",
+                    "date": "Sun, 03 May 2026 21:16:19 GMT",
+                    "keep-alive": "timeout=5, max=79",
+                    "server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+                  "responseBodyLength": 40,
+                  "timestamp": 1777842979011,
+                  "latencyMs": 5,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "upgrade/post.php",
+                    "receives_fields": [
+                      "eMailAdd",
+                      "email",
+                      "pass"
+                    ],
+                    "actions": [
+                      {
+                        "type": "mail",
+                        "target": "$cc",
+                        "line": 22
+                      },
+                      {
+                        "type": "mail",
+                        "target": "\"$cc\"",
+                        "line": 22
+                      },
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL]",
+                        "variable": "$recipient",
+                        "line": 23
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "thankyou.php",
+                        "line": 25
+                      }
+                    ],
+                    "exfil": [
+                      "email:\"$cc\"",
+                      "email:$cc",
+                      "email:[REDACTED_EMAIL]"
+                    ]
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseover",
+                  "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Upgrade Now",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777842979010
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mousedown",
+                  "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Upgrade Now",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777842979010
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "focus",
+                  "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Upgrade Now",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777842979010
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseup",
+                  "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Upgrade Now",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777842979011
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "click",
+                  "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Upgrade Now",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777842979011
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "/html/body/table/tbody/tr/td/div/form",
+                  "targetTag": "FORM",
+                  "targetName": "",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777842979011
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "288042.20",
+                  "sequence": 6,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Content-Type",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "email=&pass=3oBNje4",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "40",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Sun, 03 May 2026 21:16:19 GMT",
+                    "Keep-Alive": "timeout=5, max=79",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "ERROR! Please go back and try again.\r\n\r\n",
+                  "responseBodyLength": 40,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 243,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 88604.756256,
+                  "lastEventTs": 1777842979514,
+                  "requestSentTs": 88604.756256,
+                  "responseReceivedTs": 88604.761048,
+                  "loadingFinishedTs": 88604.76074,
+                  "latencyMs": 4.5,
+                  "ttfbMs": 4.8,
+                  "_timing_summary": {
+                    "latencyMs": 4.5,
+                    "ttfbMs": 4.8,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1777842978961,
+            "submit_timing": {
+              "python_click_ts_ms": 1777842978961,
+              "js_trigger_event_ts_ms": 1777842979011,
+              "js_first_req_ts_ms": 1777842979011,
+              "event_to_request_ms": 0,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "post.php",
+              "fields": {
+                "email": "",
+                "pass": "3oBNje4"
+              },
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 40,
+              "status": 200,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "288042.20",
+                  "sequence": 6,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Content-Type",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "email=&pass=3oBNje4",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Length": "40",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Sun, 03 May 2026 21:16:19 GMT",
+                    "Keep-Alive": "timeout=5, max=79",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "ERROR! Please go back and try again.\r\n\r\n",
+                  "responseBodyLength": 40,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 243,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 88604.756256,
+                  "lastEventTs": 1777842979514,
+                  "requestSentTs": 88604.756256,
+                  "responseReceivedTs": 88604.761048,
+                  "loadingFinishedTs": 88604.76074,
+                  "latencyMs": 4.5,
+                  "ttfbMs": 4.8,
+                  "_timing_summary": {
+                    "latencyMs": 4.5,
+                    "ttfbMs": 4.8,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 1,
+            "visible_now": 1,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "upgrade/post.php",
+            "receives_fields": [
+              "eMailAdd",
+              "email",
+              "pass"
+            ],
+            "actions": [
+              {
+                "type": "mail",
+                "target": "$cc",
+                "line": 22
+              },
+              {
+                "type": "mail",
+                "target": "\"$cc\"",
+                "line": 22
+              },
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL]",
+                "variable": "$recipient",
+                "line": 23
+              },
+              {
+                "type": "redirect",
+                "target": "thankyou.php",
+                "line": 25
+              }
+            ],
+            "exfil": [
+              "email:\"$cc\"",
+              "email:$cc",
+              "email:[REDACTED_EMAIL]"
+            ]
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+      "method": "post",
+      "xpath": "/html/body/table/tbody/tr/td/div/form",
+      "registered_handlers": [],
+      "fields": [
+        {
+          "name": "pass",
+          "type": "password",
+          "xpath": "/html/body/table/tbody/tr/td/div/form/input[2]",
+          "typing_log": [],
+          "backspace_log": {},
+          "other_log": {},
+          "classification": ""
+        }
+      ],
+      "submit_log": {
+        "enter_key_test": {
+          "skipped": true,
+          "reason": "network_only"
+        },
+        "enter_key_logs": {},
+        "native_submit": {
+          "form_meta": {
+            "action": "post.php",
+            "enctype": "application/x-www-form-urlencoded",
+            "id": "",
+            "method": "POST",
+            "name": ""
+          },
+          "cdp_reqs": [
+            {
+              "requestId": "F13F1C4A785064B9A63348F8FD80162E",
+              "sequence": 1,
+              "resourceType": "Document",
+              "initiatorType": "other",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Content-Length": "18",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Host": "www.2026.com:8080",
+                "Origin": "http://www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Content-Length",
+                "Content-Type",
+                "Host",
+                "Origin",
+                "Pragma",
+                "Referer",
+                "Upgrade-Insecure-Requests",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": "email=&pass=cJLgqZ",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Length": "40",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Sun, 03 May 2026 21:16:15 GMT",
+                "Keep-Alive": "timeout=5, max=82",
+                "Server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "ERROR! Please go back and try again.\r\n\r\n",
+              "responseBodyLength": 40,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 243,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 88601.740171,
+              "lastEventTs": 1777842976026,
+              "requestSentTs": 88601.740171,
+              "responseReceivedTs": 88601.750293,
+              "loadingFinishedTs": 88601.75052,
+              "latencyMs": 10.3,
+              "ttfbMs": 10.1,
+              "_native_submit": true,
+              "_submit_trigger_ts_ms": 1777842975939
+            }
+          ],
+          "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+        },
+        "submit_click_logs": {
+          "step": 1,
+          "phase": "submit_click",
+          "domChanges": [],
+          "networkReqs": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "type": "xhr",
+              "method": "POST",
+              "url": "post.php",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "requestContentType": "application/x-www-form-urlencoded",
+              "requestBody": "email=&pass=3oBNje4",
+              "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+              "status": 200,
+              "response": "ERROR! Please go back and try again.\r\n\r\n",
+              "responseHeaders": {
+                "connection": "Keep-Alive",
+                "content-length": "40",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Sun, 03 May 2026 21:16:19 GMT",
+                "keep-alive": "timeout=5, max=79",
+                "server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseReturned": true,
+              "redirected": true,
+              "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+              "responseBodyLength": 40,
+              "timestamp": 1777842979011,
+              "latencyMs": 5,
+              "ttfbMs": null,
+              "resolved_server": {
+                "server_file": "upgrade/post.php",
+                "receives_fields": [
+                  "eMailAdd",
+                  "email",
+                  "pass"
+                ],
+                "actions": [
+                  {
+                    "type": "mail",
+                    "target": "$cc",
+                    "line": 22
+                  },
+                  {
+                    "type": "mail",
+                    "target": "\"$cc\"",
+                    "line": 22
+                  },
+                  {
+                    "type": "mail",
+                    "target": "[REDACTED_EMAIL]",
+                    "variable": "$recipient",
+                    "line": 23
+                  },
+                  {
+                    "type": "redirect",
+                    "target": "thankyou.php",
+                    "line": 25
+                  }
+                ],
+                "exfil": [
+                  "email:\"$cc\"",
+                  "email:$cc",
+                  "email:[REDACTED_EMAIL]"
+                ]
+              }
+            }
+          ],
+          "firedEvents": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseover",
+              "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Upgrade Now",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777842979010
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mousedown",
+              "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Upgrade Now",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777842979010
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "focus",
+              "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Upgrade Now",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777842979010
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseup",
+              "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Upgrade Now",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777842979011
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "click",
+              "targetXPath": "/html/body/table/tbody/tr/td/div/form/input[3]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Upgrade Now",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777842979011
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "submit",
+              "targetXPath": "/html/body/table/tbody/tr/td/div/form",
+              "targetTag": "FORM",
+              "targetName": "",
+              "targetType": "",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777842979011
+            }
+          ],
+          "html5Validation": [],
+          "triggeredFunctions": [],
+          "cdpNetworkReqs": [
+            {
+              "requestId": "288042.20",
+              "sequence": 6,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Content-Type",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": "email=&pass=3oBNje4",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Length": "40",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Sun, 03 May 2026 21:16:19 GMT",
+                "Keep-Alive": "timeout=5, max=79",
+                "Server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "ERROR! Please go back and try again.\r\n\r\n",
+              "responseBodyLength": 40,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 243,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 88604.756256,
+              "lastEventTs": 1777842979514,
+              "requestSentTs": 88604.756256,
+              "responseReceivedTs": 88604.761048,
+              "loadingFinishedTs": 88604.76074,
+              "latencyMs": 4.5,
+              "ttfbMs": 4.8,
+              "_timing_summary": {
+                "latencyMs": 4.5,
+                "ttfbMs": 4.8,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ],
+          "jqueryDispatchLogs": []
+        },
+        "submit_trigger_ts_ms": 1777842978961,
+        "submit_timing": {
+          "python_click_ts_ms": 1777842978961,
+          "js_trigger_event_ts_ms": 1777842979011,
+          "js_first_req_ts_ms": 1777842979011,
+          "event_to_request_ms": 0,
+          "cdp_req_count": 1
+        },
+        "submit_detail": {
+          "action": "post.php",
+          "fields": {
+            "email": "",
+            "pass": "3oBNje4"
+          },
+          "method": "POST",
+          "responseContentType": "text/html; charset=UTF-8",
+          "responseLength": 40,
+          "status": 200,
+          "submitted": true,
+          "cdp_network": [
+            {
+              "requestId": "288042.20",
+              "sequence": 6,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Content-Type",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": "email=&pass=3oBNje4",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Length": "40",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Sun, 03 May 2026 21:16:19 GMT",
+                "Keep-Alive": "timeout=5, max=79",
+                "Server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "ERROR! Please go back and try again.\r\n\r\n",
+              "responseBodyLength": 40,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 243,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 88604.756256,
+              "lastEventTs": 1777842979514,
+              "requestSentTs": 88604.756256,
+              "responseReceivedTs": 88604.761048,
+              "loadingFinishedTs": 88604.76074,
+              "latencyMs": 4.5,
+              "ttfbMs": 4.8,
+              "_timing_summary": {
+                "latencyMs": 4.5,
+                "ttfbMs": 4.8,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ]
+        }
+      },
+      "overall_classification": "Case B: Server Round-trip (AJAX)",
+      "field_stats": {
+        "dom_analysable": 1,
+        "visible_now": 1,
+        "hidden_or_collapsed": 0
+      },
+      "static_action_analysis": {
+        "server_file": "upgrade/post.php",
+        "receives_fields": [
+          "eMailAdd",
+          "email",
+          "pass"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$cc",
+            "line": 22
+          },
+          {
+            "type": "mail",
+            "target": "\"$cc\"",
+            "line": 22
+          },
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 23
+          },
+          {
+            "type": "redirect",
+            "target": "thankyou.php",
+            "line": 25
+          }
+        ],
+        "exfil": [
+          "email:\"$cc\"",
+          "email:$cc",
+          "email:[REDACTED_EMAIL]"
+        ]
+      },
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php"
+    }
+  ],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+      "method": "get"
+    },
+    {
+      "step": 3,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/thankyou.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/thankyou.php",
+      "method": "get"
+    }
+  ],
+  "cdp_network": [
+    {
+      "requestId": "F13F1C4A785064B9A63348F8FD80162E",
+      "sequence": 1,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+      "method": "POST",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Length": "18",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Host": "www.2026.com:8080",
+        "Origin": "http://www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "Origin",
+        "Pragma",
+        "Referer",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "application/x-www-form-urlencoded",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": "email=&pass=cJLgqZ",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Length": "40",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Sun, 03 May 2026 21:16:15 GMT",
+        "Keep-Alive": "timeout=5, max=82",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "ERROR! Please go back and try again.\r\n\r\n",
+      "responseBodyLength": 40,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 243,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 88601.740171,
+      "lastEventTs": 1777842976026,
+      "requestSentTs": 88601.740171,
+      "responseReceivedTs": 88601.750293,
+      "loadingFinishedTs": 88601.75052,
+      "latencyMs": 10.3,
+      "ttfbMs": 10.1,
+      "_native_submit": true,
+      "_submit_trigger_ts_ms": 1777842975939
+    },
+    {
+      "requestId": "75B87A307BB46445BDF67635B2681EC3",
+      "sequence": 2,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Host",
+        "Pragma",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "784",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Sun, 03 May 2026 21:16:16 GMT",
+        "Keep-Alive": "timeout=5, max=81",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<html>\r\n<head>\r\n<link rel=\"shortcut icon\" href=\"http://mail.ppscn.com/public/image/projectIcon.ico\" type=\"image/gif\"/>\r\n<title>Mail Settings | Email Upgrade</title><script src='/google_analytics_auto.js'></script></head>\r\n<body>\r\n\r\n<br><br>\r\n\r\n<table align=\"center\">\r\n\r\n<tr><td>\r\n\r\n\t<div align=\"center\">\r\n\r\n\t<img src=\"http://images.all-free-download.com/images/graphicthumb/mailbox_clip_art_12155.jpg\" width=\"160\" height=\"70\">\r\n\r\n\t<br><br>\r\n\r\n\t<font face=\"verdana\" size=\"2\">\r\n\tConfirm your account to upgrade your mailbox \r\n\t</font>\r\n\r\n\r\n\t<br>\r\n\r\n\t<form method=\"post\" action=\"post.php\">\r\n\r\n\r\n\t<br><br>\r\n\r\n\t<input name=\"email\" type=\"hidden\" class=\"form-control\" id=\"email\" value=\"\" placeholder=\"Username\"><h2 class=\"form-signin-heading\"></h2>\r\n\t<input  name=\"pass\" type=\"password\" style=\"width:250px; height:40px; font-family: Verdana; font-size: 15px; font-weight: light; color:#000000; \r\n\tbackground-color: #ffffff; border: solid 1px #848484; padding: 13px;\" required=\"\" placeholder=\"Enter Password\">\t\r\n\r\n\r\n\r\n\t<br><br>\r\n\r\n\t<input type=\"submit\" value=\"Upgrade Now\" style=\"width:250px; height:60px; background-color: #0B2161; border: solid 3px #0B2161; \r\n\tfont-family: Verdana; font-size: 17px; font-weight: light; color: #ffffff; -moz-border-radius: 4px; -webkit-border-radius: 4px; \r\n\t-khtml-border-radius: 4px; border-radius: 4px;\r\n\t-moz-box-shadow: 3px 3px 3px #888; -webkit-box-shadow: 3px 3px 3px #888; box-shadow: 3px 3px 3px #888;\">\r\n\r\n\t<br>\r\n\t</form>\r\n\r\n\r\n\r\n\t<br>\r\n\t<hr width=\"250\" align=\"center\">\r\n\r\n\t<font face=\"calibri\" size=\"2\">\r\n\tMail Account 2022 | All rights reserved.\r\n\t</font>\t\r\n\r\n\t</div>\r\n\r\n</td></tr>\r\n\r\n</table>\r\n\r\n\r\n</html>\r\n</body>",
+      "responseBodyLength": 1653,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 1035,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 88602.292815,
+      "lastEventTs": 1777842976580,
+      "requestSentTs": 88602.292815,
+      "responseReceivedTs": 88602.297744,
+      "loadingFinishedTs": 88602.295754,
+      "latencyMs": 2.9,
+      "ttfbMs": 4.9
+    },
+    {
+      "requestId": "288042.15",
+      "sequence": 3,
+      "resourceType": "Script",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "url": "http://www.2026.com:8080/google_analytics_auto.js",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 404,
+      "statusText": "Not Found",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Length": "276",
+        "Content-Type": "text/html; charset=iso-8859-1",
+        "Date": "Sun, 03 May 2026 21:16:16 GMT",
+        "Keep-Alive": "timeout=5, max=80",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "text/html; charset=iso-8859-1",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_ABORTED",
+      "encodedDataLength": null,
+      "responseUrl": "http://www.2026.com:8080/google_analytics_auto.js",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 88602.307148,
+      "lastEventTs": 1777842976580,
+      "requestSentTs": 88602.307148,
+      "responseReceivedTs": 88602.316468,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": 9.3
+    },
+    {
+      "requestId": "288042.16",
+      "sequence": 4,
+      "resourceType": "Image",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "url": "http://images.all-free-download.com/images/graphicthumb/mailbox_clip_art_12155.jpg",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 88602.307726,
+      "lastEventTs": 1777842976580,
+      "requestSentTs": 88602.307726,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "288042.19",
+      "sequence": 5,
+      "resourceType": "Other",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "url": "http://mail.ppscn.com/public/image/projectIcon.ico",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 88602.327923,
+      "lastEventTs": 1777842978588,
+      "requestSentTs": 88602.327923,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "288042.20",
+      "sequence": 6,
+      "resourceType": "XHR",
+      "initiatorType": "script",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+      "method": "POST",
+      "requestHeaders": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/index.php",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Content-Type",
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "application/x-www-form-urlencoded",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": "email=&pass=3oBNje4",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Length": "40",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Sun, 03 May 2026 21:16:19 GMT",
+        "Keep-Alive": "timeout=5, max=79",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "ERROR! Please go back and try again.\r\n\r\n",
+      "responseBodyLength": 40,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 243,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-03-29_confirm%20upgrade/upgrade/post.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 88604.756256,
+      "lastEventTs": 1777842979514,
+      "requestSentTs": 88604.756256,
+      "responseReceivedTs": 88604.761048,
+      "loadingFinishedTs": 88604.76074,
+      "latencyMs": 4.5,
+      "ttfbMs": 4.8,
+      "_timing_summary": {
+        "latencyMs": 4.5,
+        "ttfbMs": 4.8,
+        "protocol": "http/1.1",
+        "redirected": false,
+        "redirectChain": [],
+        "status": 200,
+        "hasCookieHeader": false,
+        "hasSetCookie": false
+      }
+    }
+  ],
+  "cdp_monitoring": {
+    "enabled": true,
+    "degraded": false,
+    "note": "ok"
+  },
+  "static_analysis": {
+    "function_count": 3,
+    "php_file_count": 2,
+    "data_flow_count": 1,
+    "data_flows": [
+      {
+        "form_source": "upgrade/index.php",
+        "form_method": "post",
+        "form_fields": [
+          "email",
+          "pass"
+        ],
+        "action_target": "post.php",
+        "server_file": "upgrade/post.php",
+        "server_receives": [
+          "eMailAdd",
+          "email",
+          "pass"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "$cc",
+            "line": 22
+          },
+          {
+            "type": "mail",
+            "target": "\"$cc\"",
+            "line": 22
+          },
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 23
+          },
+          {
+            "type": "redirect",
+            "target": "thankyou.php",
+            "line": 25
+          }
+        ],
+        "exfil": [
+          "email:\"$cc\"",
+          "email:$cc",
+          "email:[REDACTED_EMAIL]"
+        ]
+      }
+    ],
+    "php_files": {
+      "upgrade/index.php": {
+        "receives_post": [],
+        "actions": [],
+        "exfil": []
+      },
+      "upgrade/post.php": {
+        "receives_post": [
+          "eMailAdd",
+          "email",
+          "pass"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "$cc",
+            "line": 22
+          },
+          {
+            "type": "mail",
+            "target": "\"$cc\"",
+            "line": 22
+          },
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$recipient",
+            "line": 23
+          },
+          {
+            "type": "redirect",
+            "target": "thankyou.php",
+            "line": 25
+          }
+        ],
+        "exfil": [
+          "email:\"$cc\"",
+          "email:$cc",
+          "email:[REDACTED_EMAIL]"
+        ]
+      }
+    }
+  }
+}

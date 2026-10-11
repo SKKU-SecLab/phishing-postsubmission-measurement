@@ -1,0 +1,125 @@
+{
+  "identifier_type_distribution": {
+    "email": 724,
+    "git_email": 215,
+    "git_name": 202,
+    "git_owner": 201,
+    "git_url": 196,
+    "git_repo": 196,
+    "tg_bot": 82,
+    "tg_token": 82,
+    "tg_chat": 40
+  },
+  "top10_clusters_by_size": [
+    {
+      "cluster_id": 0,
+      "size": 169,
+      "kits": [
+        "2021-08-22_onedrive",
+        "2021-08-25_adobe-4D10",
+        "2021-08-26_usbank-RD324",
+        "2021-08-30_tatal",
+        "2021-09-01_Contractdocument"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 28,
+      "kits": [
+        "2021-10-28_Leben",
+        "2022-02-07_VerbeSern",
+        "2022-02-08_Abschlie",
+        "2022-02-08_Maximale",
+        "2022-02-08_Nutzen"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 12,
+      "kits": [
+        "2022-04-13_Details (2)",
+        "2022-04-20_Secured",
+        "2022-04-22_Stewt (2)",
+        "2022-05-13_DocuSign365 (2)",
+        "2022-06-04_RSVP_365 (2)"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 12,
+      "kits": [
+        "2024-12-02_whtsapcareeer.com",
+        "2024-12-02_whtsapcareeer.com (Copy 2)",
+        "2025-02-17_wa-hirings.com",
+        "2025-02-17_wa-hirings.com (Copy 2)",
+        "2025-02-17_wajobsuccess.com"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 11,
+      "kits": [
+        "2021-10-20_fbnation",
+        "2022-03-31_ua9.demotest.icu (2)",
+        "2022-04-05_file",
+        "2022-04-26_common",
+        "2022-08-18_kk"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 11,
+      "kits": [
+        "2024-05-09_sim-app11112022",
+        "2024-05-09_sim-app115555",
+        "2024-05-09_sim-app_2022",
+        "2024-05-09_sim-appafffffffffffffff",
+        "2024-05-09_sim-appahmed"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 8,
+      "kits": [
+        "2021-08-25_webmail.canvas.ne.jp3",
+        "2021-09-06_auth.octv.ne.jp",
+        "2021-12-01_webmail.earth-core.jp2",
+        "2022-01-04_auth.sso.biglobe.ne.jp3 (1)",
+        "2022-05-21_kagoya"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "size": 8,
+      "kits": [
+        "2021-12-21_fcen",
+        "2021-12-21_lu",
+        "2021-12-21_univ-amu",
+        "2021-12-21_unvime",
+        "2021-12-21_walletregistry"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "size": 7,
+      "kits": [
+        "2021-09-25_NOTIBB",
+        "2021-10-11_jlj-correos (3)",
+        "2022-04-03_ded",
+        "2022-05-04_Deuschepost",
+        "2022-05-12_abc"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "size": 6,
+      "kits": [
+        "2021-09-01_page",
+        "2021-09-18_v2",
+        "2022-01-18_aol2",
+        "2022-01-18_att3",
+        "2022-09-23_v3"
+      ]
+    }
+  ]
+}

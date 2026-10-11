@@ -1,0 +1,2804 @@
+[
+  {
+    "id": 1,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 2,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 3,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 4,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 5,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 6,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 7,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 8,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 9,
+    "all_labels": [
+      "input-validation",
+      "state-validation",
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "A",
+      "B",
+      "S"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\", \"B\", \"S\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 10,
+    "all_labels": [
+      "input-masking",
+      "caret-positioning",
+      "caret-position-mgmt"
+    ],
+    "all_labels_code": [
+      "O",
+      "Q",
+      "R"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"O\", \"Q\", \"R\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 11,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 12,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 13,
+    "all_labels": [
+      "event-dispatching",
+      "event-delegation"
+    ],
+    "all_labels_code": [
+      "F",
+      "G"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"G\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 14,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 15,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 16,
+    "all_labels": [
+      "execution-guard"
+    ],
+    "all_labels_code": [
+      "N"
+    ],
+    "primary": "execution-guard",
+    "primary_code": "N",
+    "raw_response": "{\"all_labels\": [\"N\"], \"primary\": \"N\"}",
+    "error": ""
+  },
+  {
+    "id": 17,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 18,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 19,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 20,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 21,
+    "all_labels": [
+      "keypress-delegation",
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "J",
+      "M"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"J\", \"M\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 22,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 23,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 24,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 25,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 26,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 27,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 28,
+    "all_labels": [
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "S"
+    ],
+    "primary": "form-state-management",
+    "primary_code": "S",
+    "raw_response": "{\"all_labels\": [\"S\"], \"primary\": \"S\"}",
+    "error": ""
+  },
+  {
+    "id": 29,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 30,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 31,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation",
+      "event-propagation-control",
+      "form-error-clearance"
+    ],
+    "all_labels_code": [
+      "K",
+      "J",
+      "M",
+      "D"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\", \"M\", \"D\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 32,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 33,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter",
+      "keypress-delegation",
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "F",
+      "L",
+      "J",
+      "K"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\", \"J\", \"K\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 34,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 35,
+    "all_labels": [
+      "validation-reset",
+      "custom-validity-manip."
+    ],
+    "all_labels_code": [
+      "C",
+      "E"
+    ],
+    "primary": "validation-reset",
+    "primary_code": "C",
+    "raw_response": "{\"all_labels\": [\"C\", \"E\"], \"primary\": \"C\"}",
+    "error": ""
+  },
+  {
+    "id": 36,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation",
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "K",
+      "J",
+      "M"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\", \"M\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 37,
+    "all_labels": [
+      "input-masking"
+    ],
+    "all_labels_code": [
+      "O"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"O\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 38,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 39,
+    "all_labels": [
+      "event-proxying",
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "H",
+      "K"
+    ],
+    "primary": "event-proxying",
+    "primary_code": "H",
+    "raw_response": "{\"all_labels\": [\"H\", \"K\"], \"primary\": \"H\"}",
+    "error": ""
+  },
+  {
+    "id": 40,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 41,
+    "all_labels": [
+      "event-proxying"
+    ],
+    "all_labels_code": [
+      "H"
+    ],
+    "primary": "event-proxying",
+    "primary_code": "H",
+    "raw_response": "{\"all_labels\": [\"H\"], \"primary\": \"H\"}",
+    "error": ""
+  },
+  {
+    "id": 42,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation",
+      "event-propagation-control",
+      "event-dispatching"
+    ],
+    "all_labels_code": [
+      "K",
+      "J",
+      "M",
+      "F"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\", \"M\", \"F\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 43,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 44,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation",
+      "event-propagation-control",
+      "form-error-clearance"
+    ],
+    "all_labels_code": [
+      "K",
+      "J",
+      "M",
+      "D"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\", \"M\", \"D\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 45,
+    "all_labels": [
+      "event-delegation",
+      "execution-guard"
+    ],
+    "all_labels_code": [
+      "G",
+      "N"
+    ],
+    "primary": "event-delegation",
+    "primary_code": "G",
+    "raw_response": "{\"all_labels\": [\"G\", \"N\"], \"primary\": \"G\"}",
+    "error": ""
+  },
+  {
+    "id": 46,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 47,
+    "all_labels": [
+      "input-validation",
+      "input-masking"
+    ],
+    "all_labels_code": [
+      "A",
+      "O"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"A\", \"O\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 48,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 49,
+    "all_labels": [
+      "state-validation",
+      "execution-guard"
+    ],
+    "all_labels_code": [
+      "B",
+      "N"
+    ],
+    "primary": "state-validation",
+    "primary_code": "B",
+    "raw_response": "{\"all_labels\": [\"B\", \"N\"], \"primary\": \"B\"}",
+    "error": ""
+  },
+  {
+    "id": 50,
+    "all_labels": [
+      "event-delegation",
+      "state-validation"
+    ],
+    "all_labels_code": [
+      "G",
+      "B"
+    ],
+    "primary": "event-delegation",
+    "primary_code": "G",
+    "raw_response": "{\"all_labels\": [\"G\", \"B\"], \"primary\": \"G\"}",
+    "error": ""
+  },
+  {
+    "id": 51,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 52,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 53,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 54,
+    "all_labels": [
+      "input-validation",
+      "custom-validity-manip."
+    ],
+    "all_labels_code": [
+      "A",
+      "E"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\", \"E\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 55,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 56,
+    "all_labels": [
+      "form-error-clearance",
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "D",
+      "T"
+    ],
+    "primary": "form-error-clearance",
+    "primary_code": "D",
+    "raw_response": "{\"all_labels\": [\"D\", \"T\"], \"primary\": \"D\"}",
+    "error": ""
+  },
+  {
+    "id": 57,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 58,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 59,
+    "all_labels": [
+      "form-error-clearance",
+      "validation-reset"
+    ],
+    "all_labels_code": [
+      "D",
+      "C"
+    ],
+    "primary": "form-error-clearance",
+    "primary_code": "D",
+    "raw_response": "{\"all_labels\": [\"D\", \"C\"], \"primary\": \"D\"}",
+    "error": ""
+  },
+  {
+    "id": 60,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 61,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 62,
+    "all_labels": [
+      "input-masking"
+    ],
+    "all_labels_code": [
+      "O"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"O\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 63,
+    "all_labels": [
+      "validation-reset",
+      "input-masking",
+      "caret-positioning"
+    ],
+    "all_labels_code": [
+      "C",
+      "O",
+      "Q"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"C\", \"O\", \"Q\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 64,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 65,
+    "all_labels": [
+      "input-masking"
+    ],
+    "all_labels_code": [
+      "O"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"O\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 66,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 67,
+    "all_labels": [
+      "input-validation",
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "A",
+      "S"
+    ],
+    "primary": "form-state-management",
+    "primary_code": "S",
+    "raw_response": "{\"all_labels\": [\"A\", \"S\"], \"primary\": \"S\"}",
+    "error": ""
+  },
+  {
+    "id": 68,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 69,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 70,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 71,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 72,
+    "all_labels": [
+      "input-masking",
+      "caret-positioning",
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "O",
+      "Q",
+      "T"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"O\", \"Q\", \"T\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 73,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 74,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 75,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 76,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 77,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 78,
+    "all_labels": [
+      "execution-guard"
+    ],
+    "all_labels_code": [
+      "N"
+    ],
+    "primary": "execution-guard",
+    "primary_code": "N",
+    "raw_response": "{\"all_labels\": [\"N\"], \"primary\": \"N\"}",
+    "error": ""
+  },
+  {
+    "id": 79,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 80,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 81,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 82,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 83,
+    "all_labels": [
+      "input-masking"
+    ],
+    "all_labels_code": [
+      "O"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"O\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 84,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 85,
+    "all_labels": [
+      "form-error-clearance",
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "D",
+      "S"
+    ],
+    "primary": "form-state-management",
+    "primary_code": "S",
+    "raw_response": "{\"all_labels\": [\"D\", \"S\"], \"primary\": \"S\"}",
+    "error": ""
+  },
+  {
+    "id": 86,
+    "all_labels": [
+      "form-error-clearance"
+    ],
+    "all_labels_code": [
+      "D"
+    ],
+    "primary": "form-error-clearance",
+    "primary_code": "D",
+    "raw_response": "{\"all_labels\": [\"D\"], \"primary\": \"D\"}",
+    "error": ""
+  },
+  {
+    "id": 87,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 88,
+    "all_labels": [
+      "form-error-clearance"
+    ],
+    "all_labels_code": [
+      "D"
+    ],
+    "primary": "form-error-clearance",
+    "primary_code": "D",
+    "raw_response": "{\"all_labels\": [\"D\"], \"primary\": \"D\"}",
+    "error": ""
+  },
+  {
+    "id": 89,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 90,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 91,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 92,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 93,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 94,
+    "all_labels": [
+      "input-masking"
+    ],
+    "all_labels_code": [
+      "O"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"O\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 95,
+    "all_labels": [
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 96,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 97,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 98,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 99,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 100,
+    "all_labels": [
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "S"
+    ],
+    "primary": "form-state-management",
+    "primary_code": "S",
+    "raw_response": "{\"all_labels\": [\"S\"], \"primary\": \"S\"}",
+    "error": ""
+  },
+  {
+    "id": 101,
+    "all_labels": [
+      "execution-guard",
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "N",
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"N\", \"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 102,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 103,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 104,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 105,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 106,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 107,
+    "all_labels": [
+      "event-filtering",
+      "input-masking",
+      "caret-positioning"
+    ],
+    "all_labels_code": [
+      "K",
+      "O",
+      "Q"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\", \"O\", \"Q\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 108,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 109,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 110,
+    "all_labels": [
+      "custom-validity-manip.",
+      "validation-reset",
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "E",
+      "C",
+      "M"
+    ],
+    "primary": "custom-validity-manip.",
+    "primary_code": "E",
+    "raw_response": "{\"all_labels\": [\"E\", \"C\", \"M\"], \"primary\": \"E\"}",
+    "error": ""
+  },
+  {
+    "id": 111,
+    "all_labels": [
+      "event-proxying"
+    ],
+    "all_labels_code": [
+      "H"
+    ],
+    "primary": "event-proxying",
+    "primary_code": "H",
+    "raw_response": "{\"all_labels\": [\"H\"], \"primary\": \"H\"}",
+    "error": ""
+  },
+  {
+    "id": 112,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 113,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 114,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 115,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 116,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 117,
+    "all_labels": [
+      "input-masking"
+    ],
+    "all_labels_code": [
+      "O"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"O\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 118,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 119,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 120,
+    "all_labels": [
+      "event-filtering",
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "K",
+      "M"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\", \"M\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 121,
+    "all_labels": [
+      "event-dispatching",
+      "event-delegation"
+    ],
+    "all_labels_code": [
+      "F",
+      "G"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"G\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 122,
+    "all_labels": [
+      "event-filtering",
+      "event-propagation-control",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "M",
+      "J"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\", \"M\", \"J\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 123,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 124,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 125,
+    "all_labels": [
+      "validation-reset",
+      "custom-validity-manip."
+    ],
+    "all_labels_code": [
+      "C",
+      "E"
+    ],
+    "primary": "validation-reset",
+    "primary_code": "C",
+    "raw_response": "{\"all_labels\": [\"C\", \"E\"], \"primary\": \"C\"}",
+    "error": ""
+  },
+  {
+    "id": 126,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 127,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 128,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 129,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 130,
+    "all_labels": [
+      "event-filtering",
+      "event-propagation-control",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "M",
+      "J"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\", \"M\", \"J\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 131,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 132,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 133,
+    "all_labels": [
+      "event-filtering",
+      "event-propagation-control",
+      "input-masking"
+    ],
+    "all_labels_code": [
+      "K",
+      "M",
+      "O"
+    ],
+    "primary": "input-masking",
+    "primary_code": "O",
+    "raw_response": "{\"all_labels\": [\"K\", \"M\", \"O\"], \"primary\": \"O\"}",
+    "error": ""
+  },
+  {
+    "id": 134,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 135,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 136,
+    "all_labels": [
+      "state-validation"
+    ],
+    "all_labels_code": [
+      "B"
+    ],
+    "primary": "state-validation",
+    "primary_code": "B",
+    "raw_response": "{\"all_labels\": [\"B\"], \"primary\": \"B\"}",
+    "error": ""
+  },
+  {
+    "id": 137,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 138,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 139,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 140,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 141,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 142,
+    "all_labels": [
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "M"
+    ],
+    "primary": "event-propagation-control",
+    "primary_code": "M",
+    "raw_response": "{\"all_labels\": [\"M\"], \"primary\": \"M\"}",
+    "error": ""
+  },
+  {
+    "id": 143,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 144,
+    "all_labels": [
+      "event-filtering",
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "K",
+      "M"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\", \"M\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 145,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 146,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 147,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 148,
+    "all_labels": [
+      "event-proxying"
+    ],
+    "all_labels_code": [
+      "H"
+    ],
+    "primary": "event-proxying",
+    "primary_code": "H",
+    "raw_response": "{\"all_labels\": [\"H\"], \"primary\": \"H\"}",
+    "error": ""
+  },
+  {
+    "id": 149,
+    "all_labels": [
+      "execution-guard"
+    ],
+    "all_labels_code": [
+      "N"
+    ],
+    "primary": "execution-guard",
+    "primary_code": "N",
+    "raw_response": "{\"all_labels\": [\"N\"], \"primary\": \"N\"}",
+    "error": ""
+  },
+  {
+    "id": 150,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 151,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 152,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 153,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 154,
+    "all_labels": [
+      "input-validation",
+      "validation-reset"
+    ],
+    "all_labels_code": [
+      "A",
+      "C"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\", \"C\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 155,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 156,
+    "all_labels": [
+      "input-validation",
+      "input-masking"
+    ],
+    "all_labels_code": [
+      "A",
+      "O"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\", \"O\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 157,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 158,
+    "all_labels": [
+      "input-validation",
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "A",
+      "S"
+    ],
+    "primary": "form-state-management",
+    "primary_code": "S",
+    "raw_response": "{\"all_labels\": [\"A\", \"S\"], \"primary\": \"S\"}",
+    "error": ""
+  },
+  {
+    "id": 159,
+    "all_labels": [
+      "form-error-clearance"
+    ],
+    "all_labels_code": [
+      "D"
+    ],
+    "primary": "form-error-clearance",
+    "primary_code": "D",
+    "raw_response": "{\"all_labels\": [\"D\"], \"primary\": \"D\"}",
+    "error": ""
+  },
+  {
+    "id": 160,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 161,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 162,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 163,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 164,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 165,
+    "all_labels": [
+      "input-validation",
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "A",
+      "S"
+    ],
+    "primary": "form-state-management",
+    "primary_code": "S",
+    "raw_response": "{\"all_labels\": [\"A\", \"S\"], \"primary\": \"S\"}",
+    "error": ""
+  },
+  {
+    "id": 166,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 167,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 168,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 169,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 170,
+    "all_labels": [
+      "event-filtering",
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "K",
+      "M"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\", \"M\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 171,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 172,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 173,
+    "all_labels": [
+      "input-validation",
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "A",
+      "K"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\", \"K\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 174,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 175,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 176,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 177,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 178,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 179,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 180,
+    "all_labels": [
+      "state-validation",
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "B",
+      "M"
+    ],
+    "primary": "state-validation",
+    "primary_code": "B",
+    "raw_response": "{\"all_labels\": [\"B\", \"M\"], \"primary\": \"B\"}",
+    "error": ""
+  },
+  {
+    "id": 181,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter"
+    ],
+    "all_labels_code": [
+      "F",
+      "L"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 182,
+    "all_labels": [
+      "obfuscated"
+    ],
+    "all_labels_code": [
+      "U"
+    ],
+    "primary": "obfuscated",
+    "primary_code": "U",
+    "raw_response": "{\"all_labels\": [\"U\"], \"primary\": \"U\"}",
+    "error": ""
+  },
+  {
+    "id": 183,
+    "all_labels": [
+      "event-dispatching",
+      "event-dispatch-filter",
+      "event-filtering",
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "F",
+      "L",
+      "K",
+      "M"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\", \"L\", \"K\", \"M\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 184,
+    "all_labels": [
+      "event-delegation",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "G",
+      "J"
+    ],
+    "primary": "event-delegation",
+    "primary_code": "G",
+    "raw_response": "{\"all_labels\": [\"G\", \"J\"], \"primary\": \"G\"}",
+    "error": ""
+  },
+  {
+    "id": 185,
+    "all_labels": [
+      "event-dispatching"
+    ],
+    "all_labels_code": [
+      "F"
+    ],
+    "primary": "event-dispatching",
+    "primary_code": "F",
+    "raw_response": "{\"all_labels\": [\"F\"], \"primary\": \"F\"}",
+    "error": ""
+  },
+  {
+    "id": 186,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 187,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 188,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 189,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation",
+      "event-propagation-control"
+    ],
+    "all_labels_code": [
+      "K",
+      "J",
+      "M"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\", \"M\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 190,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 191,
+    "all_labels": [
+      "state-validation",
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "B",
+      "S"
+    ],
+    "primary": "form-state-management",
+    "primary_code": "S",
+    "raw_response": "{\"all_labels\": [\"B\", \"S\"], \"primary\": \"S\"}",
+    "error": ""
+  },
+  {
+    "id": 192,
+    "all_labels": [
+      "event-filtering",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "J"
+    ],
+    "primary": "keypress-delegation",
+    "primary_code": "J",
+    "raw_response": "{\"all_labels\": [\"K\", \"J\"], \"primary\": \"J\"}",
+    "error": ""
+  },
+  {
+    "id": 193,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 194,
+    "all_labels": [
+      "input-validation",
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "A",
+      "S"
+    ],
+    "primary": "form-state-management",
+    "primary_code": "S",
+    "raw_response": "{\"all_labels\": [\"A\", \"S\"], \"primary\": \"S\"}",
+    "error": ""
+  },
+  {
+    "id": 195,
+    "all_labels": [
+      "input-event-handler"
+    ],
+    "all_labels_code": [
+      "T"
+    ],
+    "primary": "input-event-handler",
+    "primary_code": "T",
+    "raw_response": "{\"all_labels\": [\"T\"], \"primary\": \"T\"}",
+    "error": ""
+  },
+  {
+    "id": 196,
+    "all_labels": [
+      "event-filtering"
+    ],
+    "all_labels_code": [
+      "K"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 197,
+    "all_labels": [
+      "event-filtering",
+      "event-propagation-control",
+      "keypress-delegation"
+    ],
+    "all_labels_code": [
+      "K",
+      "M",
+      "J"
+    ],
+    "primary": "event-filtering",
+    "primary_code": "K",
+    "raw_response": "{\"all_labels\": [\"K\", \"M\", \"J\"], \"primary\": \"K\"}",
+    "error": ""
+  },
+  {
+    "id": 198,
+    "all_labels": [
+      "input-validation"
+    ],
+    "all_labels_code": [
+      "A"
+    ],
+    "primary": "input-validation",
+    "primary_code": "A",
+    "raw_response": "{\"all_labels\": [\"A\"], \"primary\": \"A\"}",
+    "error": ""
+  },
+  {
+    "id": 199,
+    "all_labels": [
+      "form-state-management"
+    ],
+    "all_labels_code": [
+      "S"
+    ],
+    "primary": "form-state-management",
+    "primary_code": "S",
+    "raw_response": "{\"all_labels\": [\"S\"], \"primary\": \"S\"}",
+    "error": ""
+  },
+  {
+    "id": 200,
+    "all_labels": [
+      "validation-reset",
+      "custom-validity-manip."
+    ],
+    "all_labels_code": [
+      "C",
+      "E"
+    ],
+    "primary": "validation-reset",
+    "primary_code": "C",
+    "raw_response": "{\"all_labels\": [\"C\", \"E\"], \"primary\": \"C\"}",
+    "error": ""
+  }
+]

@@ -1,0 +1,151 @@
+cluster_id,cluster_size,date_range,dominant_identifier_types,kit_names_sample
+0,169,2021-08-22 ~ 2023-08-11,email(172); git_email(170); git_url(168); git_repo(168); git_owner(168); git_name(167),2021-08-22_onedrive; 2021-08-25_adobe-4D10; 2021-08-26_usbank-RD324; 2021-08-30_tatal; 2021-09-01_Contractdocument; 2021-09-01_adobe 2 4 (1); 2021-09-01_onedrive-4D5 ok; 2021-09-08_facebook-RD559; 2021-09-12_PDF; 2021-09-12_onedrive-3D4
+1,28,2021-10-28 ~ 2022-11-28,email(80),2021-10-28_Leben; 2022-02-07_VerbeSern; 2022-02-08_Abschlie; 2022-02-08_Maximale; 2022-02-08_Nutzen; 2022-02-10_RuWide; 2022-03-31_AJBox; 2022-03-31_Letztes; 2022-03-31_MNRT; 2022-03-31_pATXZ
+2,12,2022-04-13 ~ 2023-01-18,email(24),2022-04-13_Details (2); 2022-04-20_Secured; 2022-04-22_Stewt (2); 2022-05-13_DocuSign365 (2); 2022-06-04_RSVP_365 (2); 2022-06-11_Log in (2); 2022-06-15_Loanview (2); 2022-06-28_F-A 365 (2); 2022-06-28_Inv_Office365 (2); 2022-07-20_Inv-74559846 (3)
+3,12,2024-12-02 ~ 2025-02-27,tg_bot(12); tg_token(12),2024-12-02_whtsapcareeer.com; 2024-12-02_whtsapcareeer.com (Copy 2); 2025-02-17_wa-hirings.com; 2025-02-17_wa-hirings.com (Copy 2); 2025-02-17_wajobsuccess.com; 2025-02-17_wajobsuccess.com (Copy 2); 2025-02-27_schedule.wa-consullting.com; 2025-02-27_schedule.wa-employeehub.com; 2025-02-27_schedule.wa-employmentprosconnect.com; 2025-02-27_schedule.wa-talentleadersnetwork.com
+4,11,2021-10-20 ~ 2023-06-17,git_repo(11); git_url(11); email(11); git_owner(11); git_email(11),2021-10-20_fbnation; 2022-03-31_ua9.demotest.icu (2); 2022-04-05_file; 2022-04-26_common; 2022-08-18_kk; 2022-11-18_byrkie; 2022-12-18_uadmin_2.9_panel; 2022-12-30_netbank; 2022-12-30_uadmin; 2023-01-24_uadmin
+5,11,2024-05-09 ~ 2024-05-09,git_name(22); email(15); git_email(15); git_url(11); git_repo(11); git_owner(11),2024-05-09_sim-app11112022; 2024-05-09_sim-app115555; 2024-05-09_sim-app_2022; 2024-05-09_sim-appafffffffffffffff; 2024-05-09_sim-appahmed; 2024-05-09_sim-appesss; 2024-05-09_sim-appfinal; 2024-05-09_sim-appnewserver; 2024-05-09_sim-appnonono; 2024-05-09_sim-appsortdrag
+6,8,2021-08-25 ~ 2022-07-25,email(11),2021-08-25_webmail.canvas.ne.jp3; 2021-09-06_auth.octv.ne.jp; 2021-12-01_webmail.earth-core.jp2; 2022-01-04_auth.sso.biglobe.ne.jp3 (1); 2022-05-21_kagoya; 2022-05-21_web1.plala.or.jp; 2022-07-25_am12.wadax.ne.jp_ElderPeterson; 2022-07-25_secure.sakura.ad.jp_ElderPeterson
+7,8,2021-12-21 ~ 2022-05-13,email(20),2021-12-21_fcen; 2021-12-21_lu; 2021-12-21_univ-amu; 2021-12-21_unvime; 2021-12-21_walletregistry; 2022-05-13_ankara; 2022-05-13_deu; 2022-05-13_ijs
+8,7,2021-09-25 ~ 2022-09-23,email(11),2021-09-25_NOTIBB; 2021-10-11_jlj-correos (3); 2022-04-03_ded; 2022-05-04_Deuschepost; 2022-05-12_abc; 2022-07-04_coreVERDE; 2022-09-23_CORREOS
+9,6,2021-09-01 ~ 2023-01-24,email(10),2021-09-01_page; 2021-09-18_v2; 2022-01-18_aol2; 2022-01-18_att3; 2022-09-23_v3; 2023-01-24_payKyng
+10,5,2021-12-15 ~ 2023-10-11,email(5),2021-12-15_DH; 2022-02-03_PRV8 DHL; 2022-04-11_Dhl1; 2022-04-23_dhlsiter; 2023-10-11_deutsh (2)
+11,5,2022-11-11 ~ 2023-08-30,email(5),2022-11-11_mail; 2023-04-25_ATTSERVICE; 2023-07-10_YMA; 2023-07-28_mailservice; 2023-08-30_User
+12,4,2021-09-06 ~ 2022-07-24,email(4),2021-09-06_netflixID; 2021-09-15_netflixID; 2022-05-26_netflix; 2022-07-24_miza
+13,4,2021-09-23 ~ 2022-01-09,email(4),2021-09-23_scotiabank3; 2021-10-04_scotiabank3; 2021-10-26_scot; 2022-01-09_scot
+14,4,2021-10-08 ~ 2022-08-18,email(10),2021-10-08_Produkt; 2021-10-18_LogGT; 2022-06-04_BeuiBsf; 2022-08-18_SvshUdh
+15,4,2021-10-19 ~ 2022-05-08,email(4),2021-10-19_WellsFargo; 2021-12-15_WellsFargo1; 2021-12-17_WellsFargo; 2022-05-08_WellsAccount
+16,4,2021-10-26 ~ 2023-06-06,tg_chat(4); tg_token(3); tg_bot(3); email(3),2021-10-26_dpdde; 2021-12-27_SWISSPOST; 2021-12-27_banamex; 2023-06-06_SuissePost
+17,4,2022-01-19 ~ 2022-06-15,email(7),2022-01-19_office; 2022-02-21_coinbaselogin; 2022-03-28_windowsmain; 2022-06-15_ofbn
+18,4,2022-05-04 ~ 2022-05-04,email(4),2022-05-04_app-walletconnectcom; 2022-05-04_blockchainnode-edited 1; 2022-05-04_connectwallet-pancakeswapfinance; 2022-05-04_securedwalletsprot-edit 1
+19,4,2022-05-06 ~ 2022-05-06,git_email(8); email(8); git_name(4); git_owner(4),2022-05-06_CPTLN; 2022-05-06_despachofiscal; 2022-05-06_factorfintecv2; 2022-05-06_pagovolada
+20,4,2022-08-22 ~ 2023-06-26,email(4),2022-08-22_M_T fixed logsrus; 2022-11-09_Huntingbank; 2023-02-21_M&T; 2023-06-26_Citizens Bank
+21,4,2022-11-24 ~ 2023-02-11,email(6),2022-11-24_all; 2022-11-29_stockcharts; 2022-11-29_tradestation; 2023-02-11_all keys
+22,4,2024-08-10 ~ 2024-08-26,tg_bot(6); tg_token(6); tg_chat(5),2024-08-10_ONEOSSAMA; 2024-08-10_zipper-2024-08-10--01-32; 2024-08-12_zipper-2024-08-10--17-51; 2024-08-26_sgpanelsmtp
+23,3,2021-08-24 ~ 2021-09-27,email(3),2021-08-24_DHLCN; 2021-09-08_SFExpress; 2021-09-27_SFExpress
+24,3,2021-08-30 ~ 2022-04-13,email(4),2021-08-30_ALTA (2); 2021-08-30_Stewart; 2022-04-13_Adobe PDF
+25,3,2021-09-07 ~ 2023-06-26,tg_chat(3); tg_bot(3); tg_token(3),2021-09-07_v; 2022-04-22_M&T update77; 2023-06-26_log-in
+26,3,2021-09-25 ~ 2022-03-07,email(3),2021-09-25_citi bank; 2021-09-25_citi12; 2022-03-07_bankofamerica 3 (1)
+27,3,2021-10-09 ~ 2021-10-09,email(5),2021-10-09_ALUSA; 2021-10-09_Regions; 2021-10-09_konga
+28,3,2021-10-19 ~ 2021-10-20,email(5),2021-10-19_MS PG; 2021-10-19_NOVAGAS; 2021-10-20_AUSPAC
+29,3,2021-10-21 ~ 2021-10-21,email(6),2021-10-21_nn; 2021-10-21_wf; 2021-10-21_ww
+30,3,2021-12-01 ~ 2022-05-12,email(6),2021-12-01_wallets; 2022-01-10_mail0; 2022-05-12_NOVAGAS (1)
+31,3,2021-12-18 ~ 2022-11-09,email(2); tg_token(2); tg_bot(2),2021-12-18_secure.business.bt-Finalize-Pize; 2022-10-14_freshhh_blue; 2022-11-09_bt-home
+32,3,2021-12-22 ~ 2022-03-25,email(3),2021-12-22_Drive (2); 2022-03-08_offfwhi; 2022-03-25_File01
+33,3,2022-01-10 ~ 2022-04-16,email(5),2022-01-10_officeemsntru; 2022-01-14_ORIGINAL; 2022-04-16_PDFXX
+34,3,2022-01-11 ~ 2022-05-12,email(3),2022-01-11_2022 LOADS; 2022-04-19_MADEMEN; 2022-05-12_OPENPHP MADEMEN
+35,3,2022-01-12 ~ 2022-10-31,email(3),2022-01-12_LUNO-verify_new-2022; 2022-06-13_Luno_Feb; 2022-10-31_NED_CC_OTP
+36,3,2022-01-25 ~ 2022-03-09,email(3),2022-01-25_Unlockalaska; 2022-03-02_mtbonline2019; 2022-03-09_mtb
+37,3,2022-03-13 ~ 2022-03-21,email(4),2022-03-13_Boa; 2022-03-13_office365; 2022-03-21_wells (1)
+38,3,2022-03-15 ~ 2022-03-15,git_name(3); git_owner(3); git_email(3); email(3); git_repo(2); git_url(2),2022-03-15_CDI; 2022-03-15_crowd; 2022-03-15_crowdv
+39,3,2022-03-21 ~ 2023-12-29,email(3),2022-03-21_owl-php-mailer-master; 2023-12-29_7a0baa8d-dafe-4e61-9e38-cbf5a4a764a5.php?dir=%2Fhome%2Fsiawinco%2Fpublic_html&download=.well-known; 2023-12-29_b533ed5c-54ce-4320-acb5-c44a5e7b149b.php?dir=%2Fhome%2Fsiawinco%2Fpublic_html%2F.well-known&download=pki-validation
+40,3,2022-04-10 ~ 2023-09-19,email(3),2022-04-10_alibaba; 2022-10-12_aol; 2023-09-19_alibaba
+41,3,2022-04-12 ~ 2023-06-09,email(3),2022-04-12_aol (1); 2022-07-13_New folder; 2023-06-09_att.page
+42,3,2022-07-21 ~ 2023-01-24,email(6),2022-07-21_chinese-automatic-update; 2022-07-23_English-All-Domain; 2023-01-24_Office_New_Code
+43,3,2022-08-05 ~ 2024-05-25,email(3),2022-08-05_CRATER_6.0.2; 2024-05-09_grab_2024; 2024-05-25_tamil_library
+44,3,2022-08-10 ~ 2022-12-13,email(3),2022-08-10_keybank; 2022-08-30_arvest (1); 2022-12-13_Arvestsecure
+45,3,2022-08-18 ~ 2022-10-17,email(6),2022-08-18_chinapostmaster; 2022-08-18_preview-document; 2022-10-17_sfz
+46,3,2022-10-18 ~ 2023-08-04,email(3),2022-10-18_ram; 2022-10-18_ramcourier; 2023-08-04_EulDH_20221211_020805
+47,3,2023-01-03 ~ 2023-03-05,email(5),2023-01-03_naver; 2023-03-05_m; 2023-03-05_navada2
+48,3,2023-06-26 ~ 2025-01-23,email(9),2023-06-26_3rivers (1)authy; 2023-06-26_alabama; 2025-01-23_dbk
+49,2,2021-08-24 ~ 2021-10-09,email(2),2021-08-24_AUtoDHL; 2021-10-09_AutoDHL
+50,2,2021-08-27 ~ 2022-09-06,email(6),2021-08-27_1AiT; 2022-09-06_TonlineFResh
+51,2,2021-08-30 ~ 2021-08-30,email(4),2021-08-30_NEDBANKRE; 2021-08-30_NEDBANKRE1
+52,2,2021-08-31 ~ 2021-08-31,email(2),2021-08-31_onerepair.in24-08; 2021-08-31_onerepair24-08
+53,2,2021-09-01 ~ 2021-12-13,email(2),2021-09-01_Express; 2021-12-13_SF-Express
+54,2,2021-09-01 ~ 2022-03-20,email(2),2021-09-01_cncountin; 2022-03-20_cncountin
+55,2,2021-09-02 ~ 2021-09-03,email(2),2021-09-02_MD1; 2021-09-03_officeee
+56,2,2021-09-03 ~ 2021-09-17,tg_bot(2); tg_chat(2); tg_token(2),2021-09-03_MARKET; 2021-09-17_PayPal_2021_Scama
+57,2,2021-09-03 ~ 2021-10-21,email(2),2021-09-03_ios; 2021-10-21_ios
+58,2,2021-09-04 ~ 2021-10-21,tg_chat(2); tg_token(2); tg_bot(2),2021-09-04_DHLWITHBOOT; 2021-10-21_MARKET(1)
+59,2,2021-09-05 ~ 2021-09-05,email(2),2021-09-05_crrypt; 2021-09-05_crypt
+60,2,2021-09-06 ~ 2022-03-07,email(2),2021-09-06_20210; 2022-03-07_7
+61,2,2021-09-08 ~ 2022-04-08,tg_token(2); tg_bot(2),2021-09-08_US9514901185421; 2022-04-08_N
+62,2,2021-09-15 ~ 2021-09-21,email(2),2021-09-15_servicecu.org_focusencode; 2021-09-21_security.us.hsbc.com_encode
+63,2,2021-09-20 ~ 2022-07-02,email(2),2021-09-20_LUNO-verify (1); 2022-07-02_New-LUNO
+64,2,2021-09-22 ~ 2021-10-25,tg_token(2); tg_bot(2),2021-09-22_us; 2021-10-25_zipper-2021-10-25--18-30
+65,2,2021-09-23 ~ 2022-10-19,email(4),2021-09-23_newalaska.org; 2022-10-19_ww3.mtb.com
+66,2,2021-09-24 ~ 2021-09-24,email(4),2021-09-24_Netfix-20; 2021-09-24_netflix
+67,2,2021-09-24 ~ 2022-06-21,email(2),2021-09-24_Priv8; 2022-06-21_oobb56yu7_5
+68,2,2021-09-27 ~ 2022-01-31,email(2),2021-09-27_Wfargo; 2022-01-31_CinguLar
+69,2,2021-09-29 ~ 2022-08-18,email(4),2021-09-29_sfz; 2022-08-18_sfz
+70,2,2021-09-30 ~ 2021-10-12,email(4),2021-09-30_wells; 2021-10-12_fargo
+71,2,2021-10-05 ~ 2021-10-05,git_email(2); git_url(2); git_owner(2); email(2); git_repo(2),2021-10-05_TRAZABILIDAD3; 2021-10-05_WS
+72,2,2021-10-06 ~ 2022-08-24,email(2),2021-10-06_wellsfargo2021; 2022-08-24_WellsFargo Ultimate
+73,2,2021-10-07 ~ 2022-01-25,email(2),2021-10-07_Outlookfedback; 2022-01-25_expoutlook
+74,2,2021-10-09 ~ 2022-03-03,email(2),2021-10-09_2020chase (1); 2022-03-03_chase 2020
+75,2,2021-10-11 ~ 2022-11-11,tg_bot(2); tg_token(2),2021-10-11_olu; 2022-11-11_wellshome(1)
+76,2,2021-10-18 ~ 2022-07-13,tg_token(2); tg_bot(2); tg_chat(2),2021-10-18_swissdyali; 2022-07-13_sgdnice
+77,2,2021-10-19 ~ 2021-10-26,email(2),2021-10-19_Yahoo_files; 2021-10-26_Woring Wells
+78,2,2021-10-19 ~ 2022-07-21,email(2),2021-10-19_onedrive (1); 2022-07-21_onedrive
+79,2,2021-10-21 ~ 2022-05-14,email(4),2021-10-21_Fidelity Investment; 2022-05-14_Sign In - Weichert_files(1) (2)
+80,2,2021-10-23 ~ 2022-06-22,tg_chat(2),2021-10-23_santa; 2022-06-22_LIBERBANK
+81,2,2021-10-28 ~ 2021-10-28,email(2),2021-10-28_73092; 2021-10-28_www.citi.com
+82,2,2021-10-29 ~ 2021-12-03,tg_bot(2); tg_chat(2); tg_token(2),2021-10-29_dhl-swiss; 2021-12-03_freshdpd
+83,2,2021-12-01 ~ 2022-01-31,email(2),2021-12-01_hotOffice; 2022-01-31_yahoo
+84,2,2021-12-19 ~ 2022-02-14,email(4),2021-12-19_razaq; 2022-02-14_OneDrive
+85,2,2021-12-21 ~ 2022-01-06,email(10),2021-12-21_Earth_link; 2022-01-06_monwellfargoonline
+86,2,2021-12-29 ~ 2022-08-11,email(2),2021-12-29_truelogin; 2022-08-11_truelogin
+87,2,2022-01-09 ~ 2022-05-10,tg_bot(2); tg_chat(2); tg_token(2),2022-01-09_caixam; 2022-05-10_mybestpostale
+88,2,2022-01-10 ~ 2022-07-06,email(2),2022-01-10_adobe; 2022-07-06_Validation
+89,2,2022-01-10 ~ 2022-01-10,email(4),2022-01-10_e; 2022-01-10_s
+90,2,2022-01-14 ~ 2023-03-06,email(2),2022-01-14_comsx; 2023-03-06_comsx
+91,2,2022-01-14 ~ 2022-02-16,email(2),2022-01-14_off; 2022-02-16_New folder
+92,2,2022-01-20 ~ 2022-02-02,tg_bot(2); tg_token(2),2022-01-20_upssms; 2022-02-02_netflixsms
+93,2,2022-01-27 ~ 2022-05-31,email(6),2022-01-27_boa; 2022-05-31_boa
+94,2,2022-02-02 ~ 2022-02-02,email(2),2022-02-02_INV645374657764GH 2 2; 2022-02-02_PDF 2
+95,2,2022-02-02 ~ 2022-02-21,tg_bot(2); tg_token(2),2022-02-02_chasev3; 2022-02-21_chasev3
+96,2,2022-02-04 ~ 2022-04-01,email(2),2022-02-04_MAILQUOTA; 2022-04-01_Alimail1
+97,2,2022-02-08 ~ 2022-03-02,email(2),2022-02-08_Swisssssspost21; 2022-03-02_swisspost
+98,2,2022-02-24 ~ 2022-08-22,tg_bot(2); tg_token(2); tg_chat(2),2022-02-24_mtb_2_new_bot; 2022-08-22_user.verification.online
+99,2,2022-02-26 ~ 2022-02-26,email(2),2022-02-26_autodomain; 2022-02-26_autodomain1
+100,2,2022-03-02 ~ 2022-04-16,email(2),2022-03-02_qsurve; 2022-04-16_RoyalMail-UK-Perfect
+101,2,2022-03-21 ~ 2022-11-09,email(4),2022-03-21_mtb.com; 2022-11-09_ent_online
+102,2,2022-03-28 ~ 2022-07-15,email(2),2022-03-28_spider; 2022-07-15_inv
+103,2,2022-04-11 ~ 2022-04-25,tg_token(2); tg_chat(2); email(2); tg_bot(2),2022-04-11_post swiss die; 2022-04-25_DIE POST IP
+104,2,2022-04-22 ~ 2022-04-22,email(2),2022-04-22_Shaadi; 2022-04-22_owa22
+105,2,2022-04-26 ~ 2022-10-18,tg_chat(2),2022-04-26_dbbdd; 2022-10-18_rakuten
+106,2,2022-04-27 ~ 2022-11-09,tg_token(2); tg_bot(2),2022-04-27_thuggeryslChseScmmr; 2022-11-09_Chase scam page 2022 with admin panel
+107,2,2022-05-01 ~ 2023-02-13,tg_token(2); tg_bot(2),2022-05-01_track.service.usps.services; 2023-02-13_ro
+108,2,2022-05-02 ~ 2023-10-11,email(2),2022-05-02_web; 2023-10-11_Office11
+109,2,2022-05-05 ~ 2023-01-31,email(2),2022-05-05_A0L; 2023-01-31_AdobeEstate
+110,2,2022-05-10 ~ 2022-05-10,email(2),2022-05-10_bc122211; 2022-05-10_drbtc
+111,2,2022-05-20 ~ 2022-10-04,email(2),2022-05-20_present; 2022-10-04_wf
+112,2,2022-05-20 ~ 2022-12-06,email(2),2022-05-20_xampoffice365; 2022-12-06_Maerskline
+113,2,2022-05-26 ~ 2023-09-14,email(2),2022-05-26_Crypt; 2023-09-14_beelo
+114,2,2022-06-05 ~ 2022-06-05,email(2),2022-06-05_DocuSign; 2022-06-05_OneDrivenew
+115,2,2022-06-08 ~ 2024-01-12,email(2),2022-06-08_ATTNew; 2024-01-12_ATT
+116,2,2022-06-15 ~ 2022-08-30,email(2),2022-06-15_2; 2022-08-30_ki
+117,2,2022-06-15 ~ 2023-08-14,email(2),2022-06-15_ATTSURE; 2023-08-14_attmail
+118,2,2022-06-17 ~ 2022-07-25,email(2),2022-06-17_mushroom; 2022-07-25_dean
+119,2,2022-06-19 ~ 2022-11-09,tg_bot(2); tg_token(2); tg_chat(2),2022-06-19_greater nevada; 2022-11-09_MEMBERS CREDIT UNION
+120,2,2022-07-04 ~ 2022-07-04,tg_token(2); tg_bot(2),2022-07-04_hard_20220530_055210; 2022-07-04_zipper-2022-07-04--02-28
+121,2,2022-07-07 ~ 2023-08-29,email(2),2022-07-07_25GB; 2023-08-29_China2020
+122,2,2022-07-10 ~ 2022-07-10,tg_token(2); tg_bot(2),2022-07-10_isracards; 2022-07-10_stracking-ch
+123,2,2022-07-13 ~ 2023-07-26,email(2),2022-07-13_GenPForalichina; 2023-07-26_korianall
+124,2,2022-07-14 ~ 2022-07-25,tg_bot(2); tg_token(2),2022-07-14_usprc; 2022-07-25_USPS-Mine
+125,2,2022-07-20 ~ 2022-07-26,email(2),2022-07-20_update; 2022-07-26_life
+126,2,2022-07-28 ~ 2022-07-28,tg_bot(2); tg_token(2),2022-07-28_chhhhh; 2022-07-28_chhjj
+127,2,2022-07-31 ~ 2022-10-06,email(2),2022-07-31_Ned-Money-2022-UPDATE-RSAID-GOOD; 2022-10-06_APPROVAL PAGE
+128,2,2022-08-19 ~ 2022-11-09,tg_bot(2); tg_token(2),2022-08-19_SECU @GRoshat; 2022-11-09_New 2022 WellsFargo Scama ( Leaked CodeFam) (2)
+129,2,2022-08-20 ~ 2022-08-20,tg_chat(2),2022-08-20_SANTAcc; 2022-08-20_zipper-2022-08-20--04-40
+130,2,2022-09-04 ~ 2023-01-09,email(2),2022-09-04_chanletaixiuv3; 2023-01-09_clmmtrantuni
+131,2,2022-09-13 ~ 2023-07-06,email(2),2022-09-13_BNPNC; 2023-07-06_BNP
+132,2,2022-09-23 ~ 2023-08-01,email(2),2022-09-23_team; 2023-08-01_team
+133,2,2022-11-01 ~ 2022-12-09,tg_token(2); tg_bot(2),2022-11-01_USPS; 2022-12-09_USPS2050
+134,2,2022-11-02 ~ 2022-11-02,email(2),2022-11-02_AG.talk; 2022-11-02_BeechTalk
+135,2,2022-11-09 ~ 2022-11-09,tg_token(2); tg_bot(2),2022-11-09_dhI; 2022-11-09_dhl-john
+136,2,2022-12-09 ~ 2023-02-17,tg_token(2); tg_bot(2); tg_chat(2),2022-12-09_ARUBAS2; 2023-02-17_arubagruop
+137,2,2023-01-13 ~ 2023-08-28,email(12),2023-01-13_domainsunlocks; 2023-08-28_wakandabeta
+138,2,2023-01-18 ~ 2023-03-14,email(2),2023-01-18_exceldocu (1); 2023-03-14_excelTTcopy
+139,2,2023-01-26 ~ 2023-02-15,tg_chat(2),2023-01-26_SG; 2023-02-15_ING
+140,2,2023-03-03 ~ 2023-03-03,tg_token(4); tg_bot(4); email(2); tg_chat(2),2023-03-03_zipper-2023-02-27--16-35; 2023-03-03_zipper-2023-02-27--16-50
+141,2,2023-05-04 ~ 2023-05-04,email(2); tg_token(2); tg_bot(2),2023-05-04_dropbox-2023; 2023-05-04_office-new-telegram
+142,2,2023-05-07 ~ 2023-10-01,email(2),2023-05-07_coinbase 10.1; 2023-10-01_cb1
+143,2,2023-07-31 ~ 2023-07-31,email(2),2023-07-31_Validez-votre-paiement-tripartie; 2023-07-31_sogexia-epaiement-validez-votre-virement
+144,2,2023-08-24 ~ 2023-08-24,email(10),2023-08-24_asahi; 2023-08-24_ss
+145,2,2023-10-23 ~ 2023-10-23,email(2),2023-10-23_mailer; 2023-10-23_orders
+146,2,2023-11-09 ~ 2024-11-29,tg_token(2); tg_bot(2),2023-11-09_DHL-Swiss-2022; 2024-11-29_zipper-2024-11-30--00-38
+147,2,2024-10-30 ~ 2024-10-30,tg_token(2); tg_bot(2),2024-10-30_net; 2024-10-30_net -
+148,2,2024-11-11 ~ 2024-11-11,email(4),2024-11-11_yahoobiz; 2024-11-11_yahoobiz -
+149,2,2024-12-09 ~ 2024-12-09,email(6); git_name(6); git_email(6); git_owner(2); git_url(2); git_repo(2),2024-12-09_softarc; 2024-12-09_softarc -

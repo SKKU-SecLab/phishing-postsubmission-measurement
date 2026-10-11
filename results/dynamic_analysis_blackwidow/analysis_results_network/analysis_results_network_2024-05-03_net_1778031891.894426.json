@@ -1,0 +1,2901 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/",
+  "timestamp": "2026-05-06 10:44:51",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2024-05-03_net",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+          "method": "post",
+          "xpath": "/html/body/form",
+          "registered_handlers": [],
+          "fields": [],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                "enctype": "multipart/form-data",
+                "id": "",
+                "method": "POST",
+                "name": ""
+              },
+              "cdp_reqs": [
+                {
+                  "requestId": "E69C81E389F23E6413E17A55169C1045",
+                  "sequence": 1,
+                  "resourceType": "Document",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "794",
+                    "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary7mBWek3AwlcBEitX",
+                    "Cookie": "PHPSESSID=bi1sop38vs2b11b3j0l1bdg64j",
+                    "Host": "www.2026.com:8080",
+                    "Origin": "http://www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+                    "Upgrade-Insecure-Requests": "1",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Cookie",
+                    "Host",
+                    "Origin",
+                    "Pragma",
+                    "Referer",
+                    "Upgrade-Insecure-Requests",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "multipart/form-data; boundary=----WebKitFormBoundary7mBWek3AwlcBEitX",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "bi1sop38vs2b11b3j0l1bdg64j"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX--\r\n",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "257",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 01:45:01 GMT",
+                    "Keep-Alive": "timeout=5, max=98",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+                  "responseBodyLength": 507,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 508,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 277527.240925,
+                  "lastEventTs": 1778031901521,
+                  "requestSentTs": 277527.240925,
+                  "responseReceivedTs": 277527.245689,
+                  "loadingFinishedTs": 277527.245848,
+                  "latencyMs": 4.9,
+                  "ttfbMs": 4.8,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1778031901448
+                }
+              ],
+              "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": "userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D",
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+                  "status": 200,
+                  "response": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+                  "responseHeaders": {
+                    "connection": "Keep-Alive",
+                    "content-encoding": "gzip",
+                    "content-length": "257",
+                    "content-type": "text/html; charset=UTF-8",
+                    "date": "Wed, 06 May 2026 01:45:04 GMT",
+                    "keep-alive": "timeout=5, max=96",
+                    "server": "Apache/2.4.58 (Ubuntu)",
+                    "vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                  "responseBodyLength": 507,
+                  "timestamp": 1778031904446,
+                  "latencyMs": 3,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "net/flix/languages/ch.php",
+                    "receives_fields": [],
+                    "actions": [],
+                    "exfil": []
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseover",
+                  "targetXPath": "/html/body/form/input[6]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "upload files",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778031904443
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mousedown",
+                  "targetXPath": "/html/body/form/input[6]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "upload files",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778031904443
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "focus",
+                  "targetXPath": "/html/body/form/input[6]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "upload files",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778031904444
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseup",
+                  "targetXPath": "/html/body/form/input[6]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "upload files",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778031904444
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "click",
+                  "targetXPath": "/html/body/form/input[6]",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "upload files",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778031904444
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "/html/body/form",
+                  "targetTag": "FORM",
+                  "targetName": "",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1778031904444
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "782722.5",
+                  "sequence": 3,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "174",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Cookie": "PHPSESSID=bi1sop38vs2b11b3j0l1bdg64j",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "bi1sop38vs2b11b3j0l1bdg64j"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "257",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 01:45:04 GMT",
+                    "Keep-Alive": "timeout=5, max=96",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+                  "responseBodyLength": 507,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 508,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 277530.191409,
+                  "lastEventTs": 1778031904952,
+                  "requestSentTs": 277530.191409,
+                  "responseReceivedTs": 277530.194044,
+                  "loadingFinishedTs": 277530.193964,
+                  "latencyMs": 2.6,
+                  "ttfbMs": 2.6,
+                  "_timing_summary": {
+                    "latencyMs": 2.6,
+                    "ttfbMs": 2.6,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": true,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1778031904414,
+            "submit_timing": {
+              "python_click_ts_ms": 1778031904414,
+              "js_trigger_event_ts_ms": 1778031904444,
+              "js_first_req_ts_ms": 1778031904446,
+              "event_to_request_ms": 2,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "fields": {
+                "userfile[]": {
+                  "arrayBuffer": {},
+                  "bytes": {},
+                  "lastModified": 1778031904975,
+                  "lastModifiedDate": {},
+                  "name": "",
+                  "size": 0,
+                  "slice": {},
+                  "stream": {},
+                  "text": {},
+                  "type": "application/octet-stream",
+                  "webkitRelativePath": ""
+                }
+              },
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 507,
+              "status": 200,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "782722.5",
+                  "sequence": 3,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "174",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Cookie": "PHPSESSID=bi1sop38vs2b11b3j0l1bdg64j",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Cookie",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": true,
+                  "associatedCookies": [
+                    {
+                      "blockedReasons": [],
+                      "cookie": {
+                        "domain": "www.2026.com",
+                        "expires": -1,
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "priority": "Medium",
+                        "sameParty": false,
+                        "secure": false,
+                        "session": true,
+                        "size": 35,
+                        "sourcePort": 8080,
+                        "sourceScheme": "NonSecure",
+                        "value": "bi1sop38vs2b11b3j0l1bdg64j"
+                      },
+                      "exemptionReason": "None"
+                    }
+                  ],
+                  "customRequestHeaders": {},
+                  "postData": "userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "257",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Wed, 06 May 2026 01:45:04 GMT",
+                    "Keep-Alive": "timeout=5, max=96",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+                  "responseBodyLength": 507,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 508,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 277530.191409,
+                  "lastEventTs": 1778031904952,
+                  "requestSentTs": 277530.191409,
+                  "responseReceivedTs": 277530.194044,
+                  "loadingFinishedTs": 277530.193964,
+                  "latencyMs": 2.6,
+                  "ttfbMs": 2.6,
+                  "_timing_summary": {
+                    "latencyMs": 2.6,
+                    "ttfbMs": 2.6,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": true,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 0,
+            "visible_now": 0,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "net/flix/languages/ch.php",
+            "receives_fields": [],
+            "actions": [],
+            "exfil": []
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+      "method": "post",
+      "xpath": "/html/body/form",
+      "registered_handlers": [],
+      "fields": [],
+      "submit_log": {
+        "enter_key_test": {
+          "skipped": true,
+          "reason": "network_only"
+        },
+        "enter_key_logs": {},
+        "native_submit": {
+          "form_meta": {
+            "action": "/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+            "enctype": "multipart/form-data",
+            "id": "",
+            "method": "POST",
+            "name": ""
+          },
+          "cdp_reqs": [
+            {
+              "requestId": "E69C81E389F23E6413E17A55169C1045",
+              "sequence": 1,
+              "resourceType": "Document",
+              "initiatorType": "other",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "method": "POST",
+              "requestHeaders": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Content-Length": "794",
+                "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary7mBWek3AwlcBEitX",
+                "Cookie": "PHPSESSID=bi1sop38vs2b11b3j0l1bdg64j",
+                "Host": "www.2026.com:8080",
+                "Origin": "http://www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Content-Length",
+                "Content-Type",
+                "Cookie",
+                "Host",
+                "Origin",
+                "Pragma",
+                "Referer",
+                "Upgrade-Insecure-Requests",
+                "User-Agent"
+              ],
+              "requestContentType": "multipart/form-data; boundary=----WebKitFormBoundary7mBWek3AwlcBEitX",
+              "hasCookieHeader": true,
+              "associatedCookies": [
+                {
+                  "blockedReasons": [],
+                  "cookie": {
+                    "domain": "www.2026.com",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "name": "PHPSESSID",
+                    "path": "/",
+                    "priority": "Medium",
+                    "sameParty": false,
+                    "secure": false,
+                    "session": true,
+                    "size": 35,
+                    "sourcePort": 8080,
+                    "sourceScheme": "NonSecure",
+                    "value": "bi1sop38vs2b11b3j0l1bdg64j"
+                  },
+                  "exemptionReason": "None"
+                }
+              ],
+              "customRequestHeaders": {},
+              "postData": "------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX--\r\n",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "257",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Wed, 06 May 2026 01:45:01 GMT",
+                "Keep-Alive": "timeout=5, max=98",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+              "responseBodyLength": 507,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 508,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 277527.240925,
+              "lastEventTs": 1778031901521,
+              "requestSentTs": 277527.240925,
+              "responseReceivedTs": 277527.245689,
+              "loadingFinishedTs": 277527.245848,
+              "latencyMs": 4.9,
+              "ttfbMs": 4.8,
+              "_native_submit": true,
+              "_submit_trigger_ts_ms": 1778031901448
+            }
+          ],
+          "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+        },
+        "submit_click_logs": {
+          "step": 1,
+          "phase": "submit_click",
+          "domChanges": [],
+          "networkReqs": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "type": "xhr",
+              "method": "POST",
+              "url": "/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "requestContentType": "application/x-www-form-urlencoded",
+              "requestBody": "userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D",
+              "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+              "status": 200,
+              "response": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+              "responseHeaders": {
+                "connection": "Keep-Alive",
+                "content-encoding": "gzip",
+                "content-length": "257",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Wed, 06 May 2026 01:45:04 GMT",
+                "keep-alive": "timeout=5, max=96",
+                "server": "Apache/2.4.58 (Ubuntu)",
+                "vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseReturned": true,
+              "redirected": true,
+              "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "responseBodyLength": 507,
+              "timestamp": 1778031904446,
+              "latencyMs": 3,
+              "ttfbMs": null,
+              "resolved_server": {
+                "server_file": "net/flix/languages/ch.php",
+                "receives_fields": [],
+                "actions": [],
+                "exfil": []
+              }
+            }
+          ],
+          "firedEvents": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseover",
+              "targetXPath": "/html/body/form/input[6]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "upload files",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778031904443
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mousedown",
+              "targetXPath": "/html/body/form/input[6]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "upload files",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778031904443
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "focus",
+              "targetXPath": "/html/body/form/input[6]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "upload files",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778031904444
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseup",
+              "targetXPath": "/html/body/form/input[6]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "upload files",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778031904444
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "click",
+              "targetXPath": "/html/body/form/input[6]",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "upload files",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778031904444
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "submit",
+              "targetXPath": "/html/body/form",
+              "targetTag": "FORM",
+              "targetName": "",
+              "targetType": "",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1778031904444
+            }
+          ],
+          "html5Validation": [],
+          "triggeredFunctions": [],
+          "cdpNetworkReqs": [
+            {
+              "requestId": "782722.5",
+              "sequence": 3,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "method": "POST",
+              "requestHeaders": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Content-Length": "174",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Cookie": "PHPSESSID=bi1sop38vs2b11b3j0l1bdg64j",
+                "Host": "www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Content-Length",
+                "Content-Type",
+                "Cookie",
+                "Host",
+                "Pragma",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": true,
+              "associatedCookies": [
+                {
+                  "blockedReasons": [],
+                  "cookie": {
+                    "domain": "www.2026.com",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "name": "PHPSESSID",
+                    "path": "/",
+                    "priority": "Medium",
+                    "sameParty": false,
+                    "secure": false,
+                    "session": true,
+                    "size": 35,
+                    "sourcePort": 8080,
+                    "sourceScheme": "NonSecure",
+                    "value": "bi1sop38vs2b11b3j0l1bdg64j"
+                  },
+                  "exemptionReason": "None"
+                }
+              ],
+              "customRequestHeaders": {},
+              "postData": "userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "257",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Wed, 06 May 2026 01:45:04 GMT",
+                "Keep-Alive": "timeout=5, max=96",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+              "responseBodyLength": 507,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 508,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 277530.191409,
+              "lastEventTs": 1778031904952,
+              "requestSentTs": 277530.191409,
+              "responseReceivedTs": 277530.194044,
+              "loadingFinishedTs": 277530.193964,
+              "latencyMs": 2.6,
+              "ttfbMs": 2.6,
+              "_timing_summary": {
+                "latencyMs": 2.6,
+                "ttfbMs": 2.6,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": true,
+                "hasSetCookie": false
+              }
+            }
+          ],
+          "jqueryDispatchLogs": []
+        },
+        "submit_trigger_ts_ms": 1778031904414,
+        "submit_timing": {
+          "python_click_ts_ms": 1778031904414,
+          "js_trigger_event_ts_ms": 1778031904444,
+          "js_first_req_ts_ms": 1778031904446,
+          "event_to_request_ms": 2,
+          "cdp_req_count": 1
+        },
+        "submit_detail": {
+          "action": "/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+          "fields": {
+            "userfile[]": {
+              "arrayBuffer": {},
+              "bytes": {},
+              "lastModified": 1778031904975,
+              "lastModifiedDate": {},
+              "name": "",
+              "size": 0,
+              "slice": {},
+              "stream": {},
+              "text": {},
+              "type": "application/octet-stream",
+              "webkitRelativePath": ""
+            }
+          },
+          "method": "POST",
+          "responseContentType": "text/html; charset=UTF-8",
+          "responseLength": 507,
+          "status": 200,
+          "submitted": true,
+          "cdp_network": [
+            {
+              "requestId": "782722.5",
+              "sequence": 3,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "method": "POST",
+              "requestHeaders": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Content-Length": "174",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Cookie": "PHPSESSID=bi1sop38vs2b11b3j0l1bdg64j",
+                "Host": "www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Content-Length",
+                "Content-Type",
+                "Cookie",
+                "Host",
+                "Pragma",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": true,
+              "associatedCookies": [
+                {
+                  "blockedReasons": [],
+                  "cookie": {
+                    "domain": "www.2026.com",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "name": "PHPSESSID",
+                    "path": "/",
+                    "priority": "Medium",
+                    "sameParty": false,
+                    "secure": false,
+                    "session": true,
+                    "size": 35,
+                    "sourcePort": 8080,
+                    "sourceScheme": "NonSecure",
+                    "value": "bi1sop38vs2b11b3j0l1bdg64j"
+                  },
+                  "exemptionReason": "None"
+                }
+              ],
+              "customRequestHeaders": {},
+              "postData": "userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "257",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Wed, 06 May 2026 01:45:04 GMT",
+                "Keep-Alive": "timeout=5, max=96",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+              "responseBodyLength": 507,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 508,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 277530.191409,
+              "lastEventTs": 1778031904952,
+              "requestSentTs": 277530.191409,
+              "responseReceivedTs": 277530.194044,
+              "loadingFinishedTs": 277530.193964,
+              "latencyMs": 2.6,
+              "ttfbMs": 2.6,
+              "_timing_summary": {
+                "latencyMs": 2.6,
+                "ttfbMs": 2.6,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": true,
+                "hasSetCookie": false
+              }
+            }
+          ]
+        }
+      },
+      "overall_classification": "Case B: Server Round-trip (AJAX)",
+      "field_stats": {
+        "dom_analysable": 0,
+        "visible_now": 0,
+        "hidden_or_collapsed": 0
+      },
+      "static_action_analysis": {
+        "server_file": "net/flix/languages/ch.php",
+        "receives_fields": [],
+        "actions": [],
+        "exfil": []
+      },
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php"
+    }
+  ],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/index.php",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "method": "get"
+    },
+    {
+      "step": 3,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/Email_Config.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/Email_Config.php",
+      "method": "get"
+    },
+    {
+      "step": 4,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/app.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/app.php",
+      "method": "get"
+    },
+    {
+      "step": 5,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/apperror.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/apperror.php",
+      "method": "get"
+    },
+    {
+      "step": 6,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/billing.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/billing.php",
+      "method": "get"
+    },
+    {
+      "step": 7,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/card.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/card.php",
+      "method": "get"
+    },
+    {
+      "step": 8,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/carderror.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/carderror.php",
+      "method": "get"
+    },
+    {
+      "step": 9,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "get"
+    },
+    {
+      "step": 10,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/login.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/login.php",
+      "method": "get"
+    },
+    {
+      "step": 11,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/process.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/process.php",
+      "method": "get"
+    },
+    {
+      "step": 12,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/sms.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/sms.php",
+      "method": "get"
+    },
+    {
+      "step": 13,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/smserror.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/smserror.php",
+      "method": "get"
+    },
+    {
+      "step": 14,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/step1.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/billing.php",
+      "method": "get"
+    },
+    {
+      "step": 15,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/step2.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/step2.php",
+      "method": "get"
+    },
+    {
+      "step": 16,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/stepp2.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/stepp2.php",
+      "method": "get"
+    },
+    {
+      "step": 17,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/thanks.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/thanks.php",
+      "method": "get"
+    },
+    {
+      "step": 18,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/waiting.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/waiting.php",
+      "method": "get"
+    },
+    {
+      "step": 19,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/waitingapp.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/waitingapp.php",
+      "method": "get"
+    },
+    {
+      "step": 20,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/waitingsms.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/waitingsms.php",
+      "method": "get"
+    },
+    {
+      "step": 21,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/system/detect.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/system/detect.php",
+      "method": "get"
+    },
+    {
+      "step": 22,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/system/setting.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/system/setting.php",
+      "method": "get"
+    },
+    {
+      "step": 23,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/appfunctions/redirect.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/appfunctions/redirect.php",
+      "method": "get"
+    },
+    {
+      "step": 24,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/banip/banip.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/banip/banip.php",
+      "method": "get"
+    },
+    {
+      "step": 25,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/banip/zeus.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/banip/zeus.php",
+      "method": "get"
+    },
+    {
+      "step": 26,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/ccfunctions/redirect.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/ccfunctions/redirect.php",
+      "method": "get"
+    },
+    {
+      "step": 27,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/all.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/all.php",
+      "method": "get"
+    },
+    {
+      "step": 28,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/anti4.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/anti4.php",
+      "method": "get"
+    },
+    {
+      "step": 29,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/anti5.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/anti5.php",
+      "method": "get"
+    },
+    {
+      "step": 30,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/anti6.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/anti6.php",
+      "method": "get"
+    },
+    {
+      "step": 31,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/filter.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/filter.php",
+      "method": "get"
+    },
+    {
+      "step": 32,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/eradox/index.php",
+      "method": "get"
+    },
+    {
+      "step": 33,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+      "method": "get"
+    },
+    {
+      "step": 34,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/de.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/de.php",
+      "method": "get"
+    },
+    {
+      "step": 35,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/en.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/en.php",
+      "method": "get"
+    },
+    {
+      "step": 36,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/es.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/es.php",
+      "method": "get"
+    },
+    {
+      "step": 37,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/fr.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/fr.php",
+      "method": "get"
+    },
+    {
+      "step": 38,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/it.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/it.php",
+      "method": "get"
+    },
+    {
+      "step": 39,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ja.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ja.php",
+      "method": "get"
+    },
+    {
+      "step": 40,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/nl.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/nl.php",
+      "method": "get"
+    },
+    {
+      "step": 41,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/pl.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/pl.php",
+      "method": "get"
+    },
+    {
+      "step": 42,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/pt.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/pt.php",
+      "method": "get"
+    },
+    {
+      "step": 43,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/sl.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/sl.php",
+      "method": "get"
+    },
+    {
+      "step": 44,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/smsfunctions/redirect.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/smsfunctions/redirect.php",
+      "method": "get"
+    },
+    {
+      "step": 45,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "https://www.netflix.com/us/login",
+      "method": "event"
+    },
+    {
+      "step": 46,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "event"
+    },
+    {
+      "step": 47,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "event"
+    },
+    {
+      "step": 48,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "event"
+    },
+    {
+      "step": 49,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "method": "event"
+    },
+    {
+      "step": 50,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "get"
+    },
+    {
+      "step": 51,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "method": "event"
+    },
+    {
+      "step": 52,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "event"
+    },
+    {
+      "step": 53,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "method": "event"
+    },
+    {
+      "step": 54,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "https://www.netflix.com/us/login",
+      "method": "event"
+    },
+    {
+      "step": 55,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "https://www.netflix.com/us/login",
+      "method": "event"
+    },
+    {
+      "step": 56,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "event"
+    },
+    {
+      "step": 57,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "event"
+    },
+    {
+      "step": 58,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "event"
+    },
+    {
+      "step": 59,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "method": "event"
+    },
+    {
+      "step": 60,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "method": "event"
+    },
+    {
+      "step": 61,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/index.php",
+      "method": "event"
+    },
+    {
+      "step": 62,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/info.php",
+      "method": "event"
+    }
+  ],
+  "cdp_network": [
+    {
+      "requestId": "E69C81E389F23E6413E17A55169C1045",
+      "sequence": 1,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+      "method": "POST",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Length": "794",
+        "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary7mBWek3AwlcBEitX",
+        "Cookie": "PHPSESSID=bi1sop38vs2b11b3j0l1bdg64j",
+        "Host": "www.2026.com:8080",
+        "Origin": "http://www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Cookie",
+        "Host",
+        "Origin",
+        "Pragma",
+        "Referer",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "multipart/form-data; boundary=----WebKitFormBoundary7mBWek3AwlcBEitX",
+      "hasCookieHeader": true,
+      "associatedCookies": [
+        {
+          "blockedReasons": [],
+          "cookie": {
+            "domain": "www.2026.com",
+            "expires": -1,
+            "httpOnly": false,
+            "name": "PHPSESSID",
+            "path": "/",
+            "priority": "Medium",
+            "sameParty": false,
+            "secure": false,
+            "session": true,
+            "size": 35,
+            "sourcePort": 8080,
+            "sourceScheme": "NonSecure",
+            "value": "bi1sop38vs2b11b3j0l1bdg64j"
+          },
+          "exemptionReason": "None"
+        }
+      ],
+      "customRequestHeaders": {},
+      "postData": "------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX\r\nContent-Disposition: form-data; name=\"userfile[]\"; filename=\"\"\r\nContent-Type: application/octet-stream\r\n\r\n\r\n------WebKitFormBoundary7mBWek3AwlcBEitX--\r\n",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "257",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Wed, 06 May 2026 01:45:01 GMT",
+        "Keep-Alive": "timeout=5, max=98",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+      "responseBodyLength": 507,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 508,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 277527.240925,
+      "lastEventTs": 1778031901521,
+      "requestSentTs": 277527.240925,
+      "responseReceivedTs": 277527.245689,
+      "loadingFinishedTs": 277527.245848,
+      "latencyMs": 4.9,
+      "ttfbMs": 4.8,
+      "_native_submit": true,
+      "_submit_trigger_ts_ms": 1778031901448
+    },
+    {
+      "requestId": "FD819490AD0814138F7D5318D96F2E62",
+      "sequence": 2,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Cookie": "PHPSESSID=bi1sop38vs2b11b3j0l1bdg64j",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Cookie",
+        "Host",
+        "Pragma",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": true,
+      "associatedCookies": [
+        {
+          "blockedReasons": [],
+          "cookie": {
+            "domain": "www.2026.com",
+            "expires": -1,
+            "httpOnly": false,
+            "name": "PHPSESSID",
+            "path": "/",
+            "priority": "Medium",
+            "sameParty": false,
+            "secure": false,
+            "session": true,
+            "size": 35,
+            "sourcePort": 8080,
+            "sourceScheme": "NonSecure",
+            "value": "bi1sop38vs2b11b3j0l1bdg64j"
+          },
+          "exemptionReason": "None"
+        }
+      ],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "257",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Wed, 06 May 2026 01:45:02 GMT",
+        "Keep-Alive": "timeout=5, max=97",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+      "responseBodyLength": 507,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 508,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 277527.795178,
+      "lastEventTs": 1778031902078,
+      "requestSentTs": 277527.795178,
+      "responseReceivedTs": 277527.797617,
+      "loadingFinishedTs": 277527.797303,
+      "latencyMs": 2.1,
+      "ttfbMs": 2.4
+    },
+    {
+      "requestId": "782722.5",
+      "sequence": 3,
+      "resourceType": "XHR",
+      "initiatorType": "script",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+      "method": "POST",
+      "requestHeaders": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Length": "174",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Cookie": "PHPSESSID=bi1sop38vs2b11b3j0l1bdg64j",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Cookie",
+        "Host",
+        "Pragma",
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "application/x-www-form-urlencoded",
+      "hasCookieHeader": true,
+      "associatedCookies": [
+        {
+          "blockedReasons": [],
+          "cookie": {
+            "domain": "www.2026.com",
+            "expires": -1,
+            "httpOnly": false,
+            "name": "PHPSESSID",
+            "path": "/",
+            "priority": "Medium",
+            "sameParty": false,
+            "secure": false,
+            "session": true,
+            "size": 35,
+            "sourcePort": 8080,
+            "sourceScheme": "NonSecure",
+            "value": "bi1sop38vs2b11b3j0l1bdg64j"
+          },
+          "exemptionReason": "None"
+        }
+      ],
+      "customRequestHeaders": {},
+      "postData": "userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D&userfile%5B%5D=%5Bobject%20File%5D",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "257",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Wed, 06 May 2026 01:45:04 GMT",
+        "Keep-Alive": "timeout=5, max=96",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<head>\r\n  <title>beleberda</title>\r\n</head>\r\n\r\n<body>\r\n<form action=\"/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5\" method=\"post\" enctype=\"multipart/form-data\">\r\n  Send beleberda:<br>\r\n  <input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br><input name=\"userfile[]\" type=\"file\"><br>  <input type=\"submit\" value=\"upload files\">\r\n</form>\r\n\r\n\r\n</body>\r\n\r\n</html>",
+      "responseBodyLength": 507,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 508,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2024-05-03_net/net/flix/languages/ch.php?Nfiles=5",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 277530.191409,
+      "lastEventTs": 1778031904952,
+      "requestSentTs": 277530.191409,
+      "responseReceivedTs": 277530.194044,
+      "loadingFinishedTs": 277530.193964,
+      "latencyMs": 2.6,
+      "ttfbMs": 2.6,
+      "_timing_summary": {
+        "latencyMs": 2.6,
+        "ttfbMs": 2.6,
+        "protocol": "http/1.1",
+        "redirected": false,
+        "redirectChain": [],
+        "status": 200,
+        "hasCookieHeader": true,
+        "hasSetCookie": false
+      }
+    }
+  ],
+  "cdp_monitoring": {
+    "enabled": true,
+    "degraded": false,
+    "note": "ok"
+  },
+  "static_analysis": {
+    "function_count": 365,
+    "php_file_count": 50,
+    "data_flow_count": 10,
+    "data_flows": [
+      {
+        "form_source": "net/flix/carderror.php",
+        "form_method": "post",
+        "form_fields": [
+          "creditCardNumber",
+          "creditExpirationMonth",
+          "creditCardSecurityCode",
+          "NameOnCard",
+          "hasAcceptedTermsOfUse"
+        ],
+        "action_target": "send/sendcard.php",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "net/flix/languages/ch.php",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "<",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "net/flix/step2.php",
+        "form_method": "get",
+        "form_fields": [
+          "sessionid",
+          "ue"
+        ],
+        "action_target": "stepp2.php",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "net/flix/smserror.php",
+        "form_method": "post",
+        "form_fields": [
+          "otp"
+        ],
+        "action_target": "send/sendsms.php",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "net/flix/billing.php",
+        "form_method": "post",
+        "form_fields": [
+          "full-name",
+          "birth-date",
+          "phone-number",
+          "address",
+          "city",
+          "state",
+          "zip"
+        ],
+        "action_target": "send/sendbilling.php",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "net/flix/stepp2.php",
+        "form_method": "get",
+        "form_fields": [
+          "sessionid",
+          "ue"
+        ],
+        "action_target": "card.php",
+        "server_file": "net/flix/card.php",
+        "server_receives": [
+          "caractisa"
+        ],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "net/flix/app.php",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "send/sendapp.php",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "net/flix/login.php",
+        "form_method": "post",
+        "form_fields": [
+          "userLoginId",
+          "password",
+          "rememberMe"
+        ],
+        "action_target": "send/sendlogin.php",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "net/flix/thanks.php",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "https://netflix.com",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "net/panel/index.php:<script#1>",
+        "form_method": "post",
+        "form_fields": [],
+        "action_target": "index.php",
+        "server_file": "net/index.php",
+        "server_receives": [],
+        "server_actions": [
+          {
+            "type": "redirect",
+            "target": "info.php",
+            "line": 41
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 39
+          }
+        ],
+        "exfil": [],
+        "ajax_type": "jQuery.post",
+        "ajax_source_line": 9
+      }
+    ],
+    "php_files": {
+      "net/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "info.php",
+            "line": 41
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 39
+          }
+        ],
+        "exfil": []
+      },
+      "net/system/detect.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "curl",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 36
+          }
+        ],
+        "exfil": [
+          "curl:http://www.geoplugin.net/json.gp?ip="
+        ]
+      },
+      "net/panel/index.php": {
+        "receives_post": [
+          "clear"
+        ],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "login.php",
+            "line": 11
+          }
+        ],
+        "exfil": []
+      },
+      "net/panel/login.php": {
+        "receives_post": [
+          "key",
+          "submit"
+        ],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "index.php",
+            "line": 11
+          },
+          {
+            "type": "redirect",
+            "target": "login.php",
+            "line": 29
+          },
+          {
+            "type": "redirect",
+            "target": "index.php",
+            "line": 35
+          }
+        ],
+        "exfil": []
+      },
+      "net/panel/logout.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "login.php",
+            "line": 10
+          },
+          {
+            "type": "redirect",
+            "target": "login.php",
+            "line": 16
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot$botToken/sendMessage",
+            "line": 40
+          },
+          {
+            "type": "redirect",
+            "target": "login.php?sessionid={$randString}&ue={$randString}",
+            "line": 60
+          },
+          {
+            "type": "curl",
+            "target": "$telegram_api_url);",
+            "line": 48
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://ip-api.com/json/",
+            "line": 14
+          },
+          {
+            "type": "file_get_contents",
+            "target": "https://api.telegram.org/bot",
+            "line": 45
+          }
+        ],
+        "exfil": [
+          "curl:$telegram_api_url);",
+          "telegram:$botToken/sendMessag"
+        ]
+      },
+      "net/flix/process.php": {
+        "receives_post": [],
+        "actions": [],
+        "exfil": []
+      },
+      "net/flix/card.php": {
+        "receives_post": [
+          "caractisa"
+        ],
+        "actions": [],
+        "exfil": []
+      },
+      "net/flix/waitingsms.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "$redirectPage?userid={$randString}&ue={$randString}",
+            "line": 51
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/waiting.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "$redirectPage?userid={$randString}&ue={$randString}",
+            "line": 51
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/step1.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "billing.php",
+            "line": 3
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/waitingapp.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "$redirectPage?userid={$randString}&ue={$randString}",
+            "line": 52
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/thanks.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot$botToken/sendMessage",
+            "line": 13
+          },
+          {
+            "type": "file_get_contents",
+            "target": "https://api.telegram.org/bot",
+            "line": 20
+          }
+        ],
+        "exfil": [
+          "telegram:$botToken/sendMessag"
+        ]
+      },
+      "net/flix/ccfunctions/redirect.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot{$botToken}/sendMessage?chat_id={$chatId}&text=",
+            "line": 27
+          }
+        ],
+        "exfil": [
+          "telegram:{$botToken}/sendMess"
+        ]
+      },
+      "net/flix/appfunctions/redirect.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot{$botToken}/sendMessage?chat_id={$chatId}&text=",
+            "line": 27
+          }
+        ],
+        "exfil": [
+          "telegram:{$botToken}/sendMess"
+        ]
+      },
+      "net/flix/bot/anti6.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://google.coms",
+            "line": 6
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 10
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 18
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 26
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/bot/anti2.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://google.com",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/bot/anti3.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "curl",
+            "target": "$url);",
+            "line": 86
+          }
+        ],
+        "exfil": [
+          "curl:$url);"
+        ]
+      },
+      "net/flix/bot/anti1.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 27
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 27
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 27
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 27
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/bot/anti4.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://google.com",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/bot/antiproxy.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://www.google.com/",
+            "line": 46
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/bot/defender.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 12
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 24
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 34
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 49
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 57
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 615
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 763
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1270
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1623
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1638
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1650
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1664
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1675
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1686
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1697
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1712
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1724
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1737
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1759
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1769
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/bot/anti9.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 8
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 75
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/bot/anti5.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "http://2m.ma",
+            "line": 1
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://ipinfo.io/",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/bot/anti7.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 1
+          },
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 1
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 1
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/smsfunctions/redirect.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot{$botToken}/sendMessage?chat_id={$chatId}&text=",
+            "line": 27
+          }
+        ],
+        "exfil": [
+          "telegram:{$botToken}/sendMess"
+        ]
+      },
+      "net/flix/banip/banip.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "telegram",
+            "target": "api.telegram.org/bot{$botToken}/sendMessage?chat_id={$chatId}&text=",
+            "line": 21
+          }
+        ],
+        "exfil": [
+          "telegram:{$botToken}/sendMess"
+        ]
+      },
+      "net/flix/banip/zeus.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://google.com",
+            "line": 22
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/languages/ch.php": {
+        "receives_post": [],
+        "actions": [],
+        "exfil": []
+      },
+      "net/flix/antibots/#12.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 19
+          },
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 26
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 17
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 24
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/antibot_host.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 12
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 10
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/Fuck-you.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "curl",
+            "target": "$getdetails);",
+            "line": 52
+          }
+        ],
+        "exfil": [
+          "curl:$getdetails);"
+        ]
+      },
+      "net/flix/antibots/antibot_userAgent.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 965
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 963
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/#8.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 29
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 34
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 44
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/proxyblock.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "curl",
+            "target": "$url);",
+            "line": 31
+          },
+          {
+            "type": "curl",
+            "target": "$url);",
+            "line": 54
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 40
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 43
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 64
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 67
+          }
+        ],
+        "exfil": [
+          "curl:$url);"
+        ]
+      },
+      "net/flix/antibots/#10.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "",
+            "line": 15
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://ipinfo.io/",
+            "line": 8
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 14
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/#11.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 70
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 68
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/antibot_phishtank.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 9
+          },
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 18
+          },
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 30
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 7
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 16
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 28
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/IP-BlackList.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.cpanel.com",
+            "line": 8
+          },
+          {
+            "type": "redirect",
+            "target": "http://www.cpanel.com",
+            "line": 17
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/antibot_ip.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 933
+          },
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 942
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 931
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 940
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/#9.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "",
+            "line": 5
+          },
+          {
+            "type": "redirect",
+            "target": "",
+            "line": 5
+          },
+          {
+            "type": "redirect",
+            "target": "",
+            "line": 5
+          },
+          {
+            "type": "redirect",
+            "target": "",
+            "line": 5
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 5
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/Dila_DZ.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.cpanel.com",
+            "line": 22
+          },
+          {
+            "type": "redirect",
+            "target": "http://www.cpanel.com",
+            "line": 29
+          },
+          {
+            "type": "redirect",
+            "target": "http://www.cpanel.com",
+            "line": 40
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/antibot_proxy.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.google.com/",
+            "line": 11
+          },
+          {
+            "type": "fwrite",
+            "target": "(file)",
+            "line": 9
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/Bot-Spox.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.cpanel.com",
+            "line": 6
+          },
+          {
+            "type": "redirect",
+            "target": "http://www.cpanel.com",
+            "line": 16
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/antibots/Bot-Crawler.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "http://www.cpanel.com",
+            "line": 29
+          },
+          {
+            "type": "redirect",
+            "target": "http://www.cpanel.com",
+            "line": 36
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/eradox/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "../index.php",
+            "line": 21
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/eradox/anti6.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 11
+          },
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 19
+          },
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 35
+          },
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 51
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/eradox/filter.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "curl",
+            "target": "sprintf(static::BASE_API_URL,",
+            "line": 139
+          }
+        ],
+        "exfil": [
+          "curl:sprintf(static::BASE_API_URL,"
+        ]
+      },
+      "net/flix/eradox/anti4.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 5
+          },
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 5
+          },
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 5
+          }
+        ],
+        "exfil": []
+      },
+      "net/flix/eradox/anti5.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 5
+          },
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 5
+          },
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 5
+          },
+          {
+            "type": "redirect",
+            "target": "https://www.mediapart.fr/",
+            "line": 5
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://ipinfo.io/",
+            "line": 5
+          }
+        ],
+        "exfil": []
+      }
+    }
+  }
+}

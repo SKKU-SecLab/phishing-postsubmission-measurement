@@ -1,0 +1,101 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-12-24_bank-of-america-RD379-detail1/bank-of-america-RD379-detail1/",
+  "timestamp": "2026-05-03 20:29:20",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2021-12-24_bank-of-america-RD379-detail1",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-12-24_bank-of-america-RD379-detail1/bank-of-america-RD379-detail1/card.html",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-12-24_bank-of-america-RD379-detail1/bank-of-america-RD379-detail1/next.php",
+          "method": "post",
+          "xpath": "//*[@id=\"MainForm\"]",
+          "registered_handlers": [],
+          "fields": [
+            {
+              "name": "name",
+              "type": "text",
+              "xpath": "/html/body/div[2]/form/div[2]/div/div/div[2]/div[2]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "cnum",
+              "type": "text",
+              "xpath": "/html/body/div[2]/form/div[2]/div/div/div[3]/div[2]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "exdate",
+              "type": "text",
+              "xpath": "//*[@id=\"exdate\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "ccv",
+              "type": "text",
+              "xpath": "/html/body/div[2]/form/div[2]/div/div/div[5]/div[2]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "ssn",
+              "type": "text",
+              "xpath": "//*[@id=\"ssn\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "mmn",
+              "type": "text",
+              "xpath": "/html/body/div[2]/form/div[2]/div/div/div[7]/div[2]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "dob",
+              "type": "text",
+              "xpath": "//*[@id=\"dob\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "atm",
+              "type": "password",
+              "xpath": "/html/body/div[2]/form/div[2]/div/div/div[9]/div[2]/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "./next.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "MainForm",
+                "method": "POST",
+                "name": 

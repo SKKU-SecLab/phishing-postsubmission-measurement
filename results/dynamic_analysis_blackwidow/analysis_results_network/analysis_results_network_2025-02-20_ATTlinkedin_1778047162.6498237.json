@@ -1,0 +1,65 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-20_ATTlinkedin/ATTlinkedin/linkedin/",
+  "timestamp": "2026-05-06 14:59:22",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2025-02-20_ATTlinkedin",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-20_ATTlinkedin/ATTlinkedin/linkedin/card.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2025-02-20_ATTlinkedin/ATTlinkedin/linkedin/post.php",
+          "method": "post",
+          "xpath": "/html/body/main/div/form",
+          "registered_handlers": [],
+          "fields": [
+            {
+              "name": "name",
+              "type": "text",
+              "xpath": "/html/body/main/div/form/div/input",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "cc",
+              "type": "text",
+              "xpath": "//*[@id=\"cc\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "exp",
+              "type": "text",
+              "xpath": "//*[@id=\"exp\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "cvv",
+              "type": "text",
+              "xpath": "//*[@id=\"cvv\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "post.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "",
+                "method": "POST",
+                "name": 

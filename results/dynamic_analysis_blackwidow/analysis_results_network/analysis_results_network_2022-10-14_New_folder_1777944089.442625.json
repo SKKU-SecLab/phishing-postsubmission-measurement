@@ -1,0 +1,2509 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/",
+  "timestamp": "2026-05-05 10:21:29",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2022-10-14_New folder",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+          "method": "post",
+          "xpath": "//*[@id=\"lg-form\"]",
+          "registered_handlers": [],
+          "fields": [],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "waka-login.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "lg-form",
+                "method": "POST",
+                "name": "lg-form"
+              },
+              "cdp_reqs": [],
+              "note": "submit button not found — native submit skipped"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "waka-login.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": null,
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)\n    at eval (eval at executeScript (:416:16), <anonymous>:16:31)\n    at executeScript (<anonymous>:418:30)\n    at <anonymous>:423:24\n    at callFunction (<anonymous>:386:22)\n    at <anonymous>:400:23\n    at <anonymous>:401:3",
+                  "status": 500,
+                  "response": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+                  "responseHeaders": {
+                    "connection": "close",
+                    "content-length": "724",
+                    "content-type": "text/html; charset=UTF-8",
+                    "date": "Tue, 05 May 2026 01:21:35 GMT",
+                    "server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "responseBodyLength": 712,
+                  "timestamp": 1777944095645,
+                  "latencyMs": 4,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "New folder/waka-login.php",
+                    "receives_fields": [
+                      "password",
+                      "username"
+                    ],
+                    "actions": [
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+                        "variable": "$own",
+                        "line": 36
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                        "line": 33
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "index2.php?email=$login",
+                        "line": 37
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "http://www.geoplugin.net/json.gp?ip=",
+                        "line": 84
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "http://www.geoplugin.net/json.gp?ip=",
+                        "line": 112
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "http://www.geoplugin.net/json.gp?ip=",
+                        "line": 140
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "http://www.geoplugin.net/json.gp?ip=",
+                        "line": 168
+                      }
+                    ],
+                    "exfil": [
+                      "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+                    ]
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "//*[@id=\"lg-form\"]",
+                  "targetTag": "FORM",
+                  "targetName": "lg-form",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)\n    at eval (eval at executeScript (:416:16), <anonymous>:16:31)\n    at executeScript (<anonymous>:418:30)\n    at <anonymous>:423:24\n    at callFunction (<anonymous>:386:22)\n    at <anonymous>:400:23\n    at <anonymous>:401:3",
+                  "timestamp": 1777944095645
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "533406.183",
+                  "sequence": 5,
+                  "resourceType": "XHR",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 500,
+                  "statusText": "Internal Server Error",
+                  "redirected": true,
+                  "redirectChain": [
+                    {
+                      "status": 302,
+                      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+                      "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                    }
+                  ],
+                  "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                  "responseHeaders": {
+                    "Connection": "close",
+                    "Content-Length": "724",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Tue, 05 May 2026 01:21:35 GMT",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+                  "responseBodyLength": 712,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 911,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.0",
+                  "timestamp": 189721.391939,
+                  "lastEventTs": 1777944096149,
+                  "requestSentTs": 189721.391939,
+                  "responseReceivedTs": 189721.393328,
+                  "loadingFinishedTs": 189721.393171,
+                  "latencyMs": 1.2,
+                  "ttfbMs": 1.4,
+                  "_timing_summary": {
+                    "latencyMs": 1.2,
+                    "ttfbMs": 1.4,
+                    "protocol": "http/1.0",
+                    "redirected": true,
+                    "redirectChain": [
+                      {
+                        "status": 302,
+                        "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+                        "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                      }
+                    ],
+                    "status": 500,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1777944095613,
+            "submit_timing": {
+              "python_click_ts_ms": 1777944095613,
+              "js_trigger_event_ts_ms": 1777944095645,
+              "js_first_req_ts_ms": 1777944095645,
+              "event_to_request_ms": 0,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "waka-login.php",
+              "fields": {},
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 712,
+              "status": 500,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "533406.183",
+                  "sequence": 5,
+                  "resourceType": "XHR",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 500,
+                  "statusText": "Internal Server Error",
+                  "redirected": true,
+                  "redirectChain": [
+                    {
+                      "status": 302,
+                      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+                      "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                    }
+                  ],
+                  "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                  "responseHeaders": {
+                    "Connection": "close",
+                    "Content-Length": "724",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Tue, 05 May 2026 01:21:35 GMT",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+                  "responseBodyLength": 712,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 911,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.0",
+                  "timestamp": 189721.391939,
+                  "lastEventTs": 1777944096149,
+                  "requestSentTs": 189721.391939,
+                  "responseReceivedTs": 189721.393328,
+                  "loadingFinishedTs": 189721.393171,
+                  "latencyMs": 1.2,
+                  "ttfbMs": 1.4,
+                  "_timing_summary": {
+                    "latencyMs": 1.2,
+                    "ttfbMs": 1.4,
+                    "protocol": "http/1.0",
+                    "redirected": true,
+                    "redirectChain": [
+                      {
+                        "status": 302,
+                        "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+                        "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                      }
+                    ],
+                    "status": 500,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 0,
+            "visible_now": 0,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "New folder/waka-login.php",
+            "receives_fields": [
+              "password",
+              "username"
+            ],
+            "actions": [
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+                "variable": "$own",
+                "line": 36
+              },
+              {
+                "type": "redirect",
+                "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                "line": 33
+              },
+              {
+                "type": "redirect",
+                "target": "index2.php?email=$login",
+                "line": 37
+              },
+              {
+                "type": "file_get_contents",
+                "target": "http://www.geoplugin.net/json.gp?ip=",
+                "line": 84
+              },
+              {
+                "type": "file_get_contents",
+                "target": "http://www.geoplugin.net/json.gp?ip=",
+                "line": 112
+              },
+              {
+                "type": "file_get_contents",
+                "target": "http://www.geoplugin.net/json.gp?ip=",
+                "line": 140
+              },
+              {
+                "type": "file_get_contents",
+                "target": "http://www.geoplugin.net/json.gp?ip=",
+                "line": 168
+              }
+            ],
+            "exfil": [
+              "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+            ]
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php"
+        }
+      ]
+    },
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+          "method": "post",
+          "xpath": "//*[@id=\"lg-form\"]",
+          "registered_handlers": [],
+          "fields": [],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "waka-login2.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "lg-form",
+                "method": "POST",
+                "name": "lg-form"
+              },
+              "cdp_reqs": [],
+              "note": "submit button not found — native submit skipped"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "waka-login2.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": null,
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)\n    at eval (eval at executeScript (:416:16), <anonymous>:16:31)\n    at executeScript (<anonymous>:418:30)\n    at <anonymous>:423:24\n    at callFunction (<anonymous>:386:22)\n    at <anonymous>:400:23\n    at <anonymous>:401:3",
+                  "status": 500,
+                  "response": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+                  "responseHeaders": {
+                    "connection": "close",
+                    "content-length": "724",
+                    "content-type": "text/html; charset=UTF-8",
+                    "date": "Tue, 05 May 2026 01:21:42 GMT",
+                    "server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "responseBodyLength": 712,
+                  "timestamp": 1777944102206,
+                  "latencyMs": 4,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "New folder/waka-login2.php",
+                    "receives_fields": [
+                      "password",
+                      "username"
+                    ],
+                    "actions": [
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+                        "variable": "$own",
+                        "line": 36
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                        "line": 33
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "http://$domain",
+                        "line": 37
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "http://www.geoplugin.net/json.gp?ip=",
+                        "line": 84
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "http://www.geoplugin.net/json.gp?ip=",
+                        "line": 112
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "http://www.geoplugin.net/json.gp?ip=",
+                        "line": 140
+                      },
+                      {
+                        "type": "file_get_contents",
+                        "target": "http://www.geoplugin.net/json.gp?ip=",
+                        "line": 168
+                      }
+                    ],
+                    "exfil": [
+                      "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+                    ]
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "//*[@id=\"lg-form\"]",
+                  "targetTag": "FORM",
+                  "targetName": "lg-form",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)\n    at eval (eval at executeScript (:416:16), <anonymous>:16:31)\n    at executeScript (<anonymous>:418:30)\n    at <anonymous>:423:24\n    at callFunction (<anonymous>:386:22)\n    at <anonymous>:400:23\n    at <anonymous>:401:3",
+                  "timestamp": 1777944102206
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "533406.202",
+                  "sequence": 5,
+                  "resourceType": "XHR",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 500,
+                  "statusText": "Internal Server Error",
+                  "redirected": true,
+                  "redirectChain": [
+                    {
+                      "status": 302,
+                      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+                      "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                    }
+                  ],
+                  "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                  "responseHeaders": {
+                    "Connection": "close",
+                    "Content-Length": "724",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Tue, 05 May 2026 01:21:42 GMT",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+                  "responseBodyLength": 712,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 911,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.0",
+                  "timestamp": 189727.953275,
+                  "lastEventTs": 1777944102713,
+                  "requestSentTs": 189727.953275,
+                  "responseReceivedTs": 189727.954518,
+                  "loadingFinishedTs": 189727.954572,
+                  "latencyMs": 1.3,
+                  "ttfbMs": 1.2,
+                  "_timing_summary": {
+                    "latencyMs": 1.3,
+                    "ttfbMs": 1.2,
+                    "protocol": "http/1.0",
+                    "redirected": true,
+                    "redirectChain": [
+                      {
+                        "status": 302,
+                        "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+                        "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                      }
+                    ],
+                    "status": 500,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1777944102172,
+            "submit_timing": {
+              "python_click_ts_ms": 1777944102172,
+              "js_trigger_event_ts_ms": 1777944102206,
+              "js_first_req_ts_ms": 1777944102206,
+              "event_to_request_ms": 0,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "waka-login2.php",
+              "fields": {},
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 712,
+              "status": 500,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "533406.202",
+                  "sequence": 5,
+                  "resourceType": "XHR",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "method": "GET",
+                  "requestHeaders": {
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Host": "www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Host",
+                    "Pragma",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": null,
+                  "status": 500,
+                  "statusText": "Internal Server Error",
+                  "redirected": true,
+                  "redirectChain": [
+                    {
+                      "status": 302,
+                      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+                      "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                    }
+                  ],
+                  "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                  "responseHeaders": {
+                    "Connection": "close",
+                    "Content-Length": "724",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Tue, 05 May 2026 01:21:42 GMT",
+                    "Server": "Apache/2.4.58 (Ubuntu)"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+                  "responseBodyLength": 712,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 911,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.0",
+                  "timestamp": 189727.953275,
+                  "lastEventTs": 1777944102713,
+                  "requestSentTs": 189727.953275,
+                  "responseReceivedTs": 189727.954518,
+                  "loadingFinishedTs": 189727.954572,
+                  "latencyMs": 1.3,
+                  "ttfbMs": 1.2,
+                  "_timing_summary": {
+                    "latencyMs": 1.3,
+                    "ttfbMs": 1.2,
+                    "protocol": "http/1.0",
+                    "redirected": true,
+                    "redirectChain": [
+                      {
+                        "status": 302,
+                        "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+                        "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                      }
+                    ],
+                    "status": 500,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 0,
+            "visible_now": 0,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "New folder/waka-login2.php",
+            "receives_fields": [
+              "password",
+              "username"
+            ],
+            "actions": [
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+                "variable": "$own",
+                "line": 36
+              },
+              {
+                "type": "redirect",
+                "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                "line": 33
+              },
+              {
+                "type": "redirect",
+                "target": "http://$domain",
+                "line": 37
+              },
+              {
+                "type": "file_get_contents",
+                "target": "http://www.geoplugin.net/json.gp?ip=",
+                "line": 84
+              },
+              {
+                "type": "file_get_contents",
+                "target": "http://www.geoplugin.net/json.gp?ip=",
+                "line": 112
+              },
+              {
+                "type": "file_get_contents",
+                "target": "http://www.geoplugin.net/json.gp?ip=",
+                "line": 140
+              },
+              {
+                "type": "file_get_contents",
+                "target": "http://www.geoplugin.net/json.gp?ip=",
+                "line": 168
+              }
+            ],
+            "exfil": [
+              "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+            ]
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+      "method": "post",
+      "xpath": "//*[@id=\"lg-form\"]",
+      "registered_handlers": [],
+      "fields": [],
+      "submit_log": {
+        "enter_key_test": {
+          "skipped": true,
+          "reason": "network_only"
+        },
+        "enter_key_logs": {},
+        "native_submit": {
+          "form_meta": {
+            "action": "waka-login.php",
+            "enctype": "application/x-www-form-urlencoded",
+            "id": "lg-form",
+            "method": "POST",
+            "name": "lg-form"
+          },
+          "cdp_reqs": [],
+          "note": "submit button not found — native submit skipped"
+        },
+        "submit_click_logs": {
+          "step": 1,
+          "phase": "submit_click",
+          "domChanges": [],
+          "networkReqs": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "type": "xhr",
+              "method": "POST",
+              "url": "waka-login.php",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "requestContentType": "application/x-www-form-urlencoded",
+              "requestBody": null,
+              "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)\n    at eval (eval at executeScript (:416:16), <anonymous>:16:31)\n    at executeScript (<anonymous>:418:30)\n    at <anonymous>:423:24\n    at callFunction (<anonymous>:386:22)\n    at <anonymous>:400:23\n    at <anonymous>:401:3",
+              "status": 500,
+              "response": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+              "responseHeaders": {
+                "connection": "close",
+                "content-length": "724",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Tue, 05 May 2026 01:21:35 GMT",
+                "server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseReturned": true,
+              "redirected": true,
+              "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "responseBodyLength": 712,
+              "timestamp": 1777944095645,
+              "latencyMs": 4,
+              "ttfbMs": null,
+              "resolved_server": {
+                "server_file": "New folder/waka-login.php",
+                "receives_fields": [
+                  "password",
+                  "username"
+                ],
+                "actions": [
+                  {
+                    "type": "mail",
+                    "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+                    "variable": "$own",
+                    "line": 36
+                  },
+                  {
+                    "type": "redirect",
+                    "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                    "line": 33
+                  },
+                  {
+                    "type": "redirect",
+                    "target": "index2.php?email=$login",
+                    "line": 37
+                  },
+                  {
+                    "type": "file_get_contents",
+                    "target": "http://www.geoplugin.net/json.gp?ip=",
+                    "line": 84
+                  },
+                  {
+                    "type": "file_get_contents",
+                    "target": "http://www.geoplugin.net/json.gp?ip=",
+                    "line": 112
+                  },
+                  {
+                    "type": "file_get_contents",
+                    "target": "http://www.geoplugin.net/json.gp?ip=",
+                    "line": 140
+                  },
+                  {
+                    "type": "file_get_contents",
+                    "target": "http://www.geoplugin.net/json.gp?ip=",
+                    "line": 168
+                  }
+                ],
+                "exfil": [
+                  "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+                ]
+              }
+            }
+          ],
+          "firedEvents": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "submit",
+              "targetXPath": "//*[@id=\"lg-form\"]",
+              "targetTag": "FORM",
+              "targetName": "lg-form",
+              "targetType": "",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)\n    at eval (eval at executeScript (:416:16), <anonymous>:16:31)\n    at executeScript (<anonymous>:418:30)\n    at <anonymous>:423:24\n    at callFunction (<anonymous>:386:22)\n    at <anonymous>:400:23\n    at <anonymous>:401:3",
+              "timestamp": 1777944095645
+            }
+          ],
+          "html5Validation": [],
+          "triggeredFunctions": [],
+          "cdpNetworkReqs": [
+            {
+              "requestId": "533406.183",
+              "sequence": 5,
+              "resourceType": "XHR",
+              "initiatorType": "other",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "method": "GET",
+              "requestHeaders": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Host": "www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Host",
+                "Pragma",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": null,
+              "status": 500,
+              "statusText": "Internal Server Error",
+              "redirected": true,
+              "redirectChain": [
+                {
+                  "status": 302,
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+                  "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                }
+              ],
+              "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+              "responseHeaders": {
+                "Connection": "close",
+                "Content-Length": "724",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Tue, 05 May 2026 01:21:35 GMT",
+                "Server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+              "responseBodyLength": 712,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 911,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "mimeType": "text/html",
+              "protocol": "http/1.0",
+              "timestamp": 189721.391939,
+              "lastEventTs": 1777944096149,
+              "requestSentTs": 189721.391939,
+              "responseReceivedTs": 189721.393328,
+              "loadingFinishedTs": 189721.393171,
+              "latencyMs": 1.2,
+              "ttfbMs": 1.4,
+              "_timing_summary": {
+                "latencyMs": 1.2,
+                "ttfbMs": 1.4,
+                "protocol": "http/1.0",
+                "redirected": true,
+                "redirectChain": [
+                  {
+                    "status": 302,
+                    "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+                    "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                  }
+                ],
+                "status": 500,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ],
+          "jqueryDispatchLogs": []
+        },
+        "submit_trigger_ts_ms": 1777944095613,
+        "submit_timing": {
+          "python_click_ts_ms": 1777944095613,
+          "js_trigger_event_ts_ms": 1777944095645,
+          "js_first_req_ts_ms": 1777944095645,
+          "event_to_request_ms": 0,
+          "cdp_req_count": 1
+        },
+        "submit_detail": {
+          "action": "waka-login.php",
+          "fields": {},
+          "method": "POST",
+          "responseContentType": "text/html; charset=UTF-8",
+          "responseLength": 712,
+          "status": 500,
+          "submitted": true,
+          "cdp_network": [
+            {
+              "requestId": "533406.183",
+              "sequence": 5,
+              "resourceType": "XHR",
+              "initiatorType": "other",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "method": "GET",
+              "requestHeaders": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Host": "www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Host",
+                "Pragma",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": null,
+              "status": 500,
+              "statusText": "Internal Server Error",
+              "redirected": true,
+              "redirectChain": [
+                {
+                  "status": 302,
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+                  "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                }
+              ],
+              "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+              "responseHeaders": {
+                "Connection": "close",
+                "Content-Length": "724",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Tue, 05 May 2026 01:21:35 GMT",
+                "Server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+              "responseBodyLength": 712,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 911,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "mimeType": "text/html",
+              "protocol": "http/1.0",
+              "timestamp": 189721.391939,
+              "lastEventTs": 1777944096149,
+              "requestSentTs": 189721.391939,
+              "responseReceivedTs": 189721.393328,
+              "loadingFinishedTs": 189721.393171,
+              "latencyMs": 1.2,
+              "ttfbMs": 1.4,
+              "_timing_summary": {
+                "latencyMs": 1.2,
+                "ttfbMs": 1.4,
+                "protocol": "http/1.0",
+                "redirected": true,
+                "redirectChain": [
+                  {
+                    "status": 302,
+                    "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+                    "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                  }
+                ],
+                "status": 500,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ]
+        }
+      },
+      "overall_classification": "Case B: Server Round-trip (AJAX)",
+      "field_stats": {
+        "dom_analysable": 0,
+        "visible_now": 0,
+        "hidden_or_collapsed": 0
+      },
+      "static_action_analysis": {
+        "server_file": "New folder/waka-login.php",
+        "receives_fields": [
+          "password",
+          "username"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+            "variable": "$own",
+            "line": 36
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+            "line": 33
+          },
+          {
+            "type": "redirect",
+            "target": "index2.php?email=$login",
+            "line": 37
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 84
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 112
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 140
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 168
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+        ]
+      },
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php"
+    },
+    {
+      "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+      "method": "post",
+      "xpath": "//*[@id=\"lg-form\"]",
+      "registered_handlers": [],
+      "fields": [],
+      "submit_log": {
+        "enter_key_test": {
+          "skipped": true,
+          "reason": "network_only"
+        },
+        "enter_key_logs": {},
+        "native_submit": {
+          "form_meta": {
+            "action": "waka-login2.php",
+            "enctype": "application/x-www-form-urlencoded",
+            "id": "lg-form",
+            "method": "POST",
+            "name": "lg-form"
+          },
+          "cdp_reqs": [],
+          "note": "submit button not found — native submit skipped"
+        },
+        "submit_click_logs": {
+          "step": 1,
+          "phase": "submit_click",
+          "domChanges": [],
+          "networkReqs": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "type": "xhr",
+              "method": "POST",
+              "url": "waka-login2.php",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "requestContentType": "application/x-www-form-urlencoded",
+              "requestBody": null,
+              "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)\n    at eval (eval at executeScript (:416:16), <anonymous>:16:31)\n    at executeScript (<anonymous>:418:30)\n    at <anonymous>:423:24\n    at callFunction (<anonymous>:386:22)\n    at <anonymous>:400:23\n    at <anonymous>:401:3",
+              "status": 500,
+              "response": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+              "responseHeaders": {
+                "connection": "close",
+                "content-length": "724",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Tue, 05 May 2026 01:21:42 GMT",
+                "server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseReturned": true,
+              "redirected": true,
+              "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "responseBodyLength": 712,
+              "timestamp": 1777944102206,
+              "latencyMs": 4,
+              "ttfbMs": null,
+              "resolved_server": {
+                "server_file": "New folder/waka-login2.php",
+                "receives_fields": [
+                  "password",
+                  "username"
+                ],
+                "actions": [
+                  {
+                    "type": "mail",
+                    "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+                    "variable": "$own",
+                    "line": 36
+                  },
+                  {
+                    "type": "redirect",
+                    "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+                    "line": 33
+                  },
+                  {
+                    "type": "redirect",
+                    "target": "http://$domain",
+                    "line": 37
+                  },
+                  {
+                    "type": "file_get_contents",
+                    "target": "http://www.geoplugin.net/json.gp?ip=",
+                    "line": 84
+                  },
+                  {
+                    "type": "file_get_contents",
+                    "target": "http://www.geoplugin.net/json.gp?ip=",
+                    "line": 112
+                  },
+                  {
+                    "type": "file_get_contents",
+                    "target": "http://www.geoplugin.net/json.gp?ip=",
+                    "line": 140
+                  },
+                  {
+                    "type": "file_get_contents",
+                    "target": "http://www.geoplugin.net/json.gp?ip=",
+                    "line": 168
+                  }
+                ],
+                "exfil": [
+                  "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+                ]
+              }
+            }
+          ],
+          "firedEvents": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "submit",
+              "targetXPath": "//*[@id=\"lg-form\"]",
+              "targetTag": "FORM",
+              "targetName": "lg-form",
+              "targetType": "",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)\n    at eval (eval at executeScript (:416:16), <anonymous>:16:31)\n    at executeScript (<anonymous>:418:30)\n    at <anonymous>:423:24\n    at callFunction (<anonymous>:386:22)\n    at <anonymous>:400:23\n    at <anonymous>:401:3",
+              "timestamp": 1777944102206
+            }
+          ],
+          "html5Validation": [],
+          "triggeredFunctions": [],
+          "cdpNetworkReqs": [
+            {
+              "requestId": "533406.202",
+              "sequence": 5,
+              "resourceType": "XHR",
+              "initiatorType": "other",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "method": "GET",
+              "requestHeaders": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Host": "www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Host",
+                "Pragma",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": null,
+              "status": 500,
+              "statusText": "Internal Server Error",
+              "redirected": true,
+              "redirectChain": [
+                {
+                  "status": 302,
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+                  "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                }
+              ],
+              "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+              "responseHeaders": {
+                "Connection": "close",
+                "Content-Length": "724",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Tue, 05 May 2026 01:21:42 GMT",
+                "Server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+              "responseBodyLength": 712,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 911,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "mimeType": "text/html",
+              "protocol": "http/1.0",
+              "timestamp": 189727.953275,
+              "lastEventTs": 1777944102713,
+              "requestSentTs": 189727.953275,
+              "responseReceivedTs": 189727.954518,
+              "loadingFinishedTs": 189727.954572,
+              "latencyMs": 1.3,
+              "ttfbMs": 1.2,
+              "_timing_summary": {
+                "latencyMs": 1.3,
+                "ttfbMs": 1.2,
+                "protocol": "http/1.0",
+                "redirected": true,
+                "redirectChain": [
+                  {
+                    "status": 302,
+                    "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+                    "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                  }
+                ],
+                "status": 500,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ],
+          "jqueryDispatchLogs": []
+        },
+        "submit_trigger_ts_ms": 1777944102172,
+        "submit_timing": {
+          "python_click_ts_ms": 1777944102172,
+          "js_trigger_event_ts_ms": 1777944102206,
+          "js_first_req_ts_ms": 1777944102206,
+          "event_to_request_ms": 0,
+          "cdp_req_count": 1
+        },
+        "submit_detail": {
+          "action": "waka-login2.php",
+          "fields": {},
+          "method": "POST",
+          "responseContentType": "text/html; charset=UTF-8",
+          "responseLength": 712,
+          "status": 500,
+          "submitted": true,
+          "cdp_network": [
+            {
+              "requestId": "533406.202",
+              "sequence": 5,
+              "resourceType": "XHR",
+              "initiatorType": "other",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "method": "GET",
+              "requestHeaders": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Host": "www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Host",
+                "Pragma",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": null,
+              "status": 500,
+              "statusText": "Internal Server Error",
+              "redirected": true,
+              "redirectChain": [
+                {
+                  "status": 302,
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+                  "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                }
+              ],
+              "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+              "responseHeaders": {
+                "Connection": "close",
+                "Content-Length": "724",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Tue, 05 May 2026 01:21:42 GMT",
+                "Server": "Apache/2.4.58 (Ubuntu)"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+              "responseBodyLength": 712,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 911,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+              "mimeType": "text/html",
+              "protocol": "http/1.0",
+              "timestamp": 189727.953275,
+              "lastEventTs": 1777944102713,
+              "requestSentTs": 189727.953275,
+              "responseReceivedTs": 189727.954518,
+              "loadingFinishedTs": 189727.954572,
+              "latencyMs": 1.3,
+              "ttfbMs": 1.2,
+              "_timing_summary": {
+                "latencyMs": 1.3,
+                "ttfbMs": 1.2,
+                "protocol": "http/1.0",
+                "redirected": true,
+                "redirectChain": [
+                  {
+                    "status": 302,
+                    "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+                    "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+                  }
+                ],
+                "status": 500,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ]
+        }
+      },
+      "overall_classification": "Case B: Server Round-trip (AJAX)",
+      "field_stats": {
+        "dom_analysable": 0,
+        "visible_now": 0,
+        "hidden_or_collapsed": 0
+      },
+      "static_action_analysis": {
+        "server_file": "New folder/waka-login2.php",
+        "receives_fields": [
+          "password",
+          "username"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+            "variable": "$own",
+            "line": 36
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+            "line": 33
+          },
+          {
+            "type": "redirect",
+            "target": "http://$domain",
+            "line": 37
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 84
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 112
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 140
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 168
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+        ]
+      },
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php"
+    }
+  ],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/geoplugin.class.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/geoplugin.class.php",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "method": "get"
+    },
+    {
+      "step": 3,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "method": "get"
+    },
+    {
+      "step": 4,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+      "method": "get"
+    },
+    {
+      "step": 5,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+      "method": "get"
+    }
+  ],
+  "cdp_network": [
+    {
+      "requestId": "0A01A21B625F0F9F98DD1BDE7DAD8089",
+      "sequence": 1,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Host",
+        "Pragma",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "close",
+        "Content-Length": "724",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Tue, 05 May 2026 01:21:33 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+      "responseBodyLength": 712,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 911,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.0",
+      "timestamp": 189718.990897,
+      "lastEventTs": 1777944093269,
+      "requestSentTs": 189718.990897,
+      "responseReceivedTs": 189718.993252,
+      "loadingFinishedTs": 189718.993317,
+      "latencyMs": 2.4,
+      "ttfbMs": 2.4
+    },
+    {
+      "requestId": "CBEF7E5F3A280E9120C90F57F4C05A49",
+      "sequence": 1,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Host",
+        "Pragma",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "close",
+        "Content-Length": "799",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Tue, 05 May 2026 01:21:39 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t\r\n\t\t<h1><font color=\"red\">&#23494;&#30721;&#38169;&#35823;</font></h1>\r\n\t\t<form action=\"waka-login2.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+      "responseBodyLength": 787,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 986,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.0",
+      "timestamp": 189725.556253,
+      "lastEventTs": 1777944099832,
+      "requestSentTs": 189725.556253,
+      "responseReceivedTs": 189725.558506,
+      "loadingFinishedTs": 189725.558236,
+      "latencyMs": 2.0,
+      "ttfbMs": 2.3
+    },
+    {
+      "requestId": "533406.178",
+      "sequence": 2,
+      "resourceType": "Stylesheet",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/style.css",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "650",
+        "Content-Type": "text/css",
+        "Date": "Tue, 05 May 2026 01:21:33 GMT",
+        "ETag": "\"678-588ce5cbbb800-gzip\"",
+        "Keep-Alive": "timeout=5, max=100",
+        "Last-Modified": "Tue, 14 May 2019 00:46:24 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/css",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "body{\n\tbackground-image:url(bg.png);\n\tfont-family: 'Oleo Script', cursive;\n}\n\n.lg-container{\n\twidth:275px;\n\tmargin:100px auto;\n\tpadding:20px 40px;\n\t\n}\n.lg-container h1{\n\tfont-size:40px;\n\ttext-align:center;\n}\n#lg-form > div {\n\tmargin:10px 5px;\n\tpadding:5px 0;\n}\n#lg-form label{\n\tdisplay: none;\n\tfont-size: 20px;\n\tline-height: 25px;\n}\n#lg-form input[type=\"text\"],\n#lg-form input[type=\"password\"]{\n\tborder:1px solid rgba(51,51,51,.5);\n\tpadding: 10px;\n\tfont-size: 16px;\n\tline-height: 20px;\n\twidth: 100%;\n\tfont-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\ttext-align:left;\n}\n#lg-form div:nth-child(3) {\n\ttext-align:center;\n}\n#lg-form button{\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  display: inline-block;\n  outline: 0;\n  border: 0;\n  color: #f3faef;\n  text-decoration: none;\n  background-color: #6bb642;\n  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);\n  font-size: 1.2em;\n  font-weight: bold;\n  padding: 12px 22px 12px 22px;\n  line-height: normal;\n  text-align: center;\n  vertical-align: middle;\n  cursor: pointer;\n  text-transform: uppercase;\n  text-shadow: 0 1px 0 rgba(0,0,0,0.3);\n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n  -webkit-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);\n  -moz-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);\n  box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);\n}\n#lg-form button:active{\n  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);\n  -moz-box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);\n  box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);\n}\n#lg-form button:hover{\n  color: #fff;\n  background-color: #73c437;\n}\n",
+      "responseBodyLength": 1656,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 986,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/style.css",
+      "mimeType": "text/css",
+      "protocol": "http/1.1",
+      "timestamp": 189719.00128,
+      "lastEventTs": 1777944093266,
+      "requestSentTs": 189719.00128,
+      "responseReceivedTs": 189719.010242,
+      "loadingFinishedTs": 189719.003804,
+      "latencyMs": 2.5,
+      "ttfbMs": 9.0
+    },
+    {
+      "requestId": "533406.197",
+      "sequence": 2,
+      "resourceType": "Stylesheet",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/style.css",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "650",
+        "Content-Type": "text/css",
+        "Date": "Tue, 05 May 2026 01:21:39 GMT",
+        "ETag": "\"678-588ce5cbbb800-gzip\"",
+        "Keep-Alive": "timeout=5, max=100",
+        "Last-Modified": "Tue, 14 May 2019 00:46:24 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/css",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "body{\n\tbackground-image:url(bg.png);\n\tfont-family: 'Oleo Script', cursive;\n}\n\n.lg-container{\n\twidth:275px;\n\tmargin:100px auto;\n\tpadding:20px 40px;\n\t\n}\n.lg-container h1{\n\tfont-size:40px;\n\ttext-align:center;\n}\n#lg-form > div {\n\tmargin:10px 5px;\n\tpadding:5px 0;\n}\n#lg-form label{\n\tdisplay: none;\n\tfont-size: 20px;\n\tline-height: 25px;\n}\n#lg-form input[type=\"text\"],\n#lg-form input[type=\"password\"]{\n\tborder:1px solid rgba(51,51,51,.5);\n\tpadding: 10px;\n\tfont-size: 16px;\n\tline-height: 20px;\n\twidth: 100%;\n\tfont-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n\ttext-align:left;\n}\n#lg-form div:nth-child(3) {\n\ttext-align:center;\n}\n#lg-form button{\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  display: inline-block;\n  outline: 0;\n  border: 0;\n  color: #f3faef;\n  text-decoration: none;\n  background-color: #6bb642;\n  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);\n  font-size: 1.2em;\n  font-weight: bold;\n  padding: 12px 22px 12px 22px;\n  line-height: normal;\n  text-align: center;\n  vertical-align: middle;\n  cursor: pointer;\n  text-transform: uppercase;\n  text-shadow: 0 1px 0 rgba(0,0,0,0.3);\n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n  -webkit-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);\n  -moz-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);\n  box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);\n}\n#lg-form button:active{\n  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);\n  -moz-box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);\n  box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);\n}\n#lg-form button:hover{\n  color: #fff;\n  background-color: #73c437;\n}\n",
+      "responseBodyLength": 1656,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 986,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/style.css",
+      "mimeType": "text/css",
+      "protocol": "http/1.1",
+      "timestamp": 189725.562263,
+      "lastEventTs": 1777944099832,
+      "requestSentTs": 189725.562263,
+      "responseReceivedTs": 189725.570807,
+      "loadingFinishedTs": 189725.565499,
+      "latencyMs": 3.2,
+      "ttfbMs": 8.5
+    },
+    {
+      "requestId": "533406.179",
+      "sequence": 3,
+      "resourceType": "Stylesheet",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "url": "http://fonts.googleapis.com/css?family=Oleo+Script",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 189719.001594,
+      "lastEventTs": 1777944093266,
+      "requestSentTs": 189719.001594,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "533406.198",
+      "sequence": 3,
+      "resourceType": "Stylesheet",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "url": "http://fonts.googleapis.com/css?family=Oleo+Script",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 189725.562355,
+      "lastEventTs": 1777944099832,
+      "requestSentTs": 189725.562355,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "533406.182",
+      "sequence": 4,
+      "resourceType": "Image",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/bg.png",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/style.css",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Host",
+        "Pragma",
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Length": "96054",
+        "Content-Type": "image/png",
+        "Date": "Tue, 05 May 2026 01:21:33 GMT",
+        "ETag": "\"17736-588ce5cbbb800\"",
+        "Keep-Alive": "timeout=5, max=99",
+        "Last-Modified": "Tue, 14 May 2019 00:46:24 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "image/png",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u00050\u0000\u0000\u0002W\b\u0003\u0000\u0000\u0000��<\u0000\u0000\u0002�PLTE��������������������������������������������������������������������������������������������������������������߇�Ջ�������������ꏷ����������������������������������������������뚽���������������۟��������}�������������Ӥ�������ؽ���������������������������������������ſ�©������������������耬ϭ����˥����������������ỽ��������Խ�����������ԇ����ǭ�ሰ����6~���������������딷��й�������쵷������������������AP����ʳ�fq�������������ܮ�����S����Ȳ���������Xe��ο���S_���B������v�޶�a���x�����«E�����������ڊ���̥_jv¬��ɛ��kg[�ɸ�FR⠥�ڨkLHϣ��=C�z���Z��P��D��p��>��i��4z�Jn�g��b��^��S��}��n��\"n�,u�j��a��M��v��S��H�����Y��:��r��x�Б\u0014;�\u0000\u0001tlIDATx^��\tv�@\u0010D}�3i\u0017;�5�yR�_�~�\b\u0004�_�\f��\u0006�\u0015����t�Z�-�\u0015\r\u00002��:�\u0012�ZUc\u0015�\u000fU�\u0018\u0000�F�\u0015\u0006�)Ķ��l�\u000f��\"���\t�\u0019}`\u0000s��\u001c�\\<\b�\u0017�\u0002�'��\u0004^�u�\u0015U8!?�Z\u0006�ԫj�-�\u001f��\u00033jhOh�9����K���\u0014�\u0001�\u0014�oL�QZUr{(5��RpʉUu�5\u001ez���&f�,�'��ip ?>����\u0003\u0018��+\u001d��'SF�̒\"?\u0000b�MJ`�����C��CE\u0014�\u0006\u0007J�����\u000e�!���(��\u000f��TΒx�|�YIA���AVZ1�T�![1\u0015�'b\u0012�\u0001��b�Ϩˑ��2�LR4PC,S\u0001�1՟��2'58�\"\"\u0013�A8\u0006pzS��L�\u001b�8m�\"7�b\u001d������\u0011渨�c6��u4�1�R����\u0007V��!����0�㸗+�RC� �S�\u0012�}�����F\r\"'ٓ�2�D\u0019e@��ݡ\u0003��K�\u0010e���/���A���Ŧ�\u0015a#�ڍ^�}\u0011�����V�rS\u001cV?b��Gr�Y�RLB6:[�D�� �E����,,C��\u000f4�0X�[GS�:�q��O��P$\u0016C\rbP�г���2N�\u000b0\u0014�9�\"@y ��\u0017�SfK�B3��\u0019�� iP����kN�X�h��l�AC�J4D%�XO͸�\u000b�z\u001f�\u0013TBb٫��qgN�\">g�����4u�6�\u001b8�_�FA��\u0010\u0017CS>f�\u001f��\n�xtK\u001eM�(\u0000LV2re_��&��\u000e\\2�Bz��%�Z���-��Į�1RR�\u001aK��K�U�n���E^Ҙ\u000b�b��0�Q�\u0006���8x5�-���Z��.Zh�X�SB\u000e��w�g�\ra�\u0006'4�\"��N#�H��\u001e����,��� pD3��y��BC��K{%:;\u0011\u0007\f\u001d]CnX�\u001f��p\u001dp�դ��M��'ŕVܤ3��j��Rq;%�&����ޑ\"L+�Ȝ���\u001dX�:����\\f���T�8�\u000b����\b��\u001fG�\u0007L)F+��%��jr\"�%�|\u0015����C\u0013'��ac\u0005�\nd�Ґ�KY��\r�yմ���ɛ+�\u0010�\u001fQY��]eKB�S�z��\u00009�\u001a�E�`g���|4.��\u001d�_���@R\u000e)\b��G�=\u001b��\u0013\u001eh�\u0012���\u0014���9\rY��\u001eS\\�7Is��Z���}`�����)vX�Wg)5�˛�8�K���[�Eyk>���\u0004�s� ��\u0007�iV��ej���/��\u0017\u001d�w+qG��h��?�^%k���Oź�\u001dE��&گ��RAI��/u�m{u�</7*-D\u0006\u000e��f�΋���\"�l���\u001a#\u0011#�\f���A� �.\u0007H�ߴ�ׁ\fت%4�.����%L/F�7&u[t�m�\u0011��Vݽc����Sߙw2M��_,�\u001c\u0004�h�5�OQ}J�j�{�Y���O]/ջVJ�4@W�.*\r1]d��\u0013���XM\u001d#\u0013����\u0013F�^�I��ƺ\u0016n�!��=���\u00010b�N��N3��:0Cg��?����L��\u001a�\f��\u0017�1����.��\u001ao\u0000r(?�1\u0019�Y7��Ɖ\u0018\fs\u0019��!�$�·��\u001e\"NC��!�\u001a\u000fi{\u001e�W���L�a��$�LҘ�`��I�Rk�JP&N�Q��k�5�CR\u0010�t6RrZ��#��\u0011dJ�U�W/C�r��u�d",
+      "responseBodyLength": 91122,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 96342,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/bg.png",
+      "mimeType": "image/png",
+      "protocol": "http/1.1",
+      "timestamp": 189719.011799,
+      "lastEventTs": 1777944095273,
+      "requestSentTs": 189719.011799,
+      "responseReceivedTs": 189719.014469,
+      "loadingFinishedTs": 189719.01469,
+      "latencyMs": 2.9,
+      "ttfbMs": 2.7
+    },
+    {
+      "requestId": "533406.201",
+      "sequence": 4,
+      "resourceType": "Image",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/bg.png",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/style.css",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Host",
+        "Pragma",
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Length": "96054",
+        "Content-Type": "image/png",
+        "Date": "Tue, 05 May 2026 01:21:39 GMT",
+        "ETag": "\"17736-588ce5cbbb800\"",
+        "Keep-Alive": "timeout=5, max=99",
+        "Last-Modified": "Tue, 14 May 2019 00:46:24 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "image/png",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "�PNG\r\n\u001a\n\u0000\u0000\u0000\rIHDR\u0000\u0000\u00050\u0000\u0000\u0002W\b\u0003\u0000\u0000\u0000��<\u0000\u0000\u0002�PLTE��������������������������������������������������������������������������������������������������������������߇�Ջ�������������ꏷ����������������������������������������������뚽���������������۟��������}�������������Ӥ�������ؽ���������������������������������������ſ�©������������������耬ϭ����˥����������������ỽ��������Խ�����������ԇ����ǭ�ሰ����6~���������������딷��й�������쵷������������������AP����ʳ�fq�������������ܮ�����S����Ȳ���������Xe��ο���S_���B������v�޶�a���x�����«E�����������ڊ���̥_jv¬��ɛ��kg[�ɸ�FR⠥�ڨkLHϣ��=C�z���Z��P��D��p��>��i��4z�Jn�g��b��^��S��}��n��\"n�,u�j��a��M��v��S��H�����Y��:��r��x�Б\u0014;�\u0000\u0001tlIDATx^��\tv�@\u0010D}�3i\u0017;�5�yR�_�~�\b\u0004�_�\f��\u0006�\u0015����t�Z�-�\u0015\r\u00002��:�\u0012�ZUc\u0015�\u000fU�\u0018\u0000�F�\u0015\u0006�)Ķ��l�\u000f��\"���\t�\u0019}`\u0000s��\u001c�\\<\b�\u0017�\u0002�'��\u0004^�u�\u0015U8!?�Z\u0006�ԫj�-�\u001f��\u00033jhOh�9����K���\u0014�\u0001�\u0014�oL�QZUr{(5��RpʉUu�5\u001ez���&f�,�'��ip ?>����\u0003\u0018��+\u001d��'SF�̒\"?\u0000b�MJ`�����C��CE\u0014�\u0006\u0007J�����\u000e�!���(��\u000f��TΒx�|�YIA���AVZ1�T�![1\u0015�'b\u0012�\u0001��b�Ϩˑ��2�LR4PC,S\u0001�1՟��2'58�\"\"\u0013�A8\u0006pzS��L�\u001b�8m�\"7�b\u001d������\u0011渨�c6��u4�1�R����\u0007V��!����0�㸗+�RC� �S�\u0012�}�����F\r\"'ٓ�2�D\u0019e@��ݡ\u0003��K�\u0010e���/���A���Ŧ�\u0015a#�ڍ^�}\u0011�����V�rS\u001cV?b��Gr�Y�RLB6:[�D�� �E����,,C��\u000f4�0X�[GS�:�q��O��P$\u0016C\rbP�г���2N�\u000b0\u0014�9�\"@y ��\u0017�SfK�B3��\u0019�� iP����kN�X�h��l�AC�J4D%�XO͸�\u000b�z\u001f�\u0013TBb٫��qgN�\">g�����4u�6�\u001b8�_�FA��\u0010\u0017CS>f�\u001f��\n�xtK\u001eM�(\u0000LV2re_��&��\u000e\\2�Bz��%�Z���-��Į�1RR�\u001aK��K�U�n���E^Ҙ\u000b�b��0�Q�\u0006���8x5�-���Z��.Zh�X�SB\u000e��w�g�\ra�\u0006'4�\"��N#�H��\u001e����,��� pD3��y��BC��K{%:;\u0011\u0007\f\u001d]CnX�\u001f��p\u001dp�դ��M��'ŕVܤ3��j��Rq;%�&����ޑ\"L+�Ȝ���\u001dX�:����\\f���T�8�\u000b����\b��\u001fG�\u0007L)F+��%��jr\"�%�|\u0015����C\u0013'��ac\u0005�\nd�Ґ�KY��\r�yմ���ɛ+�\u0010�\u001fQY��]eKB�S�z��\u00009�\u001a�E�`g���|4.��\u001d�_���@R\u000e)\b��G�=\u001b��\u0013\u001eh�\u0012���\u0014���9\rY��\u001eS\\�7Is��Z���}`�����)vX�Wg)5�˛�8�K���[�Eyk>���\u0004�s� ��\u0007�iV��ej���/��\u0017\u001d�w+qG��h��?�^%k���Oź�\u001dE��&گ��RAI��/u�m{u�</7*-D\u0006\u000e��f�΋���\"�l���\u001a#\u0011#�\f���A� �.\u0007H�ߴ�ׁ\fت%4�.����%L/F�7&u[t�m�\u0011��Vݽc����Sߙw2M��_,�\u001c\u0004�h�5�OQ}J�j�{�Y���O]/ջVJ�4@W�.*\r1]d��\u0013���XM\u001d#\u0013����\u0013F�^�I��ƺ\u0016n�!��=���\u00010b�N��N3��:0Cg��?����L��\u001a�\f��\u0017�1����.��\u001ao\u0000r(?�1\u0019�Y7��Ɖ\u0018\fs\u0019��!�$�·��\u001e\"NC��!�\u001a\u000fi{\u001e�W���L�a��$�LҘ�`��I�Rk�JP&N�Q��k�5�CR\u0010�t6RrZ��#��\u0011dJ�U�W/C�r��u�d",
+      "responseBodyLength": 91122,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 96342,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/bg.png",
+      "mimeType": "image/png",
+      "protocol": "http/1.1",
+      "timestamp": 189725.572224,
+      "lastEventTs": 1777944099835,
+      "requestSentTs": 189725.572224,
+      "responseReceivedTs": 189725.573945,
+      "loadingFinishedTs": 189725.576347,
+      "latencyMs": 4.1,
+      "ttfbMs": 1.7
+    },
+    {
+      "requestId": "533406.183",
+      "sequence": 5,
+      "resourceType": "XHR",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Host",
+        "Pragma",
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "redirected": true,
+      "redirectChain": [
+        {
+          "status": 302,
+          "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+          "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+        }
+      ],
+      "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+      "responseHeaders": {
+        "Connection": "close",
+        "Content-Length": "724",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Tue, 05 May 2026 01:21:35 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+      "responseBodyLength": 712,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 911,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+      "mimeType": "text/html",
+      "protocol": "http/1.0",
+      "timestamp": 189721.391939,
+      "lastEventTs": 1777944096149,
+      "requestSentTs": 189721.391939,
+      "responseReceivedTs": 189721.393328,
+      "loadingFinishedTs": 189721.393171,
+      "latencyMs": 1.2,
+      "ttfbMs": 1.4,
+      "_timing_summary": {
+        "latencyMs": 1.2,
+        "ttfbMs": 1.4,
+        "protocol": "http/1.0",
+        "redirected": true,
+        "redirectChain": [
+          {
+            "status": 302,
+            "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login.php",
+            "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+          }
+        ],
+        "status": 500,
+        "hasCookieHeader": false,
+        "hasSetCookie": false
+      }
+    },
+    {
+      "requestId": "533406.202",
+      "sequence": 5,
+      "resourceType": "XHR",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index2.php",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Host",
+        "Pragma",
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "redirected": true,
+      "redirectChain": [
+        {
+          "status": 302,
+          "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+          "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+        }
+      ],
+      "redirectLocation": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+      "responseHeaders": {
+        "Connection": "close",
+        "Content-Length": "724",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Tue, 05 May 2026 01:21:42 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<!DOCTYPE HTML>\r\n<html lang=\"en-US\">\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>163-126&#32593;&#26131;&#20813;&#36153;&#37038;&#45;&#45;&#20013;&#25991;&#37038;&#31665;&#31532;&#19968;&#21697;&#29260;</title>\r\n\t<link rel=\"stylesheet\" href=\"style.css\" />\r\n\t<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>\r\n</head>\r\n<body>\r\n\t<div class=\"lg-container\">\r\n\t\t<h1>邮箱帐号登录</h1>\r\n\t\t<form action=\"waka-login.php\" id=\"lg-form\" name=\"lg-form\" method=\"post\">\r\n\t\t\t\r\n\t\t\t<div>\r\n\t\t\t<label for=\"username\">Username:</label>\r\n\t\t\t\t<input type=\"text\" required=\"\" name=\"username\" id=\"username\" \r\n\t\t\t\tplaceholder=\"&#37038;&#31665;&#24080;&#21495;&#25110;&#25163;&#26426;&#21495;\" value=\"",
+      "responseBodyLength": 712,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 911,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4",
+      "mimeType": "text/html",
+      "protocol": "http/1.0",
+      "timestamp": 189727.953275,
+      "lastEventTs": 1777944102713,
+      "requestSentTs": 189727.953275,
+      "responseReceivedTs": 189727.954518,
+      "loadingFinishedTs": 189727.954572,
+      "latencyMs": 1.3,
+      "ttfbMs": 1.2,
+      "_timing_summary": {
+        "latencyMs": 1.3,
+        "ttfbMs": 1.2,
+        "protocol": "http/1.0",
+        "redirected": true,
+        "redirectChain": [
+          {
+            "status": 302,
+            "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2022-10-14_New%20folder/New%20folder/waka-login2.php",
+            "location": "index.php?deway_subscriber_info=&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1"
+          }
+        ],
+        "status": 500,
+        "hasCookieHeader": false,
+        "hasSetCookie": false
+      }
+    }
+  ],
+  "cdp_monitoring": {
+    "enabled": true,
+    "degraded": false,
+    "note": "ok"
+  },
+  "static_analysis": {
+    "function_count": 46,
+    "php_file_count": 5,
+    "data_flow_count": 2,
+    "data_flows": [
+      {
+        "form_source": "New folder/index.php",
+        "form_method": "post",
+        "form_fields": [
+          "username",
+          "password"
+        ],
+        "action_target": "waka-login.php",
+        "server_file": "New folder/waka-login.php",
+        "server_receives": [
+          "password",
+          "username"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+            "variable": "$own",
+            "line": 36
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+            "line": 33
+          },
+          {
+            "type": "redirect",
+            "target": "index2.php?email=$login",
+            "line": 37
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 84
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 112
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 140
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 168
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+        ]
+      },
+      {
+        "form_source": "New folder/index2.php",
+        "form_method": "post",
+        "form_fields": [
+          "username",
+          "password"
+        ],
+        "action_target": "waka-login2.php",
+        "server_file": "New folder/waka-login2.php",
+        "server_receives": [
+          "password",
+          "username"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+            "variable": "$own",
+            "line": 36
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+            "line": 33
+          },
+          {
+            "type": "redirect",
+            "target": "http://$domain",
+            "line": 37
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 84
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 112
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 140
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 168
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+        ]
+      }
+    ],
+    "php_files": {
+      "New folder/index.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "file_get_contents",
+            "target": "http://adrotate.pw/rotator/",
+            "line": 7
+          }
+        ],
+        "exfil": []
+      },
+      "New folder/geoplugin.class.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "curl",
+            "target": "$host);",
+            "line": 96
+          }
+        ],
+        "exfil": [
+          "curl:$host);"
+        ]
+      },
+      "New folder/index2.php": {
+        "receives_post": [],
+        "actions": [
+          {
+            "type": "file_get_contents",
+            "target": "http://adrotate.pw/rotator/",
+            "line": 7
+          }
+        ],
+        "exfil": []
+      },
+      "New folder/waka-login2.php": {
+        "receives_post": [
+          "password",
+          "username"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+            "variable": "$own",
+            "line": 36
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+            "line": 33
+          },
+          {
+            "type": "redirect",
+            "target": "http://$domain",
+            "line": 37
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 84
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 112
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 140
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 168
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+        ]
+      },
+      "New folder/waka-login.php": {
+        "receives_post": [
+          "password",
+          "username"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL], [REDACTED_EMAIL]",
+            "variable": "$own",
+            "line": 36
+          },
+          {
+            "type": "redirect",
+            "target": "index.php?deway_subscriber_info=$login&.rand=13InboxLight.aspx?n=1774256418&fid=4#n=1252899642&fid=1&fav=1",
+            "line": 33
+          },
+          {
+            "type": "redirect",
+            "target": "index2.php?email=$login",
+            "line": 37
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 84
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 112
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 140
+          },
+          {
+            "type": "file_get_contents",
+            "target": "http://www.geoplugin.net/json.gp?ip=",
+            "line": 168
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL], [REDACTED_EMAIL]"
+        ]
+      }
+    }
+  }
+}

